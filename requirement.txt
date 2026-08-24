@@ -6,3 +6,4 @@ pdfplumber
 pdfminer.six
 beautifulsoup4
 lxml
+langchain-community
