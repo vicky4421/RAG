@@ -1,0 +1,8 @@
+langchain
+pypdf
+rapidocr-onnxruntime
+pytesseract
+pdfplumber
+pdfminer.six
+beautifulsoup4
+lxml
