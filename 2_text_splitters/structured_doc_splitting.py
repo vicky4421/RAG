@@ -1,5 +1,6 @@
 from langchain_text_splitters import (
     Language,
+    MarkdownHeaderTextSplitter,
     RecursiveCharacterTextSplitter,
     RecursiveJsonSplitter,
 )
@@ -191,3 +192,78 @@ print(f"no. of chunks: {len(json_text)}")
 # no. of chunks: 2
 
 # MARKDOWN SPLITTING
+
+MARKDOWN_TEXT = """# Artificial Intelligence Overview
+
+Artificial intelligence is transforming technology and shaping the future of computing.
+
+## Machine Learning
+
+Machine learning is a subset of AI that focuses on pattern recognition.
+
+### Supervised Learning
+
+Supervised learning algorithms learn from labeled training data.
+They make predictions based on input-output pairs.
+
+Common algorithms include:
+- Linear regression
+- Decision trees
+- Support vector machines
+
+### Unsupervised Learning
+
+Unsupervised learning finds patterns in unlabeled data.
+It's useful for clustering and dimensionality reduction.
+
+Common techniques:
+- K-means clustering
+- Principal component analysis
+- Hierarchical clustering
+
+## Deep Learning
+
+Deep learning uses neural networks with multiple layers.
+
+### Neural Networks
+
+Neural networks are inspired by biological neurons.
+They consist of interconnected nodes organized in layers.
+
+### Convolutional Neural Networks
+
+CNNs excel at image recognition tasks.
+They use convolutional layers to detect features hierarchically.
+
+## Applications
+
+AI has applications across multiple domains:
+
+### Healthcare
+
+- Disease diagnosis
+- Drug discovery
+- Medical imaging analysis
+
+### Finance
+
+- Fraud detection
+- Algorithmic trading
+- Risk assessment
+"""
+
+md_splitter = MarkdownHeaderTextSplitter(
+    headers_to_split_on=[("#", "header_1"), ("##", "header_2")], strip_headers=False
+)
+
+md_chunk = md_splitter.split_text(text=MARKDOWN_TEXT)
+
+print(md_chunk)
+print(f"no. of chunks: {len(md_chunk)}")
+
+# [
+# Document(metadata={'header_1': 'Artificial Intelligence Overview'}, page_content='# Artificial Intelligence Overview  \nArtificial intelligence is transforming technology and shaping the future of computing.'),
+# Document(metadata={'header_1': 'Artificial Intelligence Overview', 'header_2': 'Machine Learning'}, page_content="## Machine Learning  \nMachine learning is a subset of AI that focuses on pattern recognition.  \n### Supervised Learning  \nSupervised learning algorithms learn from labeled training data.\nThey make predictions based on input-output pairs.  \nCommon algorithms include:\n- Linear regression\n- Decision trees\n- Support vector machines  \n### Unsupervised Learning  \nUnsupervised learning finds patterns in unlabeled data.\nIt's useful for clustering and dimensionality reduction.  \nCommon techniques:\n- K-means clustering\n- Principal component analysis\n- Hierarchical clustering"),
+# Document(metadata={'header_1': 'Artificial Intelligence Overview', 'header_2': 'Deep Learning'}, page_content='## Deep Learning  \nDeep learning uses neural networks with multiple layers.  \n### Neural Networks  \nNeural networks are inspired by biological neurons.\nThey consist of interconnected nodes organized in layers.  \n### Convolutional Neural Networks  \nCNNs excel at image recognition tasks.\nThey use convolutional layers to detect features hierarchically.'),
+# Document(metadata={'header_1': 'Artificial Intelligence Overview', 'header_2': 'Applications'}, page_content='## Applications  \nAI has applications across multiple domains:  \n### Healthcare  \n- Disease diagnosis\n- Drug discovery\n- Medical imaging analysis  \n### Finance  \n- Fraud detection\n- Algorithmic trading\n- Risk assessment')]
+# no. of chunks: 4
