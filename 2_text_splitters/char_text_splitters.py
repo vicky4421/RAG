@@ -1,3 +1,4 @@
+from langchain_core.documents import Document
 from langchain_text_splitters import CharacterTextSplitter
 
 # sample text
@@ -106,3 +107,39 @@ print(f"No. of chunks: {len(chunks)}")
 # No. of chunks: 8
 
 # We're allowing 10 characters to overlap to maintain the context, now though in first chunk 'algorit' cuts without completing the word but in next chunk 'ng algorithms are becoming', spliltter added 10 characters upfront in next chunk and 'algorithm' gets completed which now maintain the context as well as semantic meaning.
+
+# TOKEN WISE SPLITTING
+token_splitter = CharacterTextSplitter.from_tiktoken_encoder(
+    encoding_name="cl100k_base", chunk_size=50, chunk_overlap=5
+)
+
+chunks = token_splitter.split_text(text=text)
+
+print(chunks)
+print(f"No. of chunks: {len(chunks)}")
+
+# Output with token wise splitting
+# [
+# 'Artificial intelligence is transforming technology and shaping the future. \nMachine learning algorithms are becoming more sophisticated every day.\nDeep learning models can now process vast amounts of data efficiently.',
+# 'Natural language processing has made significant strides in recent years.\nComputer vision systems can now identify objects with remarkable accuracy.\nReinforcement learning is enabling robots to learn complex tasks autonomously.',
+# 'The impact of AI extends across multiple industries including healthcare, finance, and transportation.\nEthical considerations around AI development are becoming increasingly important.\nResearchers are working on making AI systems more transparent and explainable.']
+# Chunk length: 3
+
+
+# DOCUMENT SPLITTING
+# mimicking document
+docs = [Document(page_content=text, metadata={"source": "Text paragraphs"})]
+
+doc_splitter = CharacterTextSplitter(chunk_size=100, chunk_overlap=10, separator="")
+
+chunks = doc_splitter.split_documents(documents=docs)
+
+print(chunks)
+print(f"No. of chunks: {len(chunks)}")
+
+# Output with document splitting
+# [
+# Document(metadata={'source': 'Text paragraphs'}, page_content='Artificial intelligence is transforming technology and shaping the future. \nMachine learning algorit'),
+# Document(metadata={'source': 'Text paragraphs'}, page_content='ng algorithms are becoming more sophisticated every day.\nDeep learning models can now process vast a'),
+# Document(metadata={'source': 'Text paragraphs'}, page_content='ess vast amounts of data efficiently.\n\nNatural language processing has made significant strides in r'), Document(metadata={'source': 'Text paragraphs'}, page_content='rides in recent years.\nComputer vision systems can now identify objects with remarkable accuracy.\nRe'), Document(metadata={'source': 'Text paragraphs'}, page_content='curacy.\nReinforcement learning is enabling robots to learn complex tasks autonomously.\n\nThe impact o'), Document(metadata={'source': 'Text paragraphs'}, page_content='e impact of AI extends across multiple industries including healthcare, finance, and transportation.'), Document(metadata={'source': 'Text paragraphs'}, page_content='portation.\nEthical considerations around AI development are becoming increasingly important.\nResearc'), Document(metadata={'source': 'Text paragraphs'}, page_content='t.\nResearchers are working on making AI systems more transparent and explainable.')]
+# No. of chunks: 8
