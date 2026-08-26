@@ -9,3 +9,6 @@ lxml
 langchain-community
 rapidocr
 tiktoken                # for tokenwise splitting
+langchain_experimental
+google-generativeai
+langchain-google-genai
