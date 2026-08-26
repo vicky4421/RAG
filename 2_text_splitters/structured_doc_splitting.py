@@ -1,4 +1,8 @@
-from langchain_text_splitters import Language, RecursiveCharacterTextSplitter
+from langchain_text_splitters import (
+    Language,
+    RecursiveCharacterTextSplitter,
+    RecursiveJsonSplitter,
+)
 
 python_code = """
 import numpy as np
@@ -115,3 +119,75 @@ print(code_splitter.get_separators_for_language(language=Language.PYTHON))
 # ['\nclass ', '\ndef ', '\n\tdef ', '\n\n', '\n', ' ', '']
 
 # NOTE: when we use from_language() method, we can't use separator arg, coz its already used in func.
+
+# RECURSIVE SPLITTING FOR JSON
+
+JSON_DATA = {
+    "company": "AI Research Corp",
+    "departments": [
+        {
+            "name": "Machine Learning",
+            "team_size": 25,
+            "projects": [
+                {
+                    "id": "ML001",
+                    "title": "Computer Vision System",
+                    "description": "Developing advanced image recognition using CNNs",
+                    "status": "active",
+                    "team_members": ["Alice", "Bob", "Charlie"],
+                },
+                {
+                    "id": "ML002",
+                    "title": "NLP Platform",
+                    "description": "Building transformer-based language models",
+                    "status": "active",
+                    "team_members": ["David", "Eve"],
+                },
+            ],
+        },
+        {
+            "name": "Data Engineering",
+            "team_size": 15,
+            "projects": [
+                {
+                    "id": "DE001",
+                    "title": "Data Pipeline",
+                    "description": "ETL pipeline for real-time data processing",
+                    "status": "active",
+                }
+            ],
+        },
+    ],
+    "technologies": {
+        "frameworks": ["TensorFlow", "PyTorch", "scikit-learn"],
+        "languages": ["Python", "R", "Julia"],
+        "cloud": ["AWS", "Google Cloud", "Azure"],
+    },
+    "metadata": {"founded": 2020, "headquarters": "San Francisco", "employees": 150},
+}
+
+json_splitter = RecursiveJsonSplitter(max_chunk_size=400)
+
+json_chunk = json_splitter.split_json(json_data=JSON_DATA)
+
+print(json_chunk)
+print(f"no. of chunks: {len(json_chunk)}")
+
+# [
+# {'company': 'AI Research Corp', 'departments': [{'name': 'Machine Learning', 'team_size': 25, 'projects': [{'id': 'ML001', 'title': 'Computer Vision System', 'description': 'Developing advanced image recognition using CNNs', 'status': 'active', 'team_members': ['Alice', 'Bob', 'Charlie']}, {'id': 'ML002', 'title': 'NLP Platform', 'description': 'Building transformer-based language models', 'status': 'active', 'team_members': ['David', 'Eve']}]}, {'name': 'Data Engineering', 'team_size': 15, 'projects': [{'id': 'DE001', 'title': 'Data Pipeline', 'description': 'ETL pipeline for real-time data processing', 'status': 'active'}]}]},
+# {'technologies': {'frameworks': ['TensorFlow', 'PyTorch', 'scikit-learn'], 'languages': ['Python', 'R', 'Julia'], 'cloud': ['AWS', 'Google Cloud', 'Azure']}, 'metadata': {'founded': 2020, 'headquarters': 'San Francisco', 'employees': 150}}
+# ]
+# no. of chunks: 2
+
+json_text = json_splitter.split_text(json_data=JSON_DATA)
+
+print(json_text)
+print(f"no. of chunks: {len(json_text)}")
+
+# [
+# '{"company": "AI Research Corp", "departments": [{"name": "Machine Learning", "team_size": 25, "projects": [{"id": "ML001", "title": "Computer Vision System", "description": "Developing advanced image recognition using CNNs", "status": "active", "team_members": ["Alice", "Bob", "Charlie"]}, {"id": "ML002", "title": "NLP Platform", "description": "Building transformer-based language models", "status": "active", "team_members": ["David", "Eve"]}]}, {"name": "Data Engineering", "team_size": 15, "projects": [{"id": "DE001", "title": "Data Pipeline", "description": "ETL pipeline for real-time data processing", "status": "active"}]}]}',
+# '{"technologies": {"frameworks": ["TensorFlow", "PyTorch", "scikit-learn"], "languages": ["Python", "R", "Julia"], "cloud": ["AWS", "Google Cloud", "Azure"]}, "metadata": {"founded": 2020, "headquarters": "San Francisco", "employees": 150}}'
+# ]
+# no. of chunks: 2
+
+# MARKDOWN SPLITTING
