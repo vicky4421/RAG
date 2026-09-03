@@ -160,3 +160,25 @@ for i, doc in enumerate(iterable=compressed_results, start=1):
 # Extracted relevant parts: CRISPR gene editing technology has revolutionized medical genomics, enabling precise
 # modifications to DNA sequences that were previously impossible. Researchers are using genomic data to develop
 # personalized medicine approaches, tailoring treatments based on an individual's genetic profile.
+
+# embedding filter: filter with threshold
+embedding_filter = EmbeddingsFilter(embeddings=embeddings, similarity_threshold=0.7)
+
+embedding_filter_retriever = ContextualCompressionRetriever(
+    base_compressor=embedding_filter, base_retriever=base_retriever
+)
+
+embedding_results = embedding_filter_retriever.invoke(input=q)
+
+console.print("Embedding filter Results", style="cyan3")
+for i, doc in enumerate(iterable=embedding_results, start=1):
+    console.print(f"{i}: {doc.metadata['topic']}", style=primary_col)
+    console.print(doc.page_content + "\n", style=secondary_col)
+
+# Embedding filter Results
+# 1: medicine
+# CRISPR gene editing technology has revolutionized medical genomics, enabling precise modifications to DNA sequences that
+# were previously impossible. Researchers are using genomic data to develop personalized medicine approaches, tailoring
+# treatments based on an individual's genetic profile. Recent breakthroughs in mRNA technology, accelerated by COVID-19
+# vaccine development, are now being applied to cancer immunotherapy and rare genetic disorders. Hospital information
+# systems are increasingly integrating genomic data to support clinical decision-making at the point of care.
