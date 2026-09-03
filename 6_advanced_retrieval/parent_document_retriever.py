@@ -1,7 +1,9 @@
 from dotenv import load_dotenv
 from langchain_chroma import Chroma
 from langchain_classic.retrievers import ParentDocumentRetriever
-from langchain_classic.storage import InMemoryStore, LocalFileStore, create_kv_docstore
+
+# from langchain_classic.storage import InMemoryStore, LocalFileStore, create_kv_docstore
+from langchain_classic.storage import InMemoryStore
 from langchain_core.documents import Document
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_text_splitters import RecursiveCharacterTextSplitter
