@@ -182,3 +182,28 @@ for i, doc in enumerate(iterable=embedding_results, start=1):
 # treatments based on an individual's genetic profile. Recent breakthroughs in mRNA technology, accelerated by COVID-19
 # vaccine development, are now being applied to cancer immunotherapy and rare genetic disorders. Hospital information
 # systems are increasingly integrating genomic data to support clinical decision-making at the point of care.
+
+# Document Compressor Pipeline: chain multiple compressors together
+# first filter by embeddings then extract with llm -> in embedding filter results we seen that it reduces the noise by removing non related docs e.g quantum computing and space exploration but it was unable to go inside the chunk and slice the related content only, it returns the whole chunk, in llm compressed results, it gave us the desired result but we had to send 3 chunks to document which is expensive
+
+pipeline_compressor = DocumentCompressorPipeline(
+    transformers=[embedding_filter, compressor]  # transformer order is important
+)
+
+pipeline_retriever = ContextualCompressionRetriever(
+    base_compressor=pipeline_compressor, base_retriever=base_retriever
+)
+
+pipeline_results = pipeline_retriever.invoke(input=q)
+
+console.print("Pipeline Results", style="cyan3")
+for i, doc in enumerate(iterable=pipeline_results, start=1):
+    console.print(f"{i}: {doc.metadata['topic']}", style=primary_col)
+    console.print(doc.page_content + "\n", style=secondary_col)
+
+# Pipeline Results
+# 1: medicine
+# Extracted relevant parts:
+# CRISPR gene editing technology has revolutionized medical genomics, enabling precise modifications to DNA sequences that
+# were previously impossible. Researchers are using genomic data to develop personalized medicine approaches, tailoring
+# treatments based on an individual's genetic profile.
