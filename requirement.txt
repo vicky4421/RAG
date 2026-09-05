@@ -14,3 +14,4 @@ google-generativeai
 langchain-google-genai
 langchain_chroma
 rank_bm25
+langchain_cohere
