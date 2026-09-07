@@ -89,7 +89,7 @@ class RAGFusion:
         )
 
         # use the llm with structured output to generate sub-queries
-        structured_llm = llm.with_structured_output(schmea=SubQuerySchema)
+        structured_llm = llm.with_structured_output(schema=SubQuerySchema)
 
         # create chain
         llm_chain = prompt | structured_llm
@@ -121,7 +121,7 @@ class RAGFusion:
         self, retrieved_docs: list[list[Document]]
     ) -> list[Document]:
 
-        doc_scores = dict[str, tuple(float, Document)]
+        doc_scores: dict[str, tuple[float, Document]] = {}
 
         for retrieved_set in retrieved_docs:
             for rank, doc in enumerate(retrieved_set, start=1):
