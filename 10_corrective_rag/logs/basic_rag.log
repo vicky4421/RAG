@@ -1,0 +1,25 @@
+2026-09-09 11:44:24 | INFO     | basic_rag:<module>:28 - Pipeline initiated.
+2026-09-09 11:46:42 | INFO     | basic_rag:<module>:49 - 
+2123 documents loaded.
+2026-09-09 11:46:42 | INFO     | basic_rag:<module>:62 - 6399 chunks created.
+2026-09-09 13:46:11 | INFO     | basic_rag:<module>:34 - Pipeline initiated.
+2026-09-09 13:47:51 | INFO     | basic_rag:<module>:53 - 
+2123 documents loaded.
+2026-09-09 13:47:51 | INFO     | basic_rag:<module>:65 - 6399 chunks created.
+2026-09-09 13:47:51 | INFO     | basic_rag:<module>:78 - Testing for 50 chunks
+2026-09-09 13:48:09 | INFO     | basic_rag:<module>:85 - Testing for 50 chunks successful!
+2026-09-09 13:48:09 | INFO     | basic_rag:<module>:86 - Vector store created.
+2026-09-09 13:48:09 | INFO     | basic_rag:<module>:90 - Retriever created
+2026-09-09 13:48:10 | INFO     | basic_rag:<module>:137 - Response: [{'type': 'text', 'text': "I don't know.", 'extras': {'signature': 'EnEKbwERTTIPp4z6A3EXZr5pDDlVxjymlxHikqYiG+c1ACvJYZ+b1wva0EpgRLHNdUxfv7EszrpIOV48Mu/Qsb9/ehUoV0vJBUw2v4n2xVHiCCs2+ac2L9eE6Br2REhek7nb17LWbY+F+/ZKeL7c101tUw=='}}]
+2026-09-09 13:54:54 | INFO     | basic_rag:<module>:34 - Pipeline initiated.
+2026-09-09 13:56:37 | INFO     | basic_rag:<module>:53 - 
+2123 documents loaded.
+2026-09-09 13:56:38 | INFO     | basic_rag:<module>:65 - 6399 chunks created.
+2026-09-09 13:56:38 | INFO     | basic_rag:<module>:78 - Embedding documents starts
+2026-09-09 15:48:57 | INFO     | basic_rag:<module>:34 - Pipeline initiated.
+2026-09-09 15:55:05 | INFO     | basic_rag:<module>:53 - 2123 documents loaded.
+2026-09-09 15:55:05 | INFO     | basic_rag:<module>:65 - 6399 chunks created.
+2026-09-09 15:55:05 | INFO     | basic_rag:<module>:78 - Embedding documents starts for 100 chunks
+2026-09-09 15:55:58 | INFO     | basic_rag:<module>:85 - Embedding successful, Vector store created.
+2026-09-09 15:55:58 | INFO     | basic_rag:<module>:89 - Retriever created
+2026-09-09 15:56:01 | INFO     | basic_rag:<module>:136 - Response: [{'type': 'text', 'text': "I don't know.", 'extras': {'signature': 'EnEKbwERTTIPsN+9Ko7bSQ/F51B+qQDw0PAPWFf9OuwabvC8SdJgigSPIXLnBrvaGWD4u++RyHL98XgpqphxBKolydAvQtNA/W7RLNhH/t35l/NUetJaEZRXeiYD3OL3fq8cPa+X3eq9hRlPnifeF1nEBA=='}}]
