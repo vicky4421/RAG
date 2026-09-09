@@ -23,3 +23,61 @@
 2026-09-09 15:55:58 | INFO     | basic_rag:<module>:85 - Embedding successful, Vector store created.
 2026-09-09 15:55:58 | INFO     | basic_rag:<module>:89 - Retriever created
 2026-09-09 15:56:01 | INFO     | basic_rag:<module>:136 - Response: [{'type': 'text', 'text': "I don't know.", 'extras': {'signature': 'EnEKbwERTTIPsN+9Ko7bSQ/F51B+qQDw0PAPWFf9OuwabvC8SdJgigSPIXLnBrvaGWD4u++RyHL98XgpqphxBKolydAvQtNA/W7RLNhH/t35l/NUetJaEZRXeiYD3OL3fq8cPa+X3eq9hRlPnifeF1nEBA=='}}]
+2026-09-09 16:40:25 | INFO     | basic_rag:<module>:32 - Pipeline initiated.
+2026-09-09 16:42:58 | INFO     | basic_rag:<module>:50 - 2123 documents loaded.
+2026-09-09 16:42:59 | INFO     | basic_rag:<module>:62 - 6399 chunks created.
+2026-09-09 16:42:59 | INFO     | basic_rag:<module>:75 - Creating Chroma.
+2026-09-09 16:48:19 | INFO     | basic_rag:<module>:32 - Pipeline initiated.
+2026-09-09 16:50:30 | INFO     | basic_rag:<module>:50 - 2123 documents loaded.
+2026-09-09 16:50:30 | INFO     | basic_rag:<module>:62 - 6399 chunks created.
+2026-09-09 16:50:30 | INFO     | basic_rag:<module>:73 - Embedding 6399 chunk(s)
+2026-09-09 16:50:50 | INFO     | basic_rag:<module>:78 - Embedding successful for batch 0
+2026-09-09 16:51:16 | INFO     | basic_rag:<module>:78 - Embedding successful for batch 50
+2026-09-09 16:51:38 | INFO     | basic_rag:<module>:78 - Embedding successful for batch 100
+2026-09-09 16:52:07 | INFO     | basic_rag:<module>:78 - Embedding successful for batch 150
+2026-09-09 16:52:35 | INFO     | basic_rag:<module>:78 - Embedding successful for batch 200
+2026-09-09 16:52:57 | INFO     | basic_rag:<module>:78 - Embedding successful for batch 250
+2026-09-09 16:53:26 | INFO     | basic_rag:<module>:78 - Embedding successful for batch 300
+2026-09-09 16:53:57 | INFO     | basic_rag:<module>:78 - Embedding successful for batch 350
+2026-09-09 17:50:37 | INFO     | basic_rag:<module>:32 - Pipeline initiated.
+2026-09-09 17:51:33 | INFO     | basic_rag:<module>:32 - Pipeline initiated.
+2026-09-09 17:51:51 | INFO     | basic_rag:<module>:50 - 564 documents loaded.
+2026-09-09 17:51:51 | INFO     | basic_rag:<module>:62 - 1652 chunks created.
+2026-09-09 17:51:52 | INFO     | basic_rag:<module>:73 - Embedding 1652 chunk(s)
+2026-09-09 17:52:10 | INFO     | basic_rag:<module>:78 - Embedding successful for batch 0
+2026-09-09 17:52:42 | INFO     | basic_rag:<module>:78 - Embedding successful for batch 50
+2026-09-09 17:53:10 | INFO     | basic_rag:<module>:78 - Embedding successful for batch 100
+2026-09-09 17:53:30 | INFO     | basic_rag:<module>:78 - Embedding successful for batch 150
+2026-09-09 17:54:02 | INFO     | basic_rag:<module>:78 - Embedding successful for batch 200
+2026-09-09 17:55:05 | INFO     | basic_rag:<module>:78 - Embedding successful for batch 250
+2026-09-09 17:55:45 | INFO     | basic_rag:<module>:78 - Embedding successful for batch 300
+2026-09-09 17:56:43 | INFO     | basic_rag:<module>:78 - Embedding successful for batch 350
+2026-09-09 17:57:24 | INFO     | basic_rag:<module>:78 - Embedding successful for batch 400
+2026-09-09 17:57:57 | INFO     | basic_rag:<module>:78 - Embedding successful for batch 450
+2026-09-09 17:58:23 | INFO     | basic_rag:<module>:78 - Embedding successful for batch 500
+2026-09-09 17:58:45 | INFO     | basic_rag:<module>:78 - Embedding successful for batch 550
+2026-09-09 17:59:09 | INFO     | basic_rag:<module>:78 - Embedding successful for batch 600
+2026-09-09 17:59:34 | INFO     | basic_rag:<module>:78 - Embedding successful for batch 650
+2026-09-09 18:00:02 | INFO     | basic_rag:<module>:78 - Embedding successful for batch 700
+2026-09-09 18:00:26 | INFO     | basic_rag:<module>:78 - Embedding successful for batch 750
+2026-09-09 18:00:49 | INFO     | basic_rag:<module>:78 - Embedding successful for batch 800
+2026-09-09 18:01:12 | INFO     | basic_rag:<module>:78 - Embedding successful for batch 850
+2026-09-09 18:01:33 | INFO     | basic_rag:<module>:78 - Embedding successful for batch 900
+2026-09-09 18:01:57 | INFO     | basic_rag:<module>:78 - Embedding successful for batch 950
+2026-09-09 18:02:25 | INFO     | basic_rag:<module>:78 - Embedding successful for batch 1000
+2026-09-09 18:02:49 | INFO     | basic_rag:<module>:78 - Embedding successful for batch 1050
+2026-09-09 18:03:16 | INFO     | basic_rag:<module>:78 - Embedding successful for batch 1100
+2026-09-09 18:03:58 | INFO     | basic_rag:<module>:78 - Embedding successful for batch 1150
+2026-09-09 18:04:23 | INFO     | basic_rag:<module>:78 - Embedding successful for batch 1200
+2026-09-09 18:04:50 | INFO     | basic_rag:<module>:78 - Embedding successful for batch 1250
+2026-09-09 18:05:18 | INFO     | basic_rag:<module>:78 - Embedding successful for batch 1300
+2026-09-09 18:05:47 | INFO     | basic_rag:<module>:78 - Embedding successful for batch 1350
+2026-09-09 18:06:13 | INFO     | basic_rag:<module>:78 - Embedding successful for batch 1400
+2026-09-09 18:06:41 | INFO     | basic_rag:<module>:78 - Embedding successful for batch 1450
+2026-09-09 18:07:10 | INFO     | basic_rag:<module>:78 - Embedding successful for batch 1500
+2026-09-09 18:07:49 | INFO     | basic_rag:<module>:78 - Embedding successful for batch 1550
+2026-09-09 18:08:41 | INFO     | basic_rag:<module>:78 - Embedding successful for batch 1600
+2026-09-09 18:08:42 | INFO     | basic_rag:<module>:78 - Embedding successful for batch 1650
+2026-09-09 18:08:42 | INFO     | basic_rag:<module>:80 - Embedding successful, Vector store created.
+2026-09-09 18:08:42 | INFO     | basic_rag:<module>:84 - Retriever created
+2026-09-09 18:08:43 | INFO     | basic_rag:<module>:131 - Response: [{'type': 'text', 'text': 'A transformer is an estimator that can transform a dataset using the transform() method, which generally relies on learned parameters.', 'extras': {'signature': 'EnEKbwERTTIPGE6/5FnQp0Xx+VZoXVjjZyHJNMCosbu2XYEADKhzgynHKVTx3OayS3BPpdYIVnXgMNwKaj+Fwg0V8dplxvIUpi7zqo7JTmxPr1onk81lmDCjFngPVRsk1vmtfwwNHo4T6fhcOExCoZ3sDg=='}}]

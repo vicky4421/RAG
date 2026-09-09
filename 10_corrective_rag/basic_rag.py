@@ -12,10 +12,12 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langgraph.graph import END, START, StateGraph
 from logger import get_logger
 from rich.console import Console
+from tqdm import tqdm
 
 load_dotenv()
 console = Console()
 logger = get_logger()
+BATCH_SIZE = 50
 
 # colors
 primary_col = "yellow"
@@ -41,9 +43,9 @@ embeddings = HuggingFaceEmbeddings(
 # Step 1: Load Documents
 with console.status(status="Started loading docs...", spinner="clock"):
     docs = (
-        PyPDFLoader(file_path="./docs/book1.pdf").load()
-        + PyPDFLoader(file_path="./docs/book2.pdf").load()
-        + PyPDFLoader(file_path="./docs/book3.pdf").load()
+        # PyPDFLoader(file_path="./docs/book1.pdf").load()
+        # + PyPDFLoader(file_path="./docs/book2.pdf").load()
+        PyPDFLoader(file_path="./docs/book3.pdf").load()
     )
 logger.info(msg=f"{len(docs)} documents loaded.")
 
@@ -61,23 +63,21 @@ logger.info(msg=f"{len(chunks)} chunks created.")
 
 # Step 3: Vector Store
 
-if chroma_path.exists():
-    logger.info(msg="Loading existing Chroma index from disk...")
-    vector_store = Chroma(
-        collection_name="corrective_rag_demo",
-        embedding_function=embeddings,
-        persist_directory=str(chroma_path),
-    )
-    logger.info(msg="Loaded from disk instantly!")
-else:
-    logger.info("Embedding documents starts for 100 chunks")
-    vector_store = Chroma.from_documents(
-        documents=chunks[:100],
-        embedding=embeddings,
-        collection_name="corrective_rag_demo",
-        persist_directory=str(chroma_path),
-    )
-    logger.info(msg="Embedding successful, Vector store created.")
+
+vector_store = Chroma(
+    collection_name="corrective_rag_demo",
+    embedding_function=embeddings,
+    persist_directory=str(chroma_path),
+)
+
+logger.info(msg=f"Embedding {len(chunks)} chunk(s)")
+
+for i in tqdm(range(0, len(chunks), BATCH_SIZE), desc="Embedding"):
+    batch = chunks[i : i + BATCH_SIZE]
+    vector_store.add_documents(documents=batch)
+    logger.info(f"Embedding successful for chunk(s) {i}")
+
+logger.info(msg="Embedding successful, Vector store created.")
 
 # Step 4: Retriever
 retriever = vector_store.as_retriever(search_type="similarity", search_kwargs={"k": 4})
