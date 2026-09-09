@@ -81,3 +81,6 @@
 2026-09-09 18:08:42 | INFO     | basic_rag:<module>:80 - Embedding successful, Vector store created.
 2026-09-09 18:08:42 | INFO     | basic_rag:<module>:84 - Retriever created
 2026-09-09 18:08:43 | INFO     | basic_rag:<module>:131 - Response: [{'type': 'text', 'text': 'A transformer is an estimator that can transform a dataset using the transform() method, which generally relies on learned parameters.', 'extras': {'signature': 'EnEKbwERTTIPGE6/5FnQp0Xx+VZoXVjjZyHJNMCosbu2XYEADKhzgynHKVTx3OayS3BPpdYIVnXgMNwKaj+Fwg0V8dplxvIUpi7zqo7JTmxPr1onk81lmDCjFngPVRsk1vmtfwwNHo4T6fhcOExCoZ3sDg=='}}]
+2026-09-09 18:16:57 | INFO     | basic_rag:<module>:32 - Pipeline initiated.
+2026-09-09 18:17:07 | INFO     | basic_rag:<module>:86 - Retriever created
+2026-09-09 18:17:13 | INFO     | basic_rag:<module>:133 - Response: [{'type': 'text', 'text': 'A transformer is an estimator that can transform a dataset using the transform() method. This transformation generally relies on learned parameters.', 'extras': {'signature': 'EnEKbwERTTIPvwNIzpxYFVCIjn6S2euDQw1QMp6MgN2q31k3mAM3BnWkJq6oTR0p69okZCM3LS31qV30vbnqw/5lX121PCxADnIxdJ7S2lz9gnK4rnKaf3qQv9hzyltI+I5tIDVf0MUJwgm9roBVbX8Clw=='}}]
