@@ -23,7 +23,7 @@ BATCH_SIZE = 50
 primary_col = "yellow"
 secondary_col = "cyan"
 
-# cwd
+# chroma db path
 chroma_path = Path(__file__).resolve().parent / "chroma_db"
 
 # directory for embeddinggemma model

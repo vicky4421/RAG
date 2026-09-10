@@ -1,0 +1,53 @@
+2026-09-10 19:01:01 | INFO     | retrieval_refinement.py:<module>:23 - Pipeline initiated.
+2026-09-10 19:01:01 | INFO     | utils.py:initiate_llm:14 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+2026-09-10 19:01:01 | CRITICAL | utils.py:initiate_embedding_model:38 - Unexpected error initializing embedding model: 1 validation error for HuggingFaceEmbeddings
+model_name
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+2026-09-10 19:04:01 | INFO     | retrieval_refinement.py:<module>:23 - Pipeline initiated.
+2026-09-10 19:04:02 | INFO     | utils.py:initiate_llm:14 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+2026-09-10 19:04:02 | CRITICAL | utils.py:initiate_embedding_model:38 - Unexpected error initializing embedding model: 1 validation error for HuggingFaceEmbeddings
+model_name
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+2026-09-10 19:04:34 | INFO     | retrieval_refinement.py:<module>:23 - Pipeline initiated.
+2026-09-10 19:04:35 | INFO     | utils.py:initiate_llm:14 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+2026-09-10 19:04:35 | CRITICAL | utils.py:initiate_embedding_model:38 - Unexpected error initializing embedding model: 1 validation error for HuggingFaceEmbeddings
+model_name
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+2026-09-10 19:07:23 | INFO     | retrieval_refinement.py:<module>:23 - Pipeline initiated.
+2026-09-10 19:07:24 | INFO     | utils.py:initiate_llm:14 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+2026-09-10 19:07:24 | CRITICAL | utils.py:initiate_embedding_model:38 - Unexpected error initializing embedding model: 1 validation error for HuggingFaceEmbeddings
+model_name
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+2026-09-10 19:08:23 | INFO     | retrieval_refinement.py:<module>:23 - Pipeline initiated.
+2026-09-10 19:08:24 | INFO     | utils.py:initiate_llm:14 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+2026-09-10 19:08:24 | CRITICAL | utils.py:initiate_embedding_model:38 - Unexpected error initializing embedding model: 1 validation error for HuggingFaceEmbeddings
+model_name
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+2026-09-10 19:10:02 | INFO     | retrieval_refinement.py:<module>:23 - Pipeline initiated.
+2026-09-10 19:10:03 | INFO     | utils.py:initiate_llm:14 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+2026-09-10 19:10:03 | CRITICAL | utils.py:initiate_embedding_model:38 - Unexpected error initializing embedding model: 1 validation error for HuggingFaceEmbeddings
+model_name
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+2026-09-10 19:10:27 | INFO     | retrieval_refinement.py:<module>:23 - Pipeline initiated.
+2026-09-10 19:10:28 | INFO     | utils.py:initiate_llm:14 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+2026-09-10 19:10:28 | CRITICAL | utils.py:initiate_embedding_model:38 - Unexpected error initializing embedding model: 1 validation error for HuggingFaceEmbeddings
+model_name
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.13/v/string_type
+2026-09-10 19:16:31 | INFO     | retrieval_refinement.py:<module>:23 - Pipeline initiated.
+2026-09-10 19:16:32 | INFO     | utils.py:initiate_llm:14 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+2026-09-10 19:19:11 | INFO     | retrieval_refinement.py:<module>:23 - Pipeline initiated.
+2026-09-10 19:19:12 | INFO     | utils.py:initiate_llm:14 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+2026-09-10 19:19:26 | INFO     | utils.py:initiate_embedding_model:37 - Embedding model initiated successfully: None
+2026-09-10 19:20:06 | INFO     | retrieval_refinement.py:<module>:23 - Pipeline initiated.
+2026-09-10 19:20:06 | INFO     | utils.py:initiate_llm:14 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+2026-09-10 19:20:21 | INFO     | utils.py:initiate_embedding_model:37 - Embedding model initiated successfully: google/embeddinggemma-300m
+2026-09-10 19:21:04 | INFO     | retrieval_refinement.py:<module>:23 - Pipeline initiated.
+2026-09-10 19:21:05 | INFO     | utils.py:initiate_llm:14 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+2026-09-10 19:21:20 | INFO     | utils.py:initiate_embedding_model:37 - Embedding model initiated successfully: google/embeddinggemma-300m
