@@ -1,0 +1,26 @@
+---
+config:
+  flowchart:
+    curve: linear
+---
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	retrieve(retrieve)
+	eval_each_doc(eval_each_doc)
+	refine(refine)
+	generate(generate)
+	fail(fail)
+	ambiguous(ambiguous)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> retrieve;
+	eval_each_doc -.-> ambiguous;
+	eval_each_doc -. &nbsp;web_search&nbsp; .-> fail;
+	eval_each_doc -.-> refine;
+	refine --> generate;
+	retrieve --> eval_each_doc;
+	ambiguous --> __end__;
+	fail --> __end__;
+	generate --> __end__;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc

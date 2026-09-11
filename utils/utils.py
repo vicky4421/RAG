@@ -1,10 +1,12 @@
 import os
 
+from dotenv import load_dotenv
 from langchain.chat_models import init_chat_model
 from langchain_huggingface import HuggingFaceEmbeddings
 
 from utils.logger import get_logger
 
+load_dotenv()
 logger = get_logger()
 
 
@@ -27,6 +29,7 @@ def initiate_hf_embedding_model(
 ) -> HuggingFaceEmbeddings:
     emb_model = os.getenv("EMBEDDING_MODEL") or model_name
     cache_dir = os.getenv("HUGGINGFACE_EMBEDDING_MODEL_DIRECTORY") or cache_folder
+
     try:
         embeddings = HuggingFaceEmbeddings(
             model_name=emb_model,

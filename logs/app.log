@@ -79,3 +79,45 @@ model_name
 11-09-2026 04:43:18 PM | INFO     | utils.py:initiate_llm:14 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
 11/09/2026 04:45:20 PM | INFO     | retrieval_refinement.py:<module>:23 - Pipeline initiated.
 11/09/2026 04:45:21 PM | INFO     | utils.py:initiate_llm:14 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+11/09/2026 11:22:08 PM | INFO     | retrieval_evaluator.py:<module>:16 - Pipeline initiated.
+11/09/2026 11:22:08 PM | CRITICAL | utils.py:initiate_llm:17 - Unexpected error initializing llm: 1 validation error for ChatGoogleGenerativeAI
+  Value error, API key required for Gemini Developer API. Provide api_key parameter or set GOOGLE_API_KEY/GEMINI_API_KEY environment variable. [type=value_error, input_value={'model': 'gemini-3.1-fla...': {}, 'base_url': None}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/value_error
+11/09/2026 11:23:45 PM | INFO     | retrieval_evaluator.py:<module>:16 - Pipeline initiated.
+11/09/2026 11:23:46 PM | INFO     | utils.py:initiate_llm:16 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+11/09/2026 11:24:23 PM | INFO     | utils.py:initiate_hf_embedding_model:40 - Embedding model initiated successfully: google/embeddinggemma-300m
+11/09/2026 11:24:23 PM | INFO     | retrieval_evaluator.py:<module>:32 - Vector store initiated successfully.
+11/09/2026 11:24:23 PM | INFO     | retrieval_evaluator.py:<module>:35 - Retriever initiated successfully.
+11/09/2026 11:28:01 PM | INFO     | retrieval_evaluator.py:<module>:16 - Pipeline initiated.
+11/09/2026 11:28:02 PM | INFO     | utils.py:initiate_llm:16 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+11/09/2026 11:28:16 PM | INFO     | utils.py:initiate_hf_embedding_model:40 - Embedding model initiated successfully: google/embeddinggemma-300m
+11/09/2026 11:28:16 PM | INFO     | retrieval_evaluator.py:<module>:32 - Vector store initiated successfully.
+11/09/2026 11:28:16 PM | INFO     | retrieval_evaluator.py:<module>:35 - Retriever initiated successfully.
+11/09/2026 11:28:16 PM | INFO     | retrieval_evaluator.py:retrieve_node:59 - Retrieving docs.
+11/09/2026 11:28:17 PM | INFO     | retrieval_evaluator.py:eval_each_doc_node:93 - Evaluating each docs.
+11/09/2026 11:30:56 PM | INFO     | retrieval_evaluator.py:<module>:16 - Pipeline initiated.
+11/09/2026 11:30:57 PM | INFO     | utils.py:initiate_llm:16 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+11/09/2026 11:31:11 PM | INFO     | utils.py:initiate_hf_embedding_model:40 - Embedding model initiated successfully: google/embeddinggemma-300m
+11/09/2026 11:31:11 PM | INFO     | retrieval_evaluator.py:<module>:32 - Vector store initiated successfully.
+11/09/2026 11:31:11 PM | INFO     | retrieval_evaluator.py:<module>:35 - Retriever initiated successfully.
+11/09/2026 11:31:11 PM | INFO     | retrieval_evaluator.py:retrieve_node:59 - Retrieving docs.
+11/09/2026 11:31:12 PM | INFO     | retrieval_evaluator.py:eval_each_doc_node:93 - Evaluating each docs.
+11/09/2026 11:31:24 PM | INFO     | retrieval_evaluator.py:fail_node:212 - Failed to retrieve useful docs.
+11/09/2026 11:35:32 PM | INFO     | retrieval_evaluator.py:<module>:16 - Pipeline initiated.
+11/09/2026 11:35:33 PM | INFO     | utils.py:initiate_llm:16 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+11/09/2026 11:35:47 PM | INFO     | utils.py:initiate_hf_embedding_model:40 - Embedding model initiated successfully: google/embeddinggemma-300m
+11/09/2026 11:35:47 PM | INFO     | retrieval_evaluator.py:<module>:32 - Vector store initiated successfully.
+11/09/2026 11:35:47 PM | INFO     | retrieval_evaluator.py:<module>:35 - Retriever initiated successfully.
+11/09/2026 11:35:48 PM | INFO     | retrieval_evaluator.py:retrieve_node:59 - Retrieving docs.
+11/09/2026 11:35:48 PM | INFO     | retrieval_evaluator.py:eval_each_doc_node:93 - Evaluating each docs.
+11/09/2026 11:36:00 PM | INFO     | retrieval_evaluator.py:fail_node:212 - Failed to retrieve useful docs.
+11/09/2026 11:47:59 PM | INFO     | retrieval_evaluator.py:<module>:16 - Pipeline initiated.
+11/09/2026 11:48:00 PM | INFO     | utils.py:initiate_llm:16 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+11/09/2026 11:48:14 PM | INFO     | utils.py:initiate_hf_embedding_model:40 - Embedding model initiated successfully: google/embeddinggemma-300m
+11/09/2026 11:48:15 PM | INFO     | retrieval_evaluator.py:<module>:32 - Vector store initiated successfully.
+11/09/2026 11:48:15 PM | INFO     | retrieval_evaluator.py:<module>:35 - Retriever initiated successfully.
+11/09/2026 11:48:15 PM | INFO     | retrieval_evaluator.py:retrieve_node:59 - Retrieving docs.
+11/09/2026 11:48:15 PM | INFO     | retrieval_evaluator.py:eval_each_doc_node:93 - Evaluating each docs.
+11/09/2026 11:48:27 PM | INFO     | retrieval_evaluator.py:refine:169 - Refining docs.
+11/09/2026 11:48:27 PM | INFO     | retrieval_evaluator.py:decompose_to_sentence:137 - Decomposing to sentences.
+11/09/2026 11:48:58 PM | INFO     | retrieval_evaluator.py:generate:204 - Generating response
