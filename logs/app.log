@@ -51,3 +51,25 @@ model_name
 2026-09-10 19:21:04 | INFO     | retrieval_refinement.py:<module>:23 - Pipeline initiated.
 2026-09-10 19:21:05 | INFO     | utils.py:initiate_llm:14 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
 2026-09-10 19:21:20 | INFO     | utils.py:initiate_embedding_model:37 - Embedding model initiated successfully: google/embeddinggemma-300m
+2026-09-11 16:29:31 | INFO     | retrieval_refinement.py:<module>:23 - Pipeline initiated.
+2026-09-11 16:29:32 | INFO     | utils.py:initiate_llm:14 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+2026-09-11 16:30:25 | INFO     | utils.py:initiate_hf_embedding_model:37 - Embedding model initiated successfully: google/embeddinggemma-300m
+2026-09-11 16:30:26 | INFO     | retrieval_refinement.py:<module>:38 - Vector store initiated successfully.
+2026-09-11 16:30:26 | INFO     | retrieval_refinement.py:<module>:41 - Retriever initiated successfully.
+2026-09-11 16:31:16 | INFO     | retrieval_refinement.py:<module>:23 - Pipeline initiated.
+2026-09-11 16:31:17 | INFO     | utils.py:initiate_llm:14 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+2026-09-11 16:31:34 | INFO     | utils.py:initiate_hf_embedding_model:37 - Embedding model initiated successfully: google/embeddinggemma-300m
+2026-09-11 16:31:34 | INFO     | retrieval_refinement.py:<module>:38 - Vector store initiated successfully.
+2026-09-11 16:31:34 | INFO     | retrieval_refinement.py:<module>:41 - Retriever initiated successfully.
+2026-09-11 16:31:34 | INFO     | retrieval_refinement.py:retrieve:56 - Retriving docs.
+2026-09-11 16:31:34 | INFO     | retrieval_refinement.py:refine:99 - Refining response.
+2026-09-11 16:31:34 | INFO     | retrieval_refinement.py:decompose_to_sentence:65 - Decomposing to sentences.
+2026-09-11 16:32:49 | INFO     | retrieval_refinement.py:<module>:23 - Pipeline initiated.
+2026-09-11 16:32:50 | INFO     | utils.py:initiate_llm:14 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+2026-09-11 16:33:14 | INFO     | utils.py:initiate_hf_embedding_model:37 - Embedding model initiated successfully: google/embeddinggemma-300m
+2026-09-11 16:33:14 | INFO     | retrieval_refinement.py:<module>:38 - Vector store initiated successfully.
+2026-09-11 16:33:14 | INFO     | retrieval_refinement.py:<module>:41 - Retriever initiated successfully.
+2026-09-11 16:33:14 | INFO     | retrieval_refinement.py:retrieve:56 - Retriving docs.
+2026-09-11 16:33:14 | INFO     | retrieval_refinement.py:refine:99 - Refining response.
+2026-09-11 16:33:14 | INFO     | retrieval_refinement.py:decompose_to_sentence:65 - Decomposing to sentences.
+2026-09-11 16:34:44 | INFO     | retrieval_refinement.py:generate:134 - Generating response
