@@ -73,3 +73,9 @@ model_name
 2026-09-11 16:33:14 | INFO     | retrieval_refinement.py:refine:99 - Refining response.
 2026-09-11 16:33:14 | INFO     | retrieval_refinement.py:decompose_to_sentence:65 - Decomposing to sentences.
 2026-09-11 16:34:44 | INFO     | retrieval_refinement.py:generate:134 - Generating response
+11-09-2026 16:41:47 | INFO     | retrieval_refinement.py:<module>:23 - Pipeline initiated.
+11-09-2026 16:41:48 | INFO     | utils.py:initiate_llm:14 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+11-09-2026 04:43:17 PM | INFO     | retrieval_refinement.py:<module>:23 - Pipeline initiated.
+11-09-2026 04:43:18 PM | INFO     | utils.py:initiate_llm:14 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+11/09/2026 04:45:20 PM | INFO     | retrieval_refinement.py:<module>:23 - Pipeline initiated.
+11/09/2026 04:45:21 PM | INFO     | utils.py:initiate_llm:14 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite

@@ -35,6 +35,7 @@ def get_logger(
         show_path=False,
         rich_tracebacks=True,
         markup=True,
+        log_time_format="%d/%m/%Y %I:%M:%S %p",
     )
     rich_handler.setLevel(level=cli_level)
     logger.addHandler(hdlr=rich_handler)
@@ -45,7 +46,7 @@ def get_logger(
     file_handler.setLevel(level=file_level)
     file_formatter = logging.Formatter(
         fmt="%(asctime)s | %(levelname)-8s | %(filename)s:%(funcName)s:%(lineno)d - %(message)s",
-        datefmt="%Y-%m-%d %H:%M:%S",
+        datefmt="%d/%m/%Y %I:%M:%S %p",
     )
     file_handler.setFormatter(file_formatter)
     logger.addHandler(hdlr=file_handler)
