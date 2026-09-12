@@ -331,3 +331,23 @@ if __name__ == "__main__":
 # Verdict:  INCORRECT
 # Reason:  All retrieved chunks scored < 0.3. No chunk was sufficient
 # Output:  Python 3.12 was released on October 2, 2023.
+
+'''
+NOTE: THIS IMPLEMENTATION IS INCOMPLETE
+      RESULTS ARE UNDER EXPECTIATIONS WHEN SEARCH RESULT CAME BACK WITH ONLY ADS / TITLES / NOT ENOUGH DATA
+      NEEDS TO ADD ANOTHER LLM QUERY TO REFINE WEB RESULTS LIKE BELOW:
+        search_prep_prompt = ChatPromptTemplate.from_messages(
+            [
+                (
+                    "system",
+                    """You are a search query optimizer. 
+                    Convert the user's question into an effective web search keyword query.
+                    Remove conversational filler. If the question asks for recent events, include the current year/context.
+                    Return ONLY the optimized search string.""",
+                ),
+                ("human", "{question}"),
+            ]
+        )
+
+        search_prep_chain = search_prep_prompt | llm
+'''
