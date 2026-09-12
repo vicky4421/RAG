@@ -121,3 +121,276 @@ model_name
 11/09/2026 11:48:27 PM | INFO     | retrieval_evaluator.py:refine:169 - Refining docs.
 11/09/2026 11:48:27 PM | INFO     | retrieval_evaluator.py:decompose_to_sentence:137 - Decomposing to sentences.
 11/09/2026 11:48:58 PM | INFO     | retrieval_evaluator.py:generate:204 - Generating response
+12/09/2026 03:08:57 PM | INFO     | utils.py:initiate_llm:16 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+12/09/2026 03:09:50 PM | INFO     | utils.py:initiate_hf_embedding_model:40 - Embedding model initiated successfully: google/embeddinggemma-300m
+12/09/2026 03:09:51 PM | INFO     | web_search_refinement.py:<module>:30 - Vector store initiated successfully.
+12/09/2026 03:09:51 PM | INFO     | web_search_refinement.py:<module>:33 - Retriever initiated successfully.
+12/09/2026 03:09:52 PM | INFO     | web_search_refinement.py:retrieve_node:59 - Retrieving docs.
+12/09/2026 03:09:52 PM | INFO     | web_search_refinement.py:eval_each_doc_node:93 - Evaluating each docs.
+12/09/2026 03:09:56 PM | INFO     | web_search_refinement.py:web_search_node:198 - Initiating web search.
+12/09/2026 03:10:01 PM | INFO     | web_search_refinement.py:refine:169 - Refining docs.
+12/09/2026 03:12:19 PM | INFO     | utils.py:initiate_llm:16 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+12/09/2026 03:12:37 PM | INFO     | utils.py:initiate_hf_embedding_model:40 - Embedding model initiated successfully: google/embeddinggemma-300m
+12/09/2026 03:12:37 PM | INFO     | web_search_refinement.py:<module>:30 - Vector store initiated successfully.
+12/09/2026 03:12:37 PM | INFO     | web_search_refinement.py:<module>:33 - Retriever initiated successfully.
+12/09/2026 03:12:37 PM | INFO     | web_search_refinement.py:retrieve_node:59 - Retrieving docs.
+12/09/2026 03:12:37 PM | INFO     | web_search_refinement.py:eval_each_doc_node:93 - Evaluating each docs.
+12/09/2026 03:12:42 PM | INFO     | web_search_refinement.py:web_search_node:198 - Initiating web search.
+12/09/2026 03:12:46 PM | INFO     | web_search_refinement.py:refine:169 - Refining docs.
+12/09/2026 03:12:46 PM | INFO     | web_search_refinement.py:decompose_to_sentence:137 - Decomposing to sentences.
+12/09/2026 03:12:46 PM | INFO     | web_search_refinement.py:generate:235 - Generating response
+12/09/2026 03:20:14 PM | INFO     | utils.py:initiate_llm:16 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+12/09/2026 03:20:32 PM | INFO     | utils.py:initiate_hf_embedding_model:40 - Embedding model initiated successfully: google/embeddinggemma-300m
+12/09/2026 03:20:33 PM | INFO     | web_search_refinement.py:<module>:30 - Vector store initiated successfully.
+12/09/2026 03:20:33 PM | INFO     | web_search_refinement.py:<module>:33 - Retriever initiated successfully.
+12/09/2026 03:20:33 PM | INFO     | web_search_refinement.py:retrieve_node:59 - Retrieving docs.
+12/09/2026 03:20:33 PM | INFO     | web_search_refinement.py:eval_each_doc_node:93 - Evaluating each docs.
+12/09/2026 03:20:38 PM | INFO     | web_search_refinement.py:web_search_node:198 - Initiating web search.
+12/09/2026 03:20:42 PM | INFO     | web_search_refinement.py:refine:169 - Refining docs.
+12/09/2026 03:20:42 PM | INFO     | web_search_refinement.py:decompose_to_sentence:137 - Decomposing to sentences.
+12/09/2026 03:20:43 PM | INFO     | web_search_refinement.py:generate:235 - Generating response
+12/09/2026 03:21:50 PM | INFO     | utils.py:initiate_llm:16 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+12/09/2026 03:22:18 PM | INFO     | utils.py:initiate_hf_embedding_model:40 - Embedding model initiated successfully: google/embeddinggemma-300m
+12/09/2026 03:22:18 PM | INFO     | web_search_refinement.py:<module>:30 - Vector store initiated successfully.
+12/09/2026 03:22:18 PM | INFO     | web_search_refinement.py:<module>:33 - Retriever initiated successfully.
+12/09/2026 03:22:18 PM | INFO     | web_search_refinement.py:retrieve_node:59 - Retrieving docs.
+12/09/2026 03:22:18 PM | INFO     | web_search_refinement.py:eval_each_doc_node:93 - Evaluating each docs.
+12/09/2026 03:22:23 PM | INFO     | web_search_refinement.py:web_search_node:200 - Initiating web search.
+12/09/2026 03:22:26 PM | INFO     | web_search_refinement.py:refine:169 - Refining docs.
+12/09/2026 03:22:26 PM | INFO     | web_search_refinement.py:decompose_to_sentence:137 - Decomposing to sentences.
+12/09/2026 03:22:27 PM | INFO     | web_search_refinement.py:refine:191 - Strips extracted: 1 | Kept strips: 0
+12/09/2026 03:22:27 PM | INFO     | web_search_refinement.py:generate:237 - Generating response
+12/09/2026 03:35:31 PM | INFO     | utils.py:initiate_llm:16 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+12/09/2026 03:35:50 PM | INFO     | utils.py:initiate_hf_embedding_model:40 - Embedding model initiated successfully: google/embeddinggemma-300m
+12/09/2026 03:35:50 PM | INFO     | web_search_refinement.py:<module>:30 - Vector store initiated successfully.
+12/09/2026 03:35:50 PM | INFO     | web_search_refinement.py:<module>:33 - Retriever initiated successfully.
+12/09/2026 03:35:50 PM | INFO     | web_search_refinement.py:retrieve_node:59 - Retrieving docs.
+12/09/2026 03:35:50 PM | INFO     | web_search_refinement.py:eval_each_doc_node:93 - Evaluating each docs.
+12/09/2026 03:35:56 PM | INFO     | web_search_refinement.py:web_search_node:214 - Initiating web search.
+12/09/2026 03:36:01 PM | INFO     | web_search_refinement.py:refine:169 - Refining docs.
+12/09/2026 03:36:01 PM | INFO     | web_search_refinement.py:refine:200 - [Web Search] Retained 4 search snippet(s)
+12/09/2026 03:36:01 PM | INFO     | web_search_refinement.py:generate:251 - Generating response
+12/09/2026 03:37:33 PM | INFO     | utils.py:initiate_llm:16 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+12/09/2026 03:38:00 PM | INFO     | utils.py:initiate_hf_embedding_model:40 - Embedding model initiated successfully: google/embeddinggemma-300m
+12/09/2026 03:38:00 PM | INFO     | web_search_refinement.py:<module>:30 - Vector store initiated successfully.
+12/09/2026 03:38:00 PM | INFO     | web_search_refinement.py:<module>:33 - Retriever initiated successfully.
+12/09/2026 03:38:00 PM | INFO     | web_search_refinement.py:retrieve_node:59 - Retrieving docs.
+12/09/2026 03:38:01 PM | INFO     | web_search_refinement.py:eval_each_doc_node:93 - Evaluating each docs.
+12/09/2026 03:38:06 PM | INFO     | web_search_refinement.py:web_search_node:214 - Initiating web search.
+12/09/2026 03:38:11 PM | INFO     | web_search_refinement.py:refine:169 - Refining docs.
+12/09/2026 03:38:11 PM | INFO     | web_search_refinement.py:refine:200 - [Web Search] Retained 4 search snippet(s)
+12/09/2026 03:38:11 PM | INFO     | web_search_refinement.py:generate:251 - Generating response
+12/09/2026 03:39:00 PM | INFO     | utils.py:initiate_llm:16 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+12/09/2026 03:39:21 PM | INFO     | utils.py:initiate_hf_embedding_model:40 - Embedding model initiated successfully: google/embeddinggemma-300m
+12/09/2026 03:39:21 PM | INFO     | web_search_refinement.py:<module>:30 - Vector store initiated successfully.
+12/09/2026 03:39:21 PM | INFO     | web_search_refinement.py:<module>:33 - Retriever initiated successfully.
+12/09/2026 03:39:21 PM | INFO     | web_search_refinement.py:retrieve_node:59 - Retrieving docs.
+12/09/2026 03:39:21 PM | INFO     | web_search_refinement.py:eval_each_doc_node:93 - Evaluating each docs.
+12/09/2026 03:39:26 PM | INFO     | web_search_refinement.py:web_search_node:214 - Initiating web search.
+12/09/2026 03:39:29 PM | INFO     | web_search_refinement.py:refine:169 - Refining docs.
+12/09/2026 03:39:29 PM | INFO     | web_search_refinement.py:refine:200 - [Web Search] Retained 4 search snippet(s)
+12/09/2026 03:39:29 PM | INFO     | web_search_refinement.py:generate:251 - Generating response
+12/09/2026 03:39:29 PM | DEBUG    | web_search_refinement.py:generate:252 - Refined Context Received:
+TITLE: Python Release Python 3.12.0 | Python.org
+URL: 
+CONTENT: 
+TITLE: Python 3.12 - What's New, Support Lifecycle & EOL - VersionLog
+URL: 
+CONTENT: 
+TITLE: What's New In Python 3.12 — Python 3.14.7 documentation
+URL: 
+CONTENT: 
+TITLE: Python Release Python 3.12.12 | Python.org
+URL: 
+CONTENT:
+12/09/2026 03:39:54 PM | INFO     | utils.py:initiate_llm:16 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+12/09/2026 03:40:19 PM | INFO     | utils.py:initiate_hf_embedding_model:40 - Embedding model initiated successfully: google/embeddinggemma-300m
+12/09/2026 03:40:19 PM | INFO     | web_search_refinement.py:<module>:30 - Vector store initiated successfully.
+12/09/2026 03:40:19 PM | INFO     | web_search_refinement.py:<module>:33 - Retriever initiated successfully.
+12/09/2026 03:40:19 PM | INFO     | web_search_refinement.py:retrieve_node:59 - Retrieving docs.
+12/09/2026 03:40:20 PM | INFO     | web_search_refinement.py:eval_each_doc_node:93 - Evaluating each docs.
+12/09/2026 03:40:27 PM | INFO     | web_search_refinement.py:web_search_node:214 - Initiating web search.
+12/09/2026 03:40:29 PM | INFO     | web_search_refinement.py:refine:169 - Refining docs.
+12/09/2026 03:40:29 PM | INFO     | web_search_refinement.py:refine:200 - [Web Search] Retained 4 search snippet(s)
+12/09/2026 03:40:29 PM | INFO     | web_search_refinement.py:generate:251 - Generating response
+12/09/2026 03:40:29 PM | DEBUG    | web_search_refinement.py:generate:252 - Refined Context Received:
+TITLE: PEP 693 – Python 3.12 Release Schedule | peps.python.org
+URL: 
+CONTENT: 
+TITLE: What's New In Python 3.12 — Python 3.14.7 documentation
+URL: 
+CONTENT: 
+TITLE: Python Release Python 3.12.0 | Python.org
+URL: 
+CONTENT: 
+TITLE: Python Release Python 3.12.12 | Python.org
+URL: 
+CONTENT:
+12/09/2026 03:45:40 PM | INFO     | utils.py:initiate_llm:16 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+12/09/2026 03:45:57 PM | INFO     | utils.py:initiate_hf_embedding_model:40 - Embedding model initiated successfully: google/embeddinggemma-300m
+12/09/2026 03:45:57 PM | INFO     | web_search_refinement.py:<module>:30 - Vector store initiated successfully.
+12/09/2026 03:45:57 PM | INFO     | web_search_refinement.py:<module>:33 - Retriever initiated successfully.
+12/09/2026 03:45:57 PM | INFO     | web_search_refinement.py:retrieve_node:59 - Retrieving docs.
+12/09/2026 03:45:58 PM | INFO     | web_search_refinement.py:eval_each_doc_node:93 - Evaluating each docs.
+12/09/2026 03:46:06 PM | INFO     | web_search_refinement.py:web_search_node:214 - Initiating web search.
+12/09/2026 03:46:08 PM | INFO     | web_search_refinement.py:web_search_node:222 - {'title': 'Python Release Python 3.12.0 | Python.org', 'href': 'https://www.python.org/downloads/release/python-3120/', 'body': 'Mar 12, 2014 · Release date: Oct. 2, 2023. Python 3.12.0 is the newest major release of the Python programming language, and it contains many new features and optimizations. More flexible f-string parsing, allowing many things previously disallowed (PEP 701). Support for the buffer protocol in Python code (PEP 688). A new debugging/profiling API (PEP 669).'}
+12/09/2026 03:46:08 PM | INFO     | web_search_refinement.py:refine:169 - Refining docs.
+12/09/2026 03:46:08 PM | INFO     | web_search_refinement.py:refine:200 - [Web Search] Retained 4 search snippet(s)
+12/09/2026 03:46:08 PM | INFO     | web_search_refinement.py:generate:259 - Generating response
+12/09/2026 03:46:08 PM | DEBUG    | web_search_refinement.py:generate:260 - Refined Context Received:
+TITLE: Python Release Python 3.12.0 | Python.org
+URL: https://www.python.org/downloads/release/python-3120/
+CONTENT: Mar 12, 2014 · Release date: Oct. 2, 2023. Python 3.12.0 is the newest major release of the Python programming language, and it contains many new features and optimizations. More flexible f-string parsing, allowing many things previously disallowed (PEP 701). Support for the buffer protocol in Python code (PEP 688). A new debugging/profiling API (PEP 669).
+TITLE: Python 3.12 - What's New, Support Lifecycle & EOL - VersionLogWhat’s New In Python 3.12 — Python 3.14.7 documentationPython 3.12.0 (final) now available | Python InsiderPython Release Python 3.12.3 | Python.orgStatus of Python versionsPEP 693 – Python 3.12 Release Schedule | peps.python.org
+URL: https://versionlog.com/python/3.12/
+CONTENT: 1 day ago · Discover what's new in Python 3.12. Complete release history, support lifecycle, release dates, LTS schedule and End of Life (EOL) status. Python is a v... 10 hours ago · Python 3.12 was released on October 2, 2023. For full details, see the changelog. Python 3.12 is a stable release of the Python programming language, with a mix of changes to the language and the standard library. The library changes focus on cleaning up deprecated APIs, usability, and correctness. Oct 2, 2023 · This is the stable release of Python 3.12.0 Python 3.12.0 is the newest major release of the Python programming language, and it contains many new features and optimizations. Apr 9, 2024 · Release date: April 9, 2024. Python 3.12 is the newest major release of the Python programming language, and it contains many new features and optimizations. 3.12.3 is the latest maintenance release, containing more than 300 bugfixes, build improvements and documentation changes since 3.12.2. May 27, 2026 · After two years (18 months for versions before 3.13), only security fixes are accepted and no more binaries are released. New source-only versions can be released as needed. May 24, 2022 · Some time after the release of 3.13.0 final, the tenth and final 3.12 bugfix update was released. After that, it is expected that security updates (source only) will be released until 5 years after the release of 3.12.0 final, so until approximately October 2028. What's new in Python 3.12.0? Python 3.12.0 is the newest major release of the Python programming language, and it contains many new features and optimizations. More flexible f-string parsing, allowing many things previously disallowed (PEP 701). Support for the buffer protocol in Python code (PEP 688). A new debugging/profiling API (PEP 669). What's new in Python 2023? Note: Python 3.12.0 has been superseded by Python 3.12.14. Release date: Oct. 2, 2023 Python 3.12.0 is the newest major release of the Python programming language, and it contains many new features and optimizations. More flexible f-string parsing, allowing many things previously disallowed (PEP 701). When will Python security updates be released? After that, it is expected that security updates (source only) will be released until 5 years after the release of 3.12.0 final, so until approximately October 2028. New features can be found in What’s New In Python 3.12. This document is placed in the public domain or under the CC0-1.0-Universal license, whichever is more permissive. What version of Python has been superseded by Python 3.12.3? Note: Python 3.12.3 has been superseded by Python 3.12.14. Release date: April 9, 2024
+TITLE: What’s New In Python 3.12 — Python 3.14.7 documentation
+URL: https://docs.python.org/3/whatsnew/3.12.html
+CONTENT: 10 hours ago · Python 3.12 was released on October 2, 2023. For full details, see the changelog. Python 3.12 is a stable release of the Python programming language, with a mix of changes to the language and the standard library. The library changes focus on cleaning up deprecated APIs, usability, and correctness.
+TITLE: Python 3.12.0 (final) now available | Python Insider
+URL: https://blog.python.org/2023/10/python-3120-final-now-available/
+CONTENT: Oct 2, 2023 · This is the stable release of Python 3.12.0 Python 3.12.0 is the newest major release of the Python programming language, and it contains many new features and optimizations.
+12/09/2026 03:48:28 PM | INFO     | utils.py:initiate_llm:16 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+12/09/2026 03:48:53 PM | INFO     | utils.py:initiate_hf_embedding_model:40 - Embedding model initiated successfully: google/embeddinggemma-300m
+12/09/2026 03:48:53 PM | INFO     | web_search_refinement.py:<module>:30 - Vector store initiated successfully.
+12/09/2026 03:48:53 PM | INFO     | web_search_refinement.py:<module>:33 - Retriever initiated successfully.
+12/09/2026 03:48:53 PM | INFO     | web_search_refinement.py:retrieve_node:59 - Retrieving docs.
+12/09/2026 03:48:54 PM | INFO     | web_search_refinement.py:eval_each_doc_node:93 - Evaluating each docs.
+12/09/2026 03:49:06 PM | INFO     | web_search_refinement.py:web_search_node:214 - Initiating web search.
+12/09/2026 03:49:10 PM | INFO     | web_search_refinement.py:web_search_node:222 - {'title': 'AI News | Latest News | Insights Powering AI-Driven Business Growth', 'href': 'https://www.artificialintelligence-news.com/', 'body': '2 hours ago - AI News delivers the latest updates in artificial intelligence, machine learning, deep learning, enterprise AI, and emerging tech worldwide.'}
+12/09/2026 03:49:10 PM | INFO     | web_search_refinement.py:refine:169 - Refining docs.
+12/09/2026 03:49:10 PM | INFO     | web_search_refinement.py:refine:200 - [Web Search] Retained 4 search snippet(s)
+12/09/2026 03:49:10 PM | INFO     | web_search_refinement.py:generate:259 - Generating response
+12/09/2026 03:49:10 PM | DEBUG    | web_search_refinement.py:generate:260 - Refined Context Received:
+TITLE: AI News | Latest News | Insights Powering AI-Driven Business Growth
+URL: https://www.artificialintelligence-news.com/
+CONTENT: 2 hours ago - AI News delivers the latest updates in artificial intelligence, machine learning, deep learning, enterprise AI, and emerging tech worldwide.
+TITLE: Reuters AI News | Latest Headlines and Developments | Reuters
+URL: https://www.reuters.com/technology/artificial-intelligence/
+CONTENT: 18 hours ago - Goldman Sachs said on Monday that Evan Kotsovinos has joined the banking giant from Google as a partner and head of asset and wealth management engineering. ... ANALYSISA new, inexpensive Chinese AI model is catching up with Anthropic, OpenAI on their home turf
+TITLE: AI News & Artificial Intelligence | TechCrunch
+URL: https://techcrunch.com/category/artificial-intelligence/
+CONTENT: 3 days ago - News coverage on artificial intelligence and machine learning tech, the companies building them, and the ethical issues AI raises today.
+TITLE: AI News: Artificial Intelligence Stories, Ranked | AI Weekly
+URL: https://aiweekly.co/
+CONTENT: Thirty new complaints come from survivors of a Canadian school shooting. They accuse OpenAI of failing to warn police; the company disputes key claims.... ... #528What are companies building with AI? An Applied AI Deep Dive #527Schools are choosing opposite futures for AI #525Nvidia may buy into Perplexity above $30B before Wednesday's earnings #524What AI models are actually coming in the next six months?
+12/09/2026 03:51:24 PM | INFO     | utils.py:initiate_llm:16 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+12/09/2026 03:51:44 PM | INFO     | utils.py:initiate_hf_embedding_model:40 - Embedding model initiated successfully: google/embeddinggemma-300m
+12/09/2026 03:51:44 PM | INFO     | web_search_refinement.py:<module>:30 - Vector store initiated successfully.
+12/09/2026 03:51:44 PM | INFO     | web_search_refinement.py:<module>:33 - Retriever initiated successfully.
+12/09/2026 03:51:44 PM | INFO     | web_search_refinement.py:retrieve_node:59 - Retrieving docs.
+12/09/2026 03:51:45 PM | INFO     | web_search_refinement.py:eval_each_doc_node:93 - Evaluating each docs.
+12/09/2026 03:51:49 PM | INFO     | web_search_refinement.py:web_search_node:214 - Initiating web search.
+12/09/2026 03:51:52 PM | INFO     | web_search_refinement.py:web_search_node:222 - {'title': 'Google News - Artificial intelligence - Latest', 'href': 'https://news.google.com/topics/CAAqJAgKIh5DQkFTRUFvSEwyMHZNRzFyZWhJRlpXNHRSMElvQUFQAQ', 'body': 'Read full articles, watch videos, browse thousands of titles and more on the "Artificial intelligence" topic with Google News.'}
+12/09/2026 03:51:52 PM | INFO     | web_search_refinement.py:refine:169 - Refining docs.
+12/09/2026 03:51:52 PM | INFO     | web_search_refinement.py:refine:200 - [Web Search] Retained 4 search snippet(s)
+12/09/2026 03:51:52 PM | INFO     | web_search_refinement.py:generate:253 - Generating response
+12/09/2026 03:51:52 PM | DEBUG    | web_search_refinement.py:generate:254 - Refined Context Received:
+TITLE: Google News - Artificial intelligence - Latest
+URL: https://news.google.com/topics/CAAqJAgKIh5DQkFTRUFvSEwyMHZNRzFyZWhJRlpXNHRSMElvQUFQAQ
+CONTENT: Read full articles, watch videos, browse thousands of titles and more on the "Artificial intelligence" topic with Google News.
+TITLE: The AI Race: Trending News, Latest Updates, Analysis
+URL: https://www.bloomberg.com/latest/the-ai-race
+CONTENT: 2 days ago · See the latest on The AI Race. From breaking news to in-depth reporting, Bloomberg tracks the full story in real time.
+TITLE: AI News: Artificial Intelligence Stories, Ranked | AI Weekly
+URL: https://aiweekly.co/
+CONTENT: Sep 4, 2026 · Today's most important AI news, ranked and explained. Track artificial intelligence models, agents, funding, policy and research with updates throughout the day.
+TITLE: AI News & Artificial Intelligence | TechCrunch
+URL: https://techcrunch.com/category/artificial-intelligence/
+CONTENT: Read the latest on artificial intelligence and machine learning tech, the companies that are building them, and the ethical issues AI raises today.
+12/09/2026 03:56:03 PM | INFO     | utils.py:initiate_llm:16 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+12/09/2026 03:56:20 PM | INFO     | utils.py:initiate_hf_embedding_model:40 - Embedding model initiated successfully: google/embeddinggemma-300m
+12/09/2026 03:56:21 PM | INFO     | web_search_refinement.py:<module>:30 - Vector store initiated successfully.
+12/09/2026 03:56:21 PM | INFO     | web_search_refinement.py:<module>:33 - Retriever initiated successfully.
+12/09/2026 03:56:21 PM | INFO     | web_search_refinement.py:retrieve_node:59 - Retrieving docs.
+12/09/2026 03:56:21 PM | INFO     | web_search_refinement.py:eval_each_doc_node:93 - Evaluating each docs.
+12/09/2026 03:56:25 PM | INFO     | web_search_refinement.py:web_search_node:214 - Initiating web search.
+12/09/2026 03:56:29 PM | INFO     | web_search_refinement.py:refine:169 - Refining docs.
+12/09/2026 03:56:29 PM | INFO     | web_search_refinement.py:refine:200 - [Web Search] Retained 4 search snippet(s)
+12/09/2026 03:56:29 PM | INFO     | web_search_refinement.py:generate:258 - Generating response
+12/09/2026 03:56:29 PM | DEBUG    | web_search_refinement.py:generate:259 - Refined Context Received:
+TITLE: Google News - Artificial intelligence - Latest
+URL: https://news.google.com/topics/CAAqJAgKIh5DQkFTRUFvSEwyMHZNRzFyZWhJRlpXNHRSMElvQUFQAQ
+CONTENT: Read full articles, watch videos, browse thousands of titles and more on the "Artificial intelligence" topic with Google News.
+TITLE: The AI Race: Trending News, Latest Updates, Analysis
+URL: https://www.bloomberg.com/latest/the-ai-race
+CONTENT: See the latest on The AI Race. From breaking news to in-depth reporting, Bloomberg tracks the full story in real time.
+TITLE: AI News: Artificial Intelligence Stories, Ranked | AI Weekly
+URL: https://aiweekly.co/
+CONTENT: Today's most important AI news, ranked and explained. Track artificial intelligence models, agents, funding, policy and research with updates throughout the day.
+TITLE: Biggest AI News This Month (September 2026) — Top AI Launches, Releases ...
+URL: https://headsupai.io/ai-news-and-updates/this-month
+CONTENT: The biggest AI news and updates this month — model releases, product launches, company news, research, and industry analysis, curated from across the AI ecosystem.
+12/09/2026 04:00:16 PM | INFO     | utils.py:initiate_llm:16 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+12/09/2026 04:00:34 PM | INFO     | utils.py:initiate_hf_embedding_model:40 - Embedding model initiated successfully: google/embeddinggemma-300m
+12/09/2026 04:00:34 PM | INFO     | web_search_refinement.py:<module>:30 - Vector store initiated successfully.
+12/09/2026 04:00:34 PM | INFO     | web_search_refinement.py:<module>:33 - Retriever initiated successfully.
+12/09/2026 04:00:34 PM | INFO     | web_search_refinement.py:retrieve_node:59 - Retrieving docs.
+12/09/2026 04:00:34 PM | INFO     | web_search_refinement.py:eval_each_doc_node:93 - Evaluating each docs.
+12/09/2026 04:00:38 PM | INFO     | web_search_refinement.py:web_search_node:214 - Initiating web search.
+12/09/2026 04:01:31 PM | INFO     | utils.py:initiate_llm:16 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+12/09/2026 04:01:50 PM | INFO     | utils.py:initiate_hf_embedding_model:40 - Embedding model initiated successfully: google/embeddinggemma-300m
+12/09/2026 04:01:51 PM | INFO     | web_search_refinement.py:<module>:30 - Vector store initiated successfully.
+12/09/2026 04:01:51 PM | INFO     | web_search_refinement.py:<module>:33 - Retriever initiated successfully.
+12/09/2026 04:01:51 PM | INFO     | web_search_refinement.py:retrieve_node:59 - Retrieving docs.
+12/09/2026 04:01:51 PM | INFO     | web_search_refinement.py:eval_each_doc_node:93 - Evaluating each docs.
+12/09/2026 04:01:56 PM | INFO     | web_search_refinement.py:web_search_node:214 - Initiating web search.
+12/09/2026 04:01:58 PM | INFO     | web_search_refinement.py:refine:169 - Refining docs.
+12/09/2026 04:01:58 PM | INFO     | web_search_refinement.py:refine:200 - [Web Search] Retained 4 search snippet(s)
+12/09/2026 04:01:58 PM | INFO     | web_search_refinement.py:generate:252 - Generating response
+12/09/2026 04:01:58 PM | DEBUG    | web_search_refinement.py:generate:253 - Refined Context Received:
+TITLE: Google News - Artificial intelligence - Latest
+HREF: https://news.google.com/topics/CAAqJAgKIh5DQkFTRUFvSEwyMHZNRzFyZWhJRlpXNHRSMElvQUFQAQ
+BODY: Read full articles, watch videos, browse thousands of titles and more on the "Artificial intelligence" topic with Google News.
+TITLE: The AI Race: Trending News, Latest Updates, Analysis
+HREF: https://www.bloomberg.com/latest/the-ai-race
+BODY: 2 days ago · See the latest on The AI Race. From breaking news to in-depth reporting, Bloomberg tracks the full story in real time.
+TITLE: AI News: Artificial Intelligence Stories, Ranked | AI Weekly
+HREF: https://aiweekly.co/
+BODY: Sep 4, 2026 · Today's most important AI news, ranked and explained. Track artificial intelligence models, agents, funding, policy and research with updates throughout the day.
+TITLE: AI News & Artificial Intelligence | TechCrunch
+HREF: https://techcrunch.com/category/artificial-intelligence/
+BODY: Read the latest on artificial intelligence and machine learning tech, the companies that are building them, and the ethical issues AI raises today.
+12/09/2026 04:03:17 PM | INFO     | utils.py:initiate_llm:16 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+12/09/2026 04:03:40 PM | INFO     | utils.py:initiate_hf_embedding_model:40 - Embedding model initiated successfully: google/embeddinggemma-300m
+12/09/2026 04:03:40 PM | INFO     | web_search_refinement.py:<module>:30 - Vector store initiated successfully.
+12/09/2026 04:03:40 PM | INFO     | web_search_refinement.py:<module>:33 - Retriever initiated successfully.
+12/09/2026 04:03:40 PM | INFO     | web_search_refinement.py:retrieve_node:59 - Retrieving docs.
+12/09/2026 04:03:40 PM | INFO     | web_search_refinement.py:eval_each_doc_node:93 - Evaluating each docs.
+12/09/2026 04:03:45 PM | INFO     | web_search_refinement.py:web_search_node:214 - Initiating web search.
+12/09/2026 04:03:49 PM | INFO     | web_search_refinement.py:refine:169 - Refining docs.
+12/09/2026 04:03:49 PM | INFO     | web_search_refinement.py:refine:200 - [Web Search] Retained 3 search snippet(s)
+12/09/2026 04:03:49 PM | INFO     | web_search_refinement.py:generate:256 - Generating response
+12/09/2026 04:03:49 PM | DEBUG    | web_search_refinement.py:generate:257 - Refined Context Received:
+TITLE: The AI Race: Trending News, Latest Updates, Analysis
+HREF: https://www.bloomberg.com/latest/the-ai-race
+BODY: 2 days ago · See the latest on The AI Race. From breaking news to in-depth reporting, Bloomberg tracks the full story in real time.
+TITLE: AI News: Artificial Intelligence Stories, Ranked | AI Weekly
+HREF: https://aiweekly.co/
+BODY: Sep 4, 2026 · Today's most important AI news, ranked and explained. Track artificial intelligence models, agents, funding, policy and research with updates throughout the day.
+TITLE: AI News & Artificial Intelligence | TechCrunch
+HREF: https://techcrunch.com/category/artificial-intelligence/
+BODY: Read the latest on artificial intelligence and machine learning tech, the companies that are building them, and the ethical issues AI raises today.
+12/09/2026 04:06:50 PM | INFO     | utils.py:initiate_llm:16 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+12/09/2026 04:07:12 PM | INFO     | utils.py:initiate_hf_embedding_model:40 - Embedding model initiated successfully: google/embeddinggemma-300m
+12/09/2026 04:07:12 PM | INFO     | web_search_refinement.py:<module>:30 - Vector store initiated successfully.
+12/09/2026 04:07:12 PM | INFO     | web_search_refinement.py:<module>:33 - Retriever initiated successfully.
+12/09/2026 04:07:12 PM | INFO     | web_search_refinement.py:retrieve_node:59 - Retrieving docs.
+12/09/2026 04:07:12 PM | INFO     | web_search_refinement.py:eval_each_doc_node:93 - Evaluating each docs.
+12/09/2026 04:07:18 PM | INFO     | web_search_refinement.py:web_search_node:214 - Initiating web search.
+12/09/2026 04:07:22 PM | INFO     | web_search_refinement.py:refine:169 - Refining docs.
+12/09/2026 04:07:22 PM | INFO     | web_search_refinement.py:refine:200 - [Web Search] Retained 4 search snippet(s)
+12/09/2026 04:07:22 PM | INFO     | web_search_refinement.py:generate:256 - Generating response
+12/09/2026 04:07:22 PM | DEBUG    | web_search_refinement.py:generate:257 - Refined Context Received:
+TITLE: History of Python - Wikipedia
+HREF: https://en.wikipedia.org/wiki/History_of_Python
+BODY: 1 week ago - Van Rossum was Python's principal ... on July 12, 2018. Python was named after the BBC TV show Monty Python's Flying Circus. Python 2.0 was released on October 16, 2000, with many major new features, such as list comprehensions, cycle-detecting garbage collector, reference counting, memory management and support for Unicode, along with a change to the development process itself, with a shift to a more transparent and community-backed process. Python 3.0, a major, ...
+TITLE: What's New In Python 3.12 — Python 3.14.7 documentation
+HREF: https://docs.python.org/3/whatsnew/3.12.html
+BODY: Editor, Adam Turner,. This article explains the new features in Python 3.12, compared to 3.11. Python 3.12 was released on October 2, 2023. For full details, see the changelog. Summary – Release hi...
+TITLE: Python Release Python 3.12.0 | Python.org
+HREF: https://www.python.org/downloads/release/python-3120/
+BODY: Release date: Oct. 2, 2023 · Python 3.12.0 is the newest major release of the Python programming language, and it contains many new features and optimizations.
+TITLE: PEP 693 – Python 3.12 Release Schedule | peps.python.org
+HREF: https://peps.python.org/pep-0693/
+BODY: Note: the dates below use a 17-month development period that results in a 12-month release cadence between feature versions, as defined by PEP 602. ... Provided irregularly on an as-needed basis until October 2028. ... 3.12 received bugfix updates ...
