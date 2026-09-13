@@ -11,7 +11,7 @@ from pydantic import BaseModel
 from rich.console import Console
 
 from utils.logger import get_logger
-from utils.utils import initiate_hf_embedding_model, initiate_llm
+from utils.utils import get_llm, load_hf_embedding_model
 
 load_dotenv()
 console = Console()
@@ -23,9 +23,9 @@ chroma_path = Path(__file__).resolve().parent / "chroma_db"
 logger.info(msg="Pipeline initiated.")
 
 # llm = init_chat_model("google_genai:gemini-3.1-flash-lite")
-llm = initiate_llm()
+llm = get_llm()
 
-embeddings = initiate_hf_embedding_model(
+embeddings = load_hf_embedding_model(
     model_kwargs={"device": "cpu"},
     encode_kwargs={"normalize_embeddings": True, "batch_size": 32},
 )

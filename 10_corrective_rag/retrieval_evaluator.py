@@ -9,7 +9,7 @@ from langgraph.graph import END, START, StateGraph
 from pydantic import BaseModel
 
 from utils.logger import get_logger
-from utils.utils import initiate_hf_embedding_model, initiate_llm
+from utils.utils import get_llm, load_hf_embedding_model
 
 logger = get_logger()
 
@@ -17,9 +17,9 @@ logger.info("Pipeline initiated.")
 
 chroma_path = Path(__file__).resolve().parent / "chroma_db"
 
-llm = initiate_llm()
+llm = get_llm()
 
-embeddings = initiate_hf_embedding_model(
+embeddings = load_hf_embedding_model(
     model_kwargs={"device": "cpu"},
     encode_kwargs={"normalize_embeddings": True, "batch_size": 32},
 )

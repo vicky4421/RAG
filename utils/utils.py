@@ -1,7 +1,10 @@
+import inspect
 import os
+from pathlib import Path
 
 from dotenv import load_dotenv
 from langchain.chat_models import init_chat_model
+from langchain_chroma import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
 
 from utils.logger import get_logger
@@ -10,7 +13,7 @@ load_dotenv()
 logger = get_logger()
 
 
-def initiate_llm(model: str = "google_genai:gemini-3.1-flash-lite"):
+def get_llm(model: str = "google_genai:gemini-3.1-flash-lite"):
     try:
         llm = init_chat_model(model=model)
         logger.info(f"LLM initiated successfully: {model}")
@@ -20,7 +23,7 @@ def initiate_llm(model: str = "google_genai:gemini-3.1-flash-lite"):
         raise
 
 
-def initiate_hf_embedding_model(
+def load_hf_embedding_model(
     *,
     model_kwargs: dict | None = None,
     encode_kwargs: dict | None = None,
@@ -42,3 +45,28 @@ def initiate_hf_embedding_model(
     except Exception as e:
         logger.critical(f"Unexpected error initializing embedding model: {e}")
         raise
+
+
+def get_vector_store(
+    *,
+    collection_name: str,
+    embedding_func: HuggingFaceEmbeddings,
+    db_directory_name: str,
+) -> Chroma:
+    logger.info("Initiating vector store.")
+
+    # Frame 1 is the function calling get_chroma_vector_store
+    caller_frame = inspect.stack()[1]
+    caller_file = caller_frame.filename
+
+    chroma_path = Path(caller_file).resolve().parent / db_directory_name
+    logger.info(f"Resolved caller directory Chroma path: {chroma_path}")
+
+    vector_store = Chroma(
+        collection_name=collection_name,
+        embedding_function=embedding_func,
+        persist_directory=str(chroma_path),
+    )
+
+    logger.info(f"Vector store '{collection_name}' initialized successfully.")
+    return vector_store
