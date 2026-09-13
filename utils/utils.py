@@ -13,9 +13,9 @@ load_dotenv()
 logger = get_logger()
 
 
-def get_llm(model: str = "google_genai:gemini-3.1-flash-lite"):
+def get_llm(model: str = "google_genai:gemini-3.1-flash-lite", temp: float = 0.0):
     try:
-        llm = init_chat_model(model=model)
+        llm = init_chat_model(model=model, temperature=temp)
         logger.info(f"LLM initiated successfully: {model}")
         return llm
     except Exception as e:
