@@ -47,13 +47,12 @@ def load_hf_embedding_model(
         raise
 
 
-def get_vector_store(
+def get_chroma_vector_store(
     *,
     collection_name: str,
     embedding_func: HuggingFaceEmbeddings,
     db_directory_name: str,
 ) -> Chroma:
-    logger.info("Initiating vector store.")
 
     # Frame 1 is the function calling get_chroma_vector_store
     caller_frame = inspect.stack()[1]
