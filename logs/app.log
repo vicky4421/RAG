@@ -394,3 +394,93 @@ BODY: Release date: Oct. 2, 2023 · Python 3.12.0 is the newest major release of
 TITLE: PEP 693 – Python 3.12 Release Schedule | peps.python.org
 HREF: https://peps.python.org/pep-0693/
 BODY: Note: the dates below use a 17-month development period that results in a 12-month release cadence between feature versions, as defined by PEP 602. ... Provided irregularly on an as-needed basis until October 2028. ... 3.12 received bugfix updates ...
+15/09/2026 02:57:38 PM | INFO     | utils.py:get_llm:19 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+15/09/2026 02:57:52 PM | INFO     | utils.py:load_hf_embedding_model:43 - Embedding model initiated successfully: google/embeddinggemma-300m
+15/09/2026 02:57:52 PM | INFO     | utils.py:get_chroma_vector_store:62 - Resolved caller directory Chroma path: D:\AI\RAG\11_self_rag\chroma_db
+15/09/2026 02:57:53 PM | INFO     | utils.py:get_chroma_vector_store:70 - Vector store 'self_rag_demo' initialized successfully.
+15/09/2026 02:57:53 PM | INFO     | step_1.py:ingest_documents:40 - Loading docs.
+15/09/2026 03:08:18 PM | INFO     | step_1.py:<module>:16 - Self RAG step_1 execution stated.
+15/09/2026 03:08:19 PM | INFO     | utils.py:get_llm:19 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+15/09/2026 03:08:32 PM | INFO     | utils.py:load_hf_embedding_model:43 - Embedding model initiated successfully: google/embeddinggemma-300m
+15/09/2026 03:08:32 PM | INFO     | utils.py:get_chroma_vector_store:62 - Resolved caller directory Chroma path: D:\AI\RAG\11_self_rag\chroma_db
+15/09/2026 03:08:32 PM | INFO     | utils.py:get_chroma_vector_store:70 - Vector store 'self_rag_demo' initialized successfully.
+15/09/2026 03:08:32 PM | INFO     | step_1.py:ingest_documents:42 - Loading docs.
+15/09/2026 03:09:51 PM | INFO     | step_1.py:<module>:16 - Self RAG step_1 execution stated.
+15/09/2026 03:09:52 PM | INFO     | utils.py:get_llm:19 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+15/09/2026 03:10:06 PM | INFO     | utils.py:load_hf_embedding_model:43 - Embedding model initiated successfully: google/embeddinggemma-300m
+15/09/2026 03:10:06 PM | INFO     | utils.py:get_chroma_vector_store:62 - Resolved caller directory Chroma path: D:\AI\RAG\11_self_rag\chroma_db
+15/09/2026 03:10:06 PM | INFO     | utils.py:get_chroma_vector_store:70 - Vector store 'self_rag_demo' initialized successfully.
+15/09/2026 03:10:06 PM | INFO     | step_1.py:ingest_documents:42 - Loading docs.
+15/09/2026 03:13:19 PM | INFO     | step_1.py:<module>:16 - Self RAG step_1 execution stated.
+15/09/2026 03:13:22 PM | INFO     | utils.py:get_llm:19 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+15/09/2026 03:13:37 PM | INFO     | utils.py:load_hf_embedding_model:43 - Embedding model initiated successfully: google/embeddinggemma-300m
+15/09/2026 03:13:37 PM | INFO     | utils.py:get_chroma_vector_store:62 - Resolved caller directory Chroma path: D:\AI\RAG\11_self_rag\chroma_db
+15/09/2026 03:13:38 PM | INFO     | utils.py:get_chroma_vector_store:70 - Vector store 'self_rag_demo' initialized successfully.
+15/09/2026 03:13:38 PM | INFO     | step_1.py:ingest_documents:42 - Loading docs.
+15/09/2026 03:13:41 PM | INFO     | step_1.py:ingest_documents:54 - Splitting docs
+15/09/2026 03:13:49 PM | INFO     | step_1.py:decide_retrieval_node:98 - Deciding retrieval.
+15/09/2026 03:13:51 PM | INFO     | step_1.py:generate_direct_node:123 - Generating response without retrieval.
+15/09/2026 03:44:14 PM | INFO     | step_1.py:<module>:17 - Self RAG step_1 execution stated.
+15/09/2026 03:44:14 PM | INFO     | utils.py:get_llm:19 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+15/09/2026 03:44:24 PM | INFO     | utils.py:load_hf_embedding_model:43 - Embedding model initiated successfully: google/embeddinggemma-300m
+15/09/2026 03:44:24 PM | INFO     | utils.py:get_chroma_vector_store:62 - Resolved caller directory Chroma path: D:\AI\RAG\ch_11_self_rag\chroma_db
+15/09/2026 03:44:24 PM | INFO     | utils.py:get_chroma_vector_store:70 - Vector store 'self_rag_demo' initialized successfully.
+15/09/2026 03:44:24 PM | INFO     | step_1.py:ingest_documents:39 - Collection already contains 16 chunks. Skipping ingestion.
+15/09/2026 03:44:24 PM | INFO     | step_1.py:decide_retrieval_node:99 - Deciding retrieval.
+15/09/2026 03:44:26 PM | INFO     | step_1.py:generate_direct_node:124 - Generating response without retrieval.
+15/09/2026 03:45:46 PM | INFO     | step_1.py:<module>:17 - Self RAG step_1 execution stated.
+15/09/2026 03:45:47 PM | INFO     | utils.py:get_llm:19 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+15/09/2026 03:45:56 PM | INFO     | utils.py:load_hf_embedding_model:43 - Embedding model initiated successfully: google/embeddinggemma-300m
+15/09/2026 03:45:56 PM | INFO     | utils.py:get_chroma_vector_store:62 - Resolved caller directory Chroma path: D:\AI\RAG\ch_11_self_rag\chroma_db
+15/09/2026 03:45:56 PM | INFO     | utils.py:get_chroma_vector_store:70 - Vector store 'self_rag_demo' initialized successfully.
+15/09/2026 03:45:56 PM | INFO     | step_1.py:ingest_documents:39 - Collection already contains 16 chunks. Skipping ingestion.
+15/09/2026 03:45:57 PM | INFO     | step_1.py:decide_retrieval_node:99 - Deciding retrieval.
+15/09/2026 03:45:59 PM | INFO     | step_1.py:generate_direct_node:124 - Generating response without retrieval.
+15/09/2026 03:50:46 PM | INFO     | step_1.py:<module>:17 - Self RAG step_1 execution stated.
+15/09/2026 03:50:47 PM | INFO     | utils.py:get_llm:19 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+15/09/2026 03:50:56 PM | INFO     | utils.py:load_hf_embedding_model:43 - Embedding model initiated successfully: google/embeddinggemma-300m
+15/09/2026 03:50:56 PM | INFO     | utils.py:get_chroma_vector_store:62 - Resolved caller directory Chroma path: D:\AI\RAG\ch_11_self_rag\chroma_db
+15/09/2026 03:50:56 PM | INFO     | utils.py:get_chroma_vector_store:70 - Vector store 'self_rag_demo' initialized successfully.
+15/09/2026 03:50:56 PM | INFO     | step_1.py:ingest_documents:39 - Collection already contains 16 chunks. Skipping ingestion.
+15/09/2026 03:50:56 PM | INFO     | step_1.py:decide_retrieval_node:99 - Deciding retrieval.
+15/09/2026 03:51:01 PM | INFO     | step_1.py:retrieve_node:132 - Retrieving documents
+15/09/2026 03:52:23 PM | INFO     | step_1.py:<module>:17 - Self RAG step_1 execution stated.
+15/09/2026 03:52:23 PM | INFO     | utils.py:get_llm:19 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+15/09/2026 03:52:34 PM | INFO     | utils.py:load_hf_embedding_model:43 - Embedding model initiated successfully: google/embeddinggemma-300m
+15/09/2026 03:52:34 PM | INFO     | utils.py:get_chroma_vector_store:62 - Resolved caller directory Chroma path: D:\AI\RAG\ch_11_self_rag\chroma_db
+15/09/2026 03:52:34 PM | INFO     | utils.py:get_chroma_vector_store:70 - Vector store 'self_rag_demo' initialized successfully.
+15/09/2026 03:52:34 PM | INFO     | step_1.py:ingest_documents:39 - Collection already contains 16 chunks. Skipping ingestion.
+15/09/2026 03:52:36 PM | INFO     | step_1.py:decide_retrieval_node:99 - Deciding retrieval.
+15/09/2026 03:52:40 PM | INFO     | step_1.py:retrieve_node:132 - Retrieving documents
+15/09/2026 03:53:02 PM | INFO     | step_1.py:<module>:17 - Self RAG step_1 execution stated.
+15/09/2026 03:53:03 PM | INFO     | utils.py:get_llm:19 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+15/09/2026 03:53:12 PM | INFO     | utils.py:load_hf_embedding_model:43 - Embedding model initiated successfully: google/embeddinggemma-300m
+15/09/2026 03:53:12 PM | INFO     | utils.py:get_chroma_vector_store:62 - Resolved caller directory Chroma path: D:\AI\RAG\ch_11_self_rag\chroma_db
+15/09/2026 03:53:12 PM | INFO     | utils.py:get_chroma_vector_store:70 - Vector store 'self_rag_demo' initialized successfully.
+15/09/2026 03:53:12 PM | INFO     | step_1.py:ingest_documents:39 - Collection already contains 16 chunks. Skipping ingestion.
+15/09/2026 03:53:12 PM | INFO     | step_1.py:decide_retrieval_node:99 - Deciding retrieval.
+15/09/2026 03:53:17 PM | INFO     | step_1.py:generate_direct_node:124 - Generating response without retrieval.
+15/09/2026 03:57:02 PM | INFO     | step_1.py:<module>:17 - Self RAG step_1 execution stated.
+15/09/2026 03:57:03 PM | INFO     | utils.py:get_llm:19 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+15/09/2026 03:57:12 PM | INFO     | utils.py:load_hf_embedding_model:43 - Embedding model initiated successfully: google/embeddinggemma-300m
+15/09/2026 03:57:12 PM | INFO     | utils.py:get_chroma_vector_store:62 - Resolved caller directory Chroma path: D:\AI\RAG\ch_11_self_rag\chroma_db
+15/09/2026 03:57:12 PM | INFO     | utils.py:get_chroma_vector_store:70 - Vector store 'self_rag_demo' initialized successfully.
+15/09/2026 03:57:12 PM | INFO     | step_1.py:ingest_documents:39 - Collection already contains 16 chunks. Skipping ingestion.
+15/09/2026 03:57:13 PM | INFO     | step_1.py:decide_retrieval_node:99 - Deciding retrieval.
+15/09/2026 03:57:14 PM | INFO     | step_1.py:retrieve_node:132 - Retrieving documents
+15/09/2026 03:59:42 PM | INFO     | step_1.py:<module>:17 - Self RAG step_1 execution stated.
+15/09/2026 03:59:43 PM | INFO     | utils.py:get_llm:19 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+15/09/2026 03:59:52 PM | INFO     | utils.py:load_hf_embedding_model:43 - Embedding model initiated successfully: google/embeddinggemma-300m
+15/09/2026 03:59:53 PM | INFO     | utils.py:get_chroma_vector_store:62 - Resolved caller directory Chroma path: D:\AI\RAG\ch_11_self_rag\chroma_db
+15/09/2026 03:59:53 PM | INFO     | utils.py:get_chroma_vector_store:70 - Vector store 'self_rag_demo' initialized successfully.
+15/09/2026 03:59:53 PM | INFO     | step_1.py:ingest_documents:39 - Collection already contains 16 chunks. Skipping ingestion.
+15/09/2026 03:59:53 PM | INFO     | step_1.py:decide_retrieval_node:99 - Deciding retrieval.
+15/09/2026 04:00:00 PM | INFO     | step_1.py:retrieve_node:132 - Retrieving documents
+15/09/2026 04:00:45 PM | INFO     | step_1.py:<module>:17 - Self RAG step_1 execution stated.
+15/09/2026 04:00:46 PM | INFO     | utils.py:get_llm:19 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+15/09/2026 04:00:54 PM | INFO     | utils.py:load_hf_embedding_model:43 - Embedding model initiated successfully: google/embeddinggemma-300m
+15/09/2026 04:00:54 PM | INFO     | utils.py:get_chroma_vector_store:62 - Resolved caller directory Chroma path: D:\AI\RAG\ch_11_self_rag\chroma_db
+15/09/2026 04:00:54 PM | INFO     | utils.py:get_chroma_vector_store:70 - Vector store 'self_rag_demo' initialized successfully.
+15/09/2026 04:00:54 PM | INFO     | step_1.py:ingest_documents:39 - Collection already contains 16 chunks. Skipping ingestion.
+15/09/2026 04:00:55 PM | INFO     | step_1.py:decide_retrieval_node:99 - Deciding retrieval.
+15/09/2026 04:00:57 PM | INFO     | step_1.py:retrieve_node:132 - Retrieving documents
