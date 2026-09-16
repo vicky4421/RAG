@@ -1,5 +1,5 @@
 from pathlib import Path
-from typing import Literal, TypedDict
+from typing import TypedDict
 
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_core.documents import Document
@@ -64,7 +64,7 @@ def ingest_documents():
 # define graph state
 class State(TypedDict):
     question: str
-    need_retrival: bool
+    need_retrieval: bool
     docs: list[Document]
     answer: str
 
@@ -100,7 +100,7 @@ def decide_retrieval_node(state: State) -> State:
     decision: RetrieveDecision = should_retrieve_llm.invoke(
         decide_retrieval_prompt.format_messages(question=state["question"])
     )
-    return {"need_retrival": decision.should_retrieve}
+    return {"need_retrieval": decision.should_retrieve}
 
 
 # direct generation prompt
@@ -134,8 +134,8 @@ def retrieve_node(state: State) -> State:
 
 
 # routing condition
-def route_after_decide(state: State) -> Literal["generate_direct", "retrieve"]:
-    if state["need_retrival"]:
+def route_after_decide(state: State) -> RouteVerdict:
+    if state["need_retrieval"]:
         return RouteVerdict.RETRIEVE
     return RouteVerdict.DIRECT
 
@@ -173,7 +173,7 @@ if __name__ == "__main__":
     print("Graph saved to root directory")
 
     result: State = app.invoke({"question": "Who is the CEO of Nexa AI"})
-    print(f"Need retrieval? : {result['need_retrival']}")
+    print(f"Need retrieval? : {result['need_retrieval']}")
 
     if "answer" in result:
         print(result["answer"][0]["text"])
