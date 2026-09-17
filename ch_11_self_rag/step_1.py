@@ -14,7 +14,7 @@ from utils.utils import get_chroma_vector_store, get_llm, load_hf_embedding_mode
 
 logger = get_logger()
 
-logger.info("Self RAG step_1 execution stated.")
+logger.info("Self RAG step_1 execution started.")
 
 llm = get_llm()
 
@@ -69,7 +69,12 @@ class State(TypedDict):
     answer: str
 
 
+# retrieve decision schema
 class RetrieveDecision(BaseModel):
+    """
+    Schema defined to get structured output from llm to decide whether for given question retrieval is needed or not.
+    """
+
     should_retrieve: bool = Field(
         description="True if external documents are needed to answer reliebly, else False"
     )
