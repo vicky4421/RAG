@@ -689,3 +689,104 @@ BODY: Note: the dates below use a 17-month development period that results in a 
 17/09/2026 11:14:23 AM | INFO     | step_3.py:<module>:126 - Need retrieval? : True
 17/09/2026 11:14:23 AM | INFO     | step_3.py:<module>:128 - Qustion: What is refund policy of Nexa AI?
 17/09/2026 11:14:23 AM | INFO     | step_3.py:<module>:131 - No relevant docs found!
+17/09/2026 04:14:43 PM | INFO     | step_1.py:<module>:17 - Self RAG step_1 execution started.
+17/09/2026 04:14:44 PM | INFO     | utils.py:get_llm:19 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+17/09/2026 04:14:56 PM | INFO     | utils.py:load_hf_embedding_model:43 - Embedding model initiated successfully: google/embeddinggemma-300m
+17/09/2026 04:14:56 PM | INFO     | utils.py:get_chroma_vector_store:62 - Resolved caller directory Chroma path: D:\AI\RAG\ch_11_self_rag\chroma_db
+17/09/2026 04:14:56 PM | INFO     | utils.py:get_chroma_vector_store:70 - Vector store 'self_rag_demo' initialized successfully.
+17/09/2026 04:14:56 PM | INFO     | step_2.py:<module>:21 - Self RAG step_2 execution started.
+17/09/2026 04:14:56 PM | INFO     | step_3.py:<module>:21 - Self RAG step_3 execution started.
+17/09/2026 04:14:56 PM | INFO     | step_4.py:<module>:27 - Self RAG step_4 execution started.
+17/09/2026 04:14:56 PM | INFO     | utils.py:get_llm:19 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+17/09/2026 04:15:38 PM | INFO     | step_1.py:<module>:17 - Self RAG step_1 execution started.
+17/09/2026 04:15:39 PM | INFO     | utils.py:get_llm:19 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+17/09/2026 04:15:51 PM | INFO     | utils.py:load_hf_embedding_model:43 - Embedding model initiated successfully: google/embeddinggemma-300m
+17/09/2026 04:15:51 PM | INFO     | utils.py:get_chroma_vector_store:62 - Resolved caller directory Chroma path: D:\AI\RAG\ch_11_self_rag\chroma_db
+17/09/2026 04:15:51 PM | INFO     | utils.py:get_chroma_vector_store:70 - Vector store 'self_rag_demo' initialized successfully.
+17/09/2026 04:15:51 PM | INFO     | step_2.py:<module>:21 - Self RAG step_2 execution started.
+17/09/2026 04:15:51 PM | INFO     | step_3.py:<module>:21 - Self RAG step_3 execution started.
+17/09/2026 04:15:51 PM | INFO     | step_4.py:<module>:27 - Self RAG step_4 execution started.
+17/09/2026 04:15:51 PM | INFO     | utils.py:get_llm:19 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+17/09/2026 04:15:55 PM | INFO     | step_1.py:decide_retrieval_node:104 - Deciding retrieval.
+17/09/2026 04:15:57 PM | INFO     | step_1.py:retrieve_node:137 - Retrieving documents
+17/09/2026 04:15:57 PM | INFO     | step_2.py:is_relevant_node:59 - Checking if documents are relevant.
+17/09/2026 04:16:07 PM | INFO     | step_4.py:<module>:151 - Need retrieval? : True
+17/09/2026 04:16:07 PM | INFO     | step_4.py:<module>:153 - Qustion: Do NexaAI plans include a free trial? If yes, how many days?
+17/09/2026 04:16:07 PM | INFO     | step_4.py:<module>:156 - No relevant docs found!
+17/09/2026 04:16:07 PM | INFO     | step_4.py:<module>:160 - Evidence: None
+17/09/2026 04:18:15 PM | INFO     | step_1.py:<module>:17 - Self RAG step_1 execution started.
+17/09/2026 04:18:17 PM | INFO     | utils.py:get_llm:19 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+17/09/2026 04:18:41 PM | INFO     | utils.py:load_hf_embedding_model:43 - Embedding model initiated successfully: google/embeddinggemma-300m
+17/09/2026 04:18:42 PM | INFO     | utils.py:get_chroma_vector_store:62 - Resolved caller directory Chroma path: D:\AI\RAG\ch_11_self_rag\chroma_db
+17/09/2026 04:18:42 PM | INFO     | utils.py:get_chroma_vector_store:70 - Vector store 'self_rag_demo' initialized successfully.
+17/09/2026 04:18:42 PM | INFO     | step_2.py:<module>:21 - Self RAG step_2 execution started.
+17/09/2026 04:18:42 PM | INFO     | step_3.py:<module>:21 - Self RAG step_3 execution started.
+17/09/2026 04:18:42 PM | INFO     | step_4.py:<module>:27 - Self RAG step_4 execution started.
+17/09/2026 04:18:42 PM | INFO     | utils.py:get_llm:19 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+17/09/2026 04:18:44 PM | INFO     | step_4.py:<module>:145 - Graph saved to root directory
+17/09/2026 04:18:44 PM | INFO     | step_1.py:decide_retrieval_node:104 - Deciding retrieval.
+17/09/2026 04:18:46 PM | INFO     | step_1.py:retrieve_node:137 - Retrieving documents
+17/09/2026 04:18:46 PM | INFO     | step_2.py:is_relevant_node:59 - Checking if documents are relevant.
+17/09/2026 04:19:01 PM | INFO     | step_4.py:<module>:151 - Need retrieval? : True
+17/09/2026 04:19:01 PM | INFO     | step_4.py:<module>:153 - Qustion: Do NexaAI plans include a free trial? If yes, how many days?
+17/09/2026 04:19:01 PM | INFO     | step_4.py:<module>:156 - No relevant docs found!
+17/09/2026 04:19:01 PM | INFO     | step_4.py:<module>:160 - Evidence: None
+17/09/2026 04:23:26 PM | INFO     | step_1.py:<module>:17 - Self RAG step_1 execution started.
+17/09/2026 04:23:28 PM | INFO     | utils.py:get_llm:19 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+17/09/2026 04:23:57 PM | INFO     | utils.py:load_hf_embedding_model:43 - Embedding model initiated successfully: google/embeddinggemma-300m
+17/09/2026 04:23:57 PM | INFO     | utils.py:get_chroma_vector_store:62 - Resolved caller directory Chroma path: D:\AI\RAG\ch_11_self_rag\chroma_db
+17/09/2026 04:23:57 PM | INFO     | utils.py:get_chroma_vector_store:70 - Vector store 'self_rag_demo' initialized successfully.
+17/09/2026 04:23:57 PM | INFO     | step_2.py:<module>:21 - Self RAG step_2 execution started.
+17/09/2026 04:23:57 PM | INFO     | step_3.py:<module>:21 - Self RAG step_3 execution started.
+17/09/2026 04:23:57 PM | INFO     | step_4.py:<module>:27 - Self RAG step_4 execution started.
+17/09/2026 04:23:58 PM | INFO     | step_4.py:<module>:143 - Graph saved to root directory
+17/09/2026 04:23:58 PM | INFO     | step_1.py:decide_retrieval_node:104 - Deciding retrieval.
+17/09/2026 04:24:03 PM | INFO     | step_1.py:retrieve_node:137 - Retrieving documents
+17/09/2026 04:24:03 PM | INFO     | step_2.py:is_relevant_node:59 - Checking if documents are relevant.
+17/09/2026 04:24:16 PM | INFO     | step_4.py:<module>:149 - Need retrieval? : True
+17/09/2026 04:24:16 PM | INFO     | step_4.py:<module>:151 - Qustion: Do NexaAI plans include a free trial? If yes, how many days?
+17/09/2026 04:24:16 PM | INFO     | step_4.py:<module>:154 - No relevant docs found!
+17/09/2026 04:24:16 PM | INFO     | step_4.py:<module>:158 - Docs: [Document(id='dd0765cb-aad0-4eab-97ea-9f6b4a523808', metadata={'subject': '(unspecified)', 'total_pages': 4, 'author': '(anonymous)', 'moddate': '2026-02-14T13:10:37+00:00', 'title': '(anonymous)', 'trapped': '/False', 'source': 'D:\\AI\\RAG\\11_self_rag\\documents\\Product_and_Pricing.pdf', 'page': 2, 'keywords': '', 'creationdate': '2026-02-14T13:10:37+00:00', 'creator': '(unspecified)', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'page_label': '3'}, page_content='Pricing & Plans\nNexaAI pricing is based on the number of active users and selected product modules. All plans\ninclude standard security updates and product enhancements.\nStarter Plan\nDesigned for small teams and early-stage adoption.\n\x7f\nPrice: ■2,499 per user per month\n\x7f\nAccess to NexaChat core features\n\x7f\nUp to 5,000 queries per month\n\x7f\nEmail-based customer support\n\x7f\nShared cloud infrastructure\nGrowth Plan\nBest suited for growing teams requiring deeper insights and integrations.\n\x7f\nPrice: ■5,999 per user per month\n\x7f\nAccess to NexaChat, NexaInsight, and NexaSupport\n\x7f'), Document(id='e10e515a-c569-4aa8-a637-be263f6f3dd2', metadata={'creationdate': '2026-02-14T13:10:37+00:00', 'subject': '(unspecified)', 'page_label': '3', 'title': '(anonymous)', 'creator': '(unspecified)', 'total_pages': 4, 'keywords': '', 'page': 2, 'trapped': '/False', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'moddate': '2026-02-14T13:10:37+00:00', 'source': 'D:\\AI\\RAG\\11_self_rag\\documents\\Product_and_Pricing.pdf', 'author': '(anonymous)'}, page_content='\x7f\nPrice: ■5,999 per user per month\n\x7f\nAccess to NexaChat, NexaInsight, and NexaSupport\n\x7f\nAdvanced analytics and reporting\n\x7f\nThird-party integrations (Slack, CRM, BI tools)\n\x7f\nPriority email and chat support\nEnterprise Plan\nTailored for large organizations with strict security, compliance, and scalability requirements.\n\x7f\nCustom pricing based on usage and deployment model\n\x7f\nAll NexaAI products included\n\x7f\nOn-premise or private cloud deployment\n\x7f\nDedicated customer success manager\n\x7f\n24x7 support with SLA\n\x7f\nQuarterly security and compliance reviews\nBilling & Discounts'), Document(id='9a2113e8-f16f-4fbd-9bef-770dbf1f0dbc', metadata={'producer': 'ReportLab PDF Library - www.reportlab.com', 'page_label': '1', 'author': '(anonymous)', 'creator': '(unspecified)', 'page': 0, 'moddate': '2026-02-14T13:07:17+00:00', 'title': '(anonymous)', 'subject': '(unspecified)', 'creationdate': '2026-02-14T13:07:17+00:00', 'source': 'D:\\AI\\RAG\\11_self_rag\\documents\\Company_Profile.pdf', 'trapped': '/False', 'keywords': '', 'total_pages': 2}, page_content='NexaAI Solutions – Company Profile\nCompany Overview\nNexaAI Solutions Pvt. Ltd. is a business-focused artificial intelligence company founded in 2021.\nThe company specializes in building enterprise-ready AI systems for knowledge management,\nanalytics, and automation.\nNexaAI primarily serves mid-sized and large organizations across technology, finance, healthcare,\nand education sectors.\n\x7f\nFounded: 2021\n\x7f\nHeadquarters: Bengaluru, India\n\x7f\nEmployees: 85+\n\x7f\nOperating Regions: India, Southeast Asia, Europe\nVision'), Document(id='e1c9622e-888a-4ecc-aecc-b5b1c2755b01', metadata={'moddate': '2026-02-14T13:10:37+00:00', 'author': '(anonymous)', 'page': 0, 'trapped': '/False', 'creationdate': '2026-02-14T13:10:37+00:00', 'total_pages': 4, 'producer': 'ReportLab PDF Library - www.reportlab.com', 'page_label': '1', 'source': 'D:\\AI\\RAG\\11_self_rag\\documents\\Product_and_Pricing.pdf', 'subject': '(unspecified)', 'title': '(anonymous)', 'keywords': '', 'creator': '(unspecified)'}, page_content='NexaAI Solutions – Products & Pricing\nProduct Portfolio Overview\nNexaAI offers a modular suite of enterprise AI products designed to help organizations manage\nknowledge, analyze business data, automate customer interactions, and enforce AI governance.\nEach product can be used independently or deployed as part of an integrated AI platform.\nNexaChat – Internal Knowledge Assistant\nNexaChat is an AI-powered internal assistant that allows employees to query company documents,\npolicies, reports, and knowledge bases using natural language.')]
+17/09/2026 04:24:16 PM | INFO     | step_4.py:<module>:159 - Relevant docs: []
+17/09/2026 04:24:16 PM | INFO     | step_4.py:<module>:160 - Context: 
+17/09/2026 04:24:16 PM | INFO     | step_4.py:<module>:161 - Is supported: None
+17/09/2026 04:24:16 PM | INFO     | step_4.py:<module>:162 - Evidence: None
+17/09/2026 04:37:12 PM | INFO     | step_1.py:<module>:17 - Self RAG step_1 execution started.
+17/09/2026 04:37:13 PM | INFO     | utils.py:get_llm:19 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+17/09/2026 04:37:25 PM | INFO     | utils.py:load_hf_embedding_model:43 - Embedding model initiated successfully: google/embeddinggemma-300m
+17/09/2026 04:37:26 PM | INFO     | utils.py:get_chroma_vector_store:62 - Resolved caller directory Chroma path: D:\AI\RAG\ch_11_self_rag\chroma_db
+17/09/2026 04:37:26 PM | INFO     | utils.py:get_chroma_vector_store:70 - Vector store 'self_rag_demo' initialized successfully.
+17/09/2026 04:37:26 PM | INFO     | step_2.py:<module>:21 - Self RAG step_2 execution started.
+17/09/2026 04:37:26 PM | INFO     | step_3.py:<module>:21 - Self RAG step_3 execution started.
+17/09/2026 04:37:26 PM | INFO     | step_4.py:<module>:27 - Self RAG step_4 execution started.
+17/09/2026 04:37:27 PM | INFO     | step_4.py:<module>:143 - Graph saved to root directory
+17/09/2026 04:37:27 PM | INFO     | step_1.py:decide_retrieval_node:104 - Deciding retrieval.
+17/09/2026 04:37:32 PM | INFO     | step_1.py:retrieve_node:137 - Retrieving documents
+17/09/2026 04:37:32 PM | INFO     | step_2.py:is_relevant_node:59 - Checking if documents are relevant.
+17/09/2026 04:37:50 PM | INFO     | step_3.py:generate_from_context_node:53 - Generating from context.
+17/09/2026 04:37:51 PM | INFO     | step_4.py:is_supported_node:87 - Checking if the response generated by llm is supported by context or not.
+17/09/2026 04:37:55 PM | INFO     | step_4.py:<module>:147 - Need retrieval? : True
+17/09/2026 04:37:55 PM | INFO     | step_4.py:<module>:149 - Qustion: Who is the CEO of Nexa AI?
+17/09/2026 04:37:55 PM | INFO     | step_4.py:<module>:154 - Aarav Mehta is the CEO of Nexa AI.
+17/09/2026 04:37:55 PM | INFO     | step_4.py:<module>:156 - Docs: [Document(id='8fa828e1-3503-4397-9c27-68cc627c1a74', metadata={'producer': 'ReportLab PDF Library - www.reportlab.com', 'total_pages': 2, 'author': '(anonymous)', 'moddate': '2026-02-14T13:07:17+00:00', 'creationdate': '2026-02-14T13:07:17+00:00', 'page': 1, 'source': 'D:\\AI\\RAG\\11_self_rag\\documents\\Company_Profile.pdf', 'creator': '(unspecified)', 'keywords': '', 'subject': '(unspecified)', 'page_label': '2', 'trapped': '/False', 'title': '(anonymous)'}, page_content='Founder\nAarav Mehta founded NexaAI after over 10 years of experience in enterprise data platforms and\ncloud infrastructure.\nHe previously worked with global consulting firms where he led multiple large-scale digital\ntransformation projects.\nLeadership Team\nThe leadership team brings experience across AI engineering, product management, and business\noperations.\n\x7f\nAarav Mehta – CEO & Founder\n\x7f\nRiya Kapoor – CTO (Distributed systems & AI platforms)\n\x7f\nKunal Sharma – Head of Product\n\x7f\nNeha Verma – Head of Operations & HR\n\x7f\nSiddharth Rao – Head of Sales & Partnerships'), Document(id='9a2113e8-f16f-4fbd-9bef-770dbf1f0dbc', metadata={'author': '(anonymous)', 'keywords': '', 'page_label': '1', 'creator': '(unspecified)', 'trapped': '/False', 'moddate': '2026-02-14T13:07:17+00:00', 'producer': 'ReportLab PDF Library - www.reportlab.com', 'title': '(anonymous)', 'total_pages': 2, 'creationdate': '2026-02-14T13:07:17+00:00', 'source': 'D:\\AI\\RAG\\11_self_rag\\documents\\Company_Profile.pdf', 'subject': '(unspecified)', 'page': 0}, page_content='NexaAI Solutions – Company Profile\nCompany Overview\nNexaAI Solutions Pvt. Ltd. is a business-focused artificial intelligence company founded in 2021.\nThe company specializes in building enterprise-ready AI systems for knowledge management,\nanalytics, and automation.\nNexaAI primarily serves mid-sized and large organizations across technology, finance, healthcare,\nand education sectors.\n\x7f\nFounded: 2021\n\x7f\nHeadquarters: Bengaluru, India\n\x7f\nEmployees: 85+\n\x7f\nOperating Regions: India, Southeast Asia, Europe\nVision'), Document(id='e1c9622e-888a-4ecc-aecc-b5b1c2755b01', metadata={'creator': '(unspecified)', 'author': '(anonymous)', 'total_pages': 4, 'trapped': '/False', 'source': 'D:\\AI\\RAG\\11_self_rag\\documents\\Product_and_Pricing.pdf', 'moddate': '2026-02-14T13:10:37+00:00', 'page': 0, 'creationdate': '2026-02-14T13:10:37+00:00', 'subject': '(unspecified)', 'page_label': '1', 'keywords': '', 'title': '(anonymous)', 'producer': 'ReportLab PDF Library - www.reportlab.com'}, page_content='NexaAI Solutions – Products & Pricing\nProduct Portfolio Overview\nNexaAI offers a modular suite of enterprise AI products designed to help organizations manage\nknowledge, analyze business data, automate customer interactions, and enforce AI governance.\nEach product can be used independently or deployed as part of an integrated AI platform.\nNexaChat – Internal Knowledge Assistant\nNexaChat is an AI-powered internal assistant that allows employees to query company documents,\npolicies, reports, and knowledge bases using natural language.'), Document(id='e10e515a-c569-4aa8-a637-be263f6f3dd2', metadata={'keywords': '', 'author': '(anonymous)', 'subject': '(unspecified)', 'moddate': '2026-02-14T13:10:37+00:00', 'page_label': '3', 'creationdate': '2026-02-14T13:10:37+00:00', 'creator': '(unspecified)', 'total_pages': 4, 'producer': 'ReportLab PDF Library - www.reportlab.com', 'title': '(anonymous)', 'trapped': '/False', 'page': 2, 'source': 'D:\\AI\\RAG\\11_self_rag\\documents\\Product_and_Pricing.pdf'}, page_content='\x7f\nPrice: ■5,999 per user per month\n\x7f\nAccess to NexaChat, NexaInsight, and NexaSupport\n\x7f\nAdvanced analytics and reporting\n\x7f\nThird-party integrations (Slack, CRM, BI tools)\n\x7f\nPriority email and chat support\nEnterprise Plan\nTailored for large organizations with strict security, compliance, and scalability requirements.\n\x7f\nCustom pricing based on usage and deployment model\n\x7f\nAll NexaAI products included\n\x7f\nOn-premise or private cloud deployment\n\x7f\nDedicated customer success manager\n\x7f\n24x7 support with SLA\n\x7f\nQuarterly security and compliance reviews\nBilling & Discounts')]
+17/09/2026 04:37:55 PM | INFO     | step_4.py:<module>:157 - Relevant docs: [Document(id='8fa828e1-3503-4397-9c27-68cc627c1a74', metadata={'producer': 'ReportLab PDF Library - www.reportlab.com', 'total_pages': 2, 'author': '(anonymous)', 'moddate': '2026-02-14T13:07:17+00:00', 'creationdate': '2026-02-14T13:07:17+00:00', 'page': 1, 'source': 'D:\\AI\\RAG\\11_self_rag\\documents\\Company_Profile.pdf', 'creator': '(unspecified)', 'keywords': '', 'subject': '(unspecified)', 'page_label': '2', 'trapped': '/False', 'title': '(anonymous)'}, page_content='Founder\nAarav Mehta founded NexaAI after over 10 years of experience in enterprise data platforms and\ncloud infrastructure.\nHe previously worked with global consulting firms where he led multiple large-scale digital\ntransformation projects.\nLeadership Team\nThe leadership team brings experience across AI engineering, product management, and business\noperations.\n\x7f\nAarav Mehta – CEO & Founder\n\x7f\nRiya Kapoor – CTO (Distributed systems & AI platforms)\n\x7f\nKunal Sharma – Head of Product\n\x7f\nNeha Verma – Head of Operations & HR\n\x7f\nSiddharth Rao – Head of Sales & Partnerships')]
+17/09/2026 04:37:55 PM | INFO     | step_4.py:<module>:158 - Context: Founder
+Aarav Mehta founded NexaAI after over 10 years of experience in enterprise data platforms and
+cloud infrastructure.
+He previously worked with global consulting firms where he led multiple large-scale digital
+transformation projects.
+Leadership Team
+The leadership team brings experience across AI engineering, product management, and business
+operations.
+
+Aarav Mehta – CEO & Founder
+
+Riya Kapoor – CTO (Distributed systems & AI platforms)
+
+Kunal Sharma – Head of Product
+
+Neha Verma – Head of Operations & HR
+
+Siddharth Rao – Head of Sales & Partnerships
+17/09/2026 04:37:55 PM | INFO     | step_4.py:<module>:159 - Is supported: fully_supported
+17/09/2026 04:37:55 PM | INFO     | step_4.py:<module>:160 - Evidence: None

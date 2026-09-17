@@ -9,6 +9,7 @@ class Node(StrEnum):
     IS_RELEVANT = "is_relevant_node"
     GENERATE_FROM_CONTEXT = "generate_from_context"
     NO_RELEVANT_DOCS = "no_relevant_docs"
+    IS_SUPPORTED = "is_supported"
 
 
 # Define your Routing Decisions as typed constants
