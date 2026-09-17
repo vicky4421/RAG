@@ -588,3 +588,104 @@ BODY: Note: the dates below use a 17-month development period that results in a 
 16/09/2026 04:02:13 PM | INFO     | step_1.py:decide_retrieval_node:99 - Deciding retrieval.
 16/09/2026 04:02:15 PM | INFO     | step_1.py:retrieve_node:132 - Retrieving documents
 16/09/2026 04:02:15 PM | INFO     | step_2.py:is_relevant_node:59 - Checking if documents are relevant.
+17/09/2026 10:52:55 AM | INFO     | step_1.py:<module>:17 - Self RAG step_1 execution stated.
+17/09/2026 10:52:57 AM | INFO     | utils.py:get_llm:19 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+17/09/2026 10:53:07 AM | INFO     | utils.py:load_hf_embedding_model:43 - Embedding model initiated successfully: google/embeddinggemma-300m
+17/09/2026 10:53:07 AM | INFO     | utils.py:get_chroma_vector_store:62 - Resolved caller directory Chroma path: D:\AI\RAG\ch_11_self_rag\chroma_db
+17/09/2026 10:53:08 AM | INFO     | utils.py:get_chroma_vector_store:70 - Vector store 'self_rag_demo' initialized successfully.
+17/09/2026 10:53:08 AM | INFO     | step_2.py:<module>:21 - Self RAG step_2 execution stated.
+17/09/2026 10:53:12 AM | INFO     | step_1.py:decide_retrieval_node:104 - Deciding retrieval.
+17/09/2026 10:53:15 AM | INFO     | step_1.py:retrieve_node:137 - Retrieving documents
+17/09/2026 10:57:48 AM | INFO     | step_1.py:<module>:17 - Self RAG step_1 execution stated.
+17/09/2026 10:57:49 AM | INFO     | utils.py:get_llm:19 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+17/09/2026 10:57:58 AM | INFO     | utils.py:load_hf_embedding_model:43 - Embedding model initiated successfully: google/embeddinggemma-300m
+17/09/2026 10:57:58 AM | INFO     | utils.py:get_chroma_vector_store:62 - Resolved caller directory Chroma path: D:\AI\RAG\ch_11_self_rag\chroma_db
+17/09/2026 10:57:58 AM | INFO     | utils.py:get_chroma_vector_store:70 - Vector store 'self_rag_demo' initialized successfully.
+17/09/2026 10:57:58 AM | INFO     | step_2.py:<module>:21 - Self RAG step_2 execution stated.
+17/09/2026 10:57:58 AM | INFO     | step_3.py:<module>:21 - Self RAG step_3 execution started.
+17/09/2026 10:57:59 AM | INFO     | step_1.py:decide_retrieval_node:104 - Deciding retrieval.
+17/09/2026 10:58:01 AM | INFO     | step_1.py:retrieve_node:137 - Retrieving documents
+17/09/2026 10:58:01 AM | INFO     | step_2.py:is_relevant_node:59 - Checking if documents are relevant.
+17/09/2026 10:59:58 AM | INFO     | step_1.py:<module>:17 - Self RAG step_1 execution stated.
+17/09/2026 10:59:59 AM | INFO     | utils.py:get_llm:19 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+17/09/2026 11:00:07 AM | INFO     | utils.py:load_hf_embedding_model:43 - Embedding model initiated successfully: google/embeddinggemma-300m
+17/09/2026 11:00:07 AM | INFO     | utils.py:get_chroma_vector_store:62 - Resolved caller directory Chroma path: D:\AI\RAG\ch_11_self_rag\chroma_db
+17/09/2026 11:00:07 AM | INFO     | utils.py:get_chroma_vector_store:70 - Vector store 'self_rag_demo' initialized successfully.
+17/09/2026 11:00:07 AM | INFO     | step_2.py:<module>:21 - Self RAG step_2 execution stated.
+17/09/2026 11:00:07 AM | INFO     | step_3.py:<module>:21 - Self RAG step_3 execution started.
+17/09/2026 11:00:10 AM | INFO     | step_1.py:decide_retrieval_node:104 - Deciding retrieval.
+17/09/2026 11:00:12 AM | INFO     | step_1.py:retrieve_node:137 - Retrieving documents
+17/09/2026 11:00:12 AM | INFO     | step_2.py:is_relevant_node:59 - Checking if documents are relevant.
+17/09/2026 11:00:18 AM | INFO     | step_3.py:generate_from_context_node:53 - Generating from context.
+17/09/2026 11:02:00 AM | INFO     | step_1.py:<module>:17 - Self RAG step_1 execution stated.
+17/09/2026 11:02:01 AM | INFO     | utils.py:get_llm:19 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+17/09/2026 11:02:10 AM | INFO     | utils.py:load_hf_embedding_model:43 - Embedding model initiated successfully: google/embeddinggemma-300m
+17/09/2026 11:02:10 AM | INFO     | utils.py:get_chroma_vector_store:62 - Resolved caller directory Chroma path: D:\AI\RAG\ch_11_self_rag\chroma_db
+17/09/2026 11:02:10 AM | INFO     | utils.py:get_chroma_vector_store:70 - Vector store 'self_rag_demo' initialized successfully.
+17/09/2026 11:02:10 AM | INFO     | step_2.py:<module>:21 - Self RAG step_2 execution stated.
+17/09/2026 11:02:10 AM | INFO     | step_3.py:<module>:21 - Self RAG step_3 execution started.
+17/09/2026 11:02:11 AM | INFO     | step_1.py:decide_retrieval_node:104 - Deciding retrieval.
+17/09/2026 11:02:13 AM | INFO     | step_1.py:retrieve_node:137 - Retrieving documents
+17/09/2026 11:02:13 AM | INFO     | step_2.py:is_relevant_node:59 - Checking if documents are relevant.
+17/09/2026 11:04:44 AM | INFO     | step_1.py:<module>:17 - Self RAG step_1 execution stated.
+17/09/2026 11:04:45 AM | INFO     | utils.py:get_llm:19 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+17/09/2026 11:04:53 AM | INFO     | utils.py:load_hf_embedding_model:43 - Embedding model initiated successfully: google/embeddinggemma-300m
+17/09/2026 11:04:54 AM | INFO     | utils.py:get_chroma_vector_store:62 - Resolved caller directory Chroma path: D:\AI\RAG\ch_11_self_rag\chroma_db
+17/09/2026 11:04:54 AM | INFO     | utils.py:get_chroma_vector_store:70 - Vector store 'self_rag_demo' initialized successfully.
+17/09/2026 11:04:54 AM | INFO     | step_2.py:<module>:21 - Self RAG step_2 execution stated.
+17/09/2026 11:04:54 AM | INFO     | step_3.py:<module>:21 - Self RAG step_3 execution started.
+17/09/2026 11:04:55 AM | INFO     | step_1.py:decide_retrieval_node:104 - Deciding retrieval.
+17/09/2026 11:04:59 AM | INFO     | step_1.py:retrieve_node:137 - Retrieving documents
+17/09/2026 11:04:59 AM | INFO     | step_2.py:is_relevant_node:59 - Checking if documents are relevant.
+17/09/2026 11:05:06 AM | INFO     | step_3.py:<module>:126 - Need retrieval? : True
+17/09/2026 11:05:44 AM | INFO     | step_1.py:<module>:17 - Self RAG step_1 execution stated.
+17/09/2026 11:05:45 AM | INFO     | utils.py:get_llm:19 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+17/09/2026 11:05:54 AM | INFO     | utils.py:load_hf_embedding_model:43 - Embedding model initiated successfully: google/embeddinggemma-300m
+17/09/2026 11:05:54 AM | INFO     | utils.py:get_chroma_vector_store:62 - Resolved caller directory Chroma path: D:\AI\RAG\ch_11_self_rag\chroma_db
+17/09/2026 11:05:54 AM | INFO     | utils.py:get_chroma_vector_store:70 - Vector store 'self_rag_demo' initialized successfully.
+17/09/2026 11:05:54 AM | INFO     | step_2.py:<module>:21 - Self RAG step_2 execution stated.
+17/09/2026 11:05:54 AM | INFO     | step_3.py:<module>:21 - Self RAG step_3 execution started.
+17/09/2026 11:05:55 AM | INFO     | step_1.py:decide_retrieval_node:104 - Deciding retrieval.
+17/09/2026 11:05:58 AM | INFO     | step_1.py:retrieve_node:137 - Retrieving documents
+17/09/2026 11:05:58 AM | INFO     | step_2.py:is_relevant_node:59 - Checking if documents are relevant.
+17/09/2026 11:06:04 AM | INFO     | step_3.py:<module>:126 - Need retrieval? : True
+17/09/2026 11:06:04 AM | INFO     | step_3.py:<module>:129 - No relevant docs found!
+17/09/2026 11:08:53 AM | INFO     | step_1.py:<module>:17 - Self RAG step_1 execution stated.
+17/09/2026 11:08:53 AM | INFO     | utils.py:get_llm:19 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+17/09/2026 11:09:02 AM | INFO     | utils.py:load_hf_embedding_model:43 - Embedding model initiated successfully: google/embeddinggemma-300m
+17/09/2026 11:09:02 AM | INFO     | utils.py:get_chroma_vector_store:62 - Resolved caller directory Chroma path: D:\AI\RAG\ch_11_self_rag\chroma_db
+17/09/2026 11:09:02 AM | INFO     | utils.py:get_chroma_vector_store:70 - Vector store 'self_rag_demo' initialized successfully.
+17/09/2026 11:09:02 AM | INFO     | step_2.py:<module>:21 - Self RAG step_2 execution stated.
+17/09/2026 11:09:02 AM | INFO     | step_3.py:<module>:21 - Self RAG step_3 execution started.
+17/09/2026 11:09:04 AM | INFO     | step_1.py:decide_retrieval_node:104 - Deciding retrieval.
+17/09/2026 11:09:05 AM | INFO     | step_1.py:retrieve_node:137 - Retrieving documents
+17/09/2026 11:09:05 AM | INFO     | step_2.py:is_relevant_node:59 - Checking if documents are relevant.
+17/09/2026 11:09:16 AM | INFO     | step_3.py:generate_from_context_node:53 - Generating from context.
+17/09/2026 11:09:18 AM | INFO     | step_3.py:<module>:126 - Need retrieval? : True
+17/09/2026 11:09:18 AM | INFO     | step_3.py:<module>:128 - Qustion: Who is CEO of Nexa AI?
+17/09/2026 11:09:18 AM | INFO     | step_3.py:<module>:133 - Aarav Mehta is the CEO of Nexa AI.
+17/09/2026 11:09:45 AM | INFO     | step_1.py:<module>:17 - Self RAG step_1 execution stated.
+17/09/2026 11:09:46 AM | INFO     | utils.py:get_llm:19 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+17/09/2026 11:09:55 AM | INFO     | utils.py:load_hf_embedding_model:43 - Embedding model initiated successfully: google/embeddinggemma-300m
+17/09/2026 11:09:55 AM | INFO     | utils.py:get_chroma_vector_store:62 - Resolved caller directory Chroma path: D:\AI\RAG\ch_11_self_rag\chroma_db
+17/09/2026 11:09:55 AM | INFO     | utils.py:get_chroma_vector_store:70 - Vector store 'self_rag_demo' initialized successfully.
+17/09/2026 11:09:55 AM | INFO     | step_2.py:<module>:21 - Self RAG step_2 execution stated.
+17/09/2026 11:09:55 AM | INFO     | step_3.py:<module>:21 - Self RAG step_3 execution started.
+17/09/2026 11:09:55 AM | INFO     | step_1.py:decide_retrieval_node:104 - Deciding retrieval.
+17/09/2026 11:09:57 AM | INFO     | step_1.py:retrieve_node:137 - Retrieving documents
+17/09/2026 11:09:57 AM | INFO     | step_2.py:is_relevant_node:59 - Checking if documents are relevant.
+17/09/2026 11:10:06 AM | INFO     | step_3.py:<module>:126 - Need retrieval? : True
+17/09/2026 11:10:06 AM | INFO     | step_3.py:<module>:128 - Qustion: What is refund policy of Nexa AI?
+17/09/2026 11:14:00 AM | INFO     | step_1.py:<module>:17 - Self RAG step_1 execution stated.
+17/09/2026 11:14:01 AM | INFO     | utils.py:get_llm:19 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+17/09/2026 11:14:13 AM | INFO     | utils.py:load_hf_embedding_model:43 - Embedding model initiated successfully: google/embeddinggemma-300m
+17/09/2026 11:14:13 AM | INFO     | utils.py:get_chroma_vector_store:62 - Resolved caller directory Chroma path: D:\AI\RAG\ch_11_self_rag\chroma_db
+17/09/2026 11:14:13 AM | INFO     | utils.py:get_chroma_vector_store:70 - Vector store 'self_rag_demo' initialized successfully.
+17/09/2026 11:14:13 AM | INFO     | step_2.py:<module>:21 - Self RAG step_2 execution stated.
+17/09/2026 11:14:13 AM | INFO     | step_3.py:<module>:21 - Self RAG step_3 execution started.
+17/09/2026 11:14:13 AM | INFO     | step_1.py:decide_retrieval_node:104 - Deciding retrieval.
+17/09/2026 11:14:14 AM | INFO     | step_1.py:retrieve_node:137 - Retrieving documents
+17/09/2026 11:14:15 AM | INFO     | step_2.py:is_relevant_node:59 - Checking if documents are relevant.
+17/09/2026 11:14:23 AM | INFO     | step_3.py:<module>:126 - Need retrieval? : True
+17/09/2026 11:14:23 AM | INFO     | step_3.py:<module>:128 - Qustion: What is refund policy of Nexa AI?
+17/09/2026 11:14:23 AM | INFO     | step_3.py:<module>:131 - No relevant docs found!

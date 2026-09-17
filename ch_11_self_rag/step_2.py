@@ -18,7 +18,7 @@ from utils.logger import get_logger
 
 logger = get_logger()
 
-logger.info("Self RAG step_2 execution stated.")
+logger.info("Self RAG step_2 execution started.")
 
 
 class State(TypedDict):
