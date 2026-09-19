@@ -94,7 +94,7 @@ def is_supported_node(state: State) -> State:
             context=state.get("context"),
         )
     )
-    return {"is_supported": decision.is_supported}
+    return {"is_supported": decision.is_supported, "evidence": decision.evidence}
 
 
 # define graph
