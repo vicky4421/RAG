@@ -12,6 +12,7 @@ class Node(StrEnum):
     IS_SUPPORTED = "is_supported"
     ACCEPT_ANSWER = "accept_answer"
     REVISE_ANSWER = "revise_answer"
+    IS_USEFUL = "is_useful"
 
 
 # Define your Routing Decisions as typed constants
@@ -22,3 +23,5 @@ class RouteVerdict(StrEnum):
     NO_RELEVANT_DOCS = "no_relevant_docs"
     ACCEPT_ANSWER = "accept_answer"
     REVISE_ANSWER = "revise_answer"
+    NO_ANSWER_FOUND = "no_answer_found"
+    END = "END"
