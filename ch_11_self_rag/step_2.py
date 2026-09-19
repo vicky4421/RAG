@@ -86,7 +86,7 @@ graph.add_conditional_edges(
     source=Node.DECIDE_RETRIEVAL,
     path=route_after_decide,
     path_map={
-        RouteVerdict.DIRECT: Node.GENERATE_DIRECT,
+        RouteVerdict.GENERATE_DIRECT: Node.GENERATE_DIRECT,
         RouteVerdict.RETRIEVE: Node.RETRIEVE,
     },
 )
