@@ -13,6 +13,7 @@ class Node(StrEnum):
     ACCEPT_ANSWER = "accept_answer"
     REVISE_ANSWER = "revise_answer"
     IS_USEFUL = "is_useful"
+    REWRITE_QUESTION = "rewrite_question"
 
 
 # Define your Routing Decisions as typed constants
