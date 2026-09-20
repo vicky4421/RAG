@@ -26,3 +26,4 @@ class RouteVerdict(StrEnum):
     REVISE_ANSWER = "revise_answer"
     NO_ANSWER_FOUND = "no_answer_found"
     END = "END"
+    REWRITE_QUESTION = "rewrite_question"

@@ -1103,3 +1103,71 @@ Maternity Leave: As per statutory norms
 19/09/2026 05:07:03 PM | INFO     | step_6.py:<module>:182 - Evidence: None
 19/09/2026 05:07:03 PM | INFO     | step_6.py:<module>:183 - Retries: None
 19/09/2026 05:07:03 PM | INFO     | step_6.py:<module>:184 - Useful reason: None
+20/09/2026 03:00:19 PM | INFO     | step_1.py:<module>:17 - Self RAG step_1 execution started.
+20/09/2026 03:00:20 PM | INFO     | utils.py:get_llm:19 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+20/09/2026 03:00:35 PM | INFO     | utils.py:load_hf_embedding_model:43 - Embedding model initiated successfully: google/embeddinggemma-300m
+20/09/2026 03:00:35 PM | INFO     | utils.py:get_chroma_vector_store:62 - Resolved caller directory Chroma path: D:\AI\RAG\ch_11_self_rag\chroma_db
+20/09/2026 03:00:36 PM | INFO     | utils.py:get_chroma_vector_store:70 - Vector store 'self_rag_demo' initialized successfully.
+20/09/2026 03:00:36 PM | INFO     | step_2.py:<module>:21 - Self RAG step_2 execution started.
+20/09/2026 03:00:36 PM | INFO     | step_3.py:<module>:21 - Self RAG step_3 execution started.
+20/09/2026 03:00:36 PM | INFO     | step_4.py:<module>:27 - Self RAG step_4 execution started.
+20/09/2026 03:00:36 PM | INFO     | step_5.py:<module>:22 - Self RAG step_5 execution started.
+20/09/2026 03:00:36 PM | INFO     | step_6.py:<module>:29 - Self RAG step_6 execution started.
+20/09/2026 03:00:36 PM | INFO     | step_7.py:<module>:34 - Self RAG step_7 execution started.
+20/09/2026 03:04:33 PM | INFO     | step_1.py:<module>:17 - Self RAG step_1 execution started.
+20/09/2026 03:04:34 PM | INFO     | utils.py:get_llm:19 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+20/09/2026 03:04:48 PM | INFO     | utils.py:load_hf_embedding_model:43 - Embedding model initiated successfully: google/embeddinggemma-300m
+20/09/2026 03:04:48 PM | INFO     | utils.py:get_chroma_vector_store:62 - Resolved caller directory Chroma path: D:\AI\RAG\ch_11_self_rag\chroma_db
+20/09/2026 03:04:48 PM | INFO     | utils.py:get_chroma_vector_store:70 - Vector store 'self_rag_demo' initialized successfully.
+20/09/2026 03:04:48 PM | INFO     | step_2.py:<module>:21 - Self RAG step_2 execution started.
+20/09/2026 03:04:48 PM | INFO     | step_3.py:<module>:21 - Self RAG step_3 execution started.
+20/09/2026 03:04:48 PM | INFO     | step_4.py:<module>:27 - Self RAG step_4 execution started.
+20/09/2026 03:04:48 PM | INFO     | step_5.py:<module>:22 - Self RAG step_5 execution started.
+20/09/2026 03:04:48 PM | INFO     | step_6.py:<module>:29 - Self RAG step_6 execution started.
+20/09/2026 03:04:48 PM | INFO     | step_7.py:<module>:34 - Self RAG step_7 execution started.
+20/09/2026 03:06:08 PM | INFO     | step_1.py:<module>:17 - Self RAG step_1 execution started.
+20/09/2026 03:06:09 PM | INFO     | utils.py:get_llm:19 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+20/09/2026 03:06:20 PM | INFO     | utils.py:load_hf_embedding_model:43 - Embedding model initiated successfully: google/embeddinggemma-300m
+20/09/2026 03:06:20 PM | INFO     | utils.py:get_chroma_vector_store:62 - Resolved caller directory Chroma path: D:\AI\RAG\ch_11_self_rag\chroma_db
+20/09/2026 03:06:21 PM | INFO     | utils.py:get_chroma_vector_store:70 - Vector store 'self_rag_demo' initialized successfully.
+20/09/2026 03:06:21 PM | INFO     | step_2.py:<module>:21 - Self RAG step_2 execution started.
+20/09/2026 03:06:21 PM | INFO     | step_3.py:<module>:21 - Self RAG step_3 execution started.
+20/09/2026 03:06:21 PM | INFO     | step_4.py:<module>:27 - Self RAG step_4 execution started.
+20/09/2026 03:06:21 PM | INFO     | step_5.py:<module>:22 - Self RAG step_5 execution started.
+20/09/2026 03:06:21 PM | INFO     | step_6.py:<module>:29 - Self RAG step_6 execution started.
+20/09/2026 03:06:21 PM | INFO     | step_7.py:<module>:34 - Self RAG step_7 execution started.
+20/09/2026 03:06:25 PM | INFO     | step_7.py:<module>:196 - Graph saved to root directory
+20/09/2026 03:06:25 PM | INFO     | step_1.py:decide_retrieval_node:104 - Deciding retrieval.
+20/09/2026 03:06:27 PM | INFO     | step_2.py:is_relevant_node:59 - Checking if documents are relevant.
+20/09/2026 03:06:32 PM | INFO     | step_7.py:<module>:203 - Need retrieval? : True
+20/09/2026 03:06:32 PM | INFO     | step_7.py:<module>:205 - Qustion: What is refund policy of NexaAI
+20/09/2026 03:06:32 PM | INFO     | step_7.py:<module>:208 - No relevant docs found!
+20/09/2026 03:06:32 PM | INFO     | step_7.py:<module>:212 - Length of fetched documens: 4
+20/09/2026 03:06:32 PM | INFO     | step_7.py:<module>:213 - Context: 
+20/09/2026 03:06:32 PM | INFO     | step_7.py:<module>:214 - Is supported: None
+20/09/2026 03:06:32 PM | INFO     | step_7.py:<module>:215 - Evidence: None
+20/09/2026 03:06:32 PM | INFO     | step_7.py:<module>:216 - Retries: None
+20/09/2026 03:06:32 PM | INFO     | step_7.py:<module>:217 - Useful reason: None
+20/09/2026 03:09:59 PM | INFO     | step_1.py:<module>:17 - Self RAG step_1 execution started.
+20/09/2026 03:10:01 PM | INFO     | utils.py:get_llm:19 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+20/09/2026 03:10:16 PM | INFO     | utils.py:load_hf_embedding_model:43 - Embedding model initiated successfully: google/embeddinggemma-300m
+20/09/2026 03:10:17 PM | INFO     | utils.py:get_chroma_vector_store:62 - Resolved caller directory Chroma path: D:\AI\RAG\ch_11_self_rag\chroma_db
+20/09/2026 03:10:17 PM | INFO     | utils.py:get_chroma_vector_store:70 - Vector store 'self_rag_demo' initialized successfully.
+20/09/2026 03:10:17 PM | INFO     | step_2.py:<module>:21 - Self RAG step_2 execution started.
+20/09/2026 03:10:17 PM | INFO     | step_3.py:<module>:21 - Self RAG step_3 execution started.
+20/09/2026 03:10:17 PM | INFO     | step_4.py:<module>:27 - Self RAG step_4 execution started.
+20/09/2026 03:10:17 PM | INFO     | step_5.py:<module>:22 - Self RAG step_5 execution started.
+20/09/2026 03:10:17 PM | INFO     | step_6.py:<module>:29 - Self RAG step_6 execution started.
+20/09/2026 03:10:17 PM | INFO     | step_7.py:<module>:34 - Self RAG step_7 execution started.
+20/09/2026 03:10:20 PM | INFO     | step_7.py:<module>:196 - Graph saved to root directory
+20/09/2026 03:10:20 PM | INFO     | step_1.py:decide_retrieval_node:104 - Deciding retrieval.
+20/09/2026 03:10:25 PM | INFO     | step_2.py:is_relevant_node:59 - Checking if documents are relevant.
+20/09/2026 03:10:40 PM | INFO     | step_7.py:<module>:203 - Need retrieval? : True
+20/09/2026 03:10:40 PM | INFO     | step_7.py:<module>:205 - Qustion: What is refund policy of NexaAI
+20/09/2026 03:10:40 PM | INFO     | step_7.py:<module>:208 - No relevant docs found!
+20/09/2026 03:10:40 PM | INFO     | step_7.py:<module>:212 - Length of fetched documens: 4
+20/09/2026 03:10:40 PM | INFO     | step_7.py:<module>:213 - Context: 
+20/09/2026 03:10:40 PM | INFO     | step_7.py:<module>:214 - Is supported: None
+20/09/2026 03:10:40 PM | INFO     | step_7.py:<module>:215 - Evidence: None
+20/09/2026 03:10:40 PM | INFO     | step_7.py:<module>:216 - Retries: None
+20/09/2026 03:10:40 PM | INFO     | step_7.py:<module>:217 - Useful reason: None
