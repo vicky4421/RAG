@@ -1195,3 +1195,59 @@ Maternity Leave: As per statutory norms
 21/09/2026 10:59:37 PM | INFO     | step_0.py:<module>:112 - Graph saved to root directory
 21/09/2026 10:59:42 PM | INFO     | step_0.py:<module>:118 - Response
 21/09/2026 10:59:42 PM | INFO     | step_0.py:<module>:119 - Based on the provided text, during the transition period of roughly 2024 to 2035, EV fleets will be large enough to reduce oil demand growth, but not yet large enough to provide a substantial buffer against supply shocks.
+21/09/2026 11:52:42 PM | INFO     | step_0.py:<module>:15 - Agentic RAG step_1 execution started.
+21/09/2026 11:52:43 PM | INFO     | utils.py:get_llm:19 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+21/09/2026 11:52:52 PM | INFO     | utils.py:load_hf_embedding_model:43 - Embedding model initiated successfully: google/embeddinggemma-300m
+21/09/2026 11:52:52 PM | INFO     | utils.py:get_chroma_vector_store:62 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+21/09/2026 11:52:52 PM | INFO     | utils.py:get_chroma_vector_store:70 - Vector store 'agentic_rag_demo' initialized successfully.
+21/09/2026 11:52:52 PM | INFO     | step_0.py:ingest_documents:38 - Collection already contains 51 chunks. Skipping ingestion.
+21/09/2026 11:52:57 PM | INFO     | step_1.py:<module>:123 - Graph saved to root directory
+21/09/2026 11:52:57 PM | INFO     | step_1.py:decide_retrieval_node:31 - Deciding whether to retrieve documents or not.
+21/09/2026 11:56:45 PM | INFO     | step_0.py:<module>:15 - Agentic RAG step_1 execution started.
+21/09/2026 11:56:47 PM | INFO     | utils.py:get_llm:19 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+21/09/2026 11:56:57 PM | INFO     | utils.py:load_hf_embedding_model:43 - Embedding model initiated successfully: google/embeddinggemma-300m
+21/09/2026 11:56:57 PM | INFO     | utils.py:get_chroma_vector_store:62 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+21/09/2026 11:56:57 PM | INFO     | utils.py:get_chroma_vector_store:70 - Vector store 'agentic_rag_demo' initialized successfully.
+21/09/2026 11:56:57 PM | INFO     | step_0.py:ingest_documents:38 - Collection already contains 51 chunks. Skipping ingestion.
+21/09/2026 11:56:58 PM | INFO     | step_1.py:<module>:123 - Graph saved to root directory
+21/09/2026 11:56:58 PM | INFO     | step_1.py:decide_retrieval_node:31 - Deciding whether to retrieve documents or not.
+21/09/2026 11:57:06 PM | INFO     | step_0.py:retrieve_node:69 - Retrieving documents.
+21/09/2026 11:57:07 PM | INFO     | step_1.py:generate_node:50 - Generating response.
+21/09/2026 11:57:10 PM | INFO     | step_1.py:<module>:132 - Response
+21/09/2026 11:57:51 PM | INFO     | step_0.py:<module>:15 - Agentic RAG step_1 execution started.
+21/09/2026 11:57:52 PM | INFO     | utils.py:get_llm:19 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+21/09/2026 11:58:02 PM | INFO     | utils.py:load_hf_embedding_model:43 - Embedding model initiated successfully: google/embeddinggemma-300m
+21/09/2026 11:58:02 PM | INFO     | utils.py:get_chroma_vector_store:62 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+21/09/2026 11:58:02 PM | INFO     | utils.py:get_chroma_vector_store:70 - Vector store 'agentic_rag_demo' initialized successfully.
+21/09/2026 11:58:02 PM | INFO     | step_0.py:ingest_documents:38 - Collection already contains 51 chunks. Skipping ingestion.
+21/09/2026 11:58:03 PM | INFO     | step_1.py:<module>:123 - Graph saved to root directory
+21/09/2026 11:58:03 PM | INFO     | step_1.py:decide_retrieval_node:31 - Deciding whether to retrieve documents or not.
+21/09/2026 11:58:05 PM | INFO     | step_0.py:retrieve_node:69 - Retrieving documents.
+21/09/2026 11:58:06 PM | INFO     | step_1.py:generate_node:50 - Generating response.
+21/09/2026 11:58:13 PM | INFO     | step_1.py:<module>:132 - Response
+21/09/2026 11:58:13 PM | INFO     | step_1.py:<module>:133 - content=[{'type': 'text', 'text': 'According to the report, projecting oil demand displacement from EV adoption requires the integration of three analytical layers:\n\n*   The annual sales trajectory for new EVs.\n*   The retirement rate of the existing internal combustion engine (ICE) fleet.\n*   The average annual mileage and fuel economy of the vehicles being displaced.\n\nThe report notes that because there are approximately 1.4 billion passenger vehicles globally—the vast majority being ICE vehicles—and because vehicle lifetimes typically range from 15 to 20 years (or longer in developing markets), complete fleet electrification cannot occur in less than two decades.\n\nRegarding the impact of these trajectories, the report finds:\n*   **Near term (through 2030):** EV penetration will shave "meaningful but modest" volumes from global oil demand growth, likely delaying demand peaks rather than preventing them and offering only partial insulation against supply-driven price shocks.\n*   **Long term (2030–2050):** Cumulative fleet electrification could reduce oil demand by 20 to 30 million barrels per day, which is considered large enough to fundamentally restructure the oil supply curve and materially compress it.', 'extras': {'signature': 'EnEKbwFpFH0TSQsGVfGku00dJyd7YSODm1gpYSoFjy0Ejcs/Ov1AXSKp/nG0UPCU7BlWYyG80+Mh4mzS3w+OAI1HJLzyvXn9OwuQkjk1VnyTa4ZPR8iYnZBU+2nfA/MbgNPQDiNv6of3qN/ulTAXMD4/Lw=='}}] additional_kwargs={} response_metadata={'finish_reason': 'STOP', 'model_name': 'gemini-3.1-flash-lite', 'safety_ratings': [], 'model_provider': 'google_genai'} id='lc_run--01a0c539-ab3a-7c32-97e6-7e6ceb0c598f-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 891, 'output_tokens': 241, 'total_tokens': 1132, 'input_token_details': {'cache_read': 0}}
+22/09/2026 12:00:16 AM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+22/09/2026 12:00:17 AM | INFO     | utils.py:get_llm:19 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+22/09/2026 12:00:30 AM | INFO     | utils.py:load_hf_embedding_model:43 - Embedding model initiated successfully: google/embeddinggemma-300m
+22/09/2026 12:00:31 AM | INFO     | utils.py:get_chroma_vector_store:62 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+22/09/2026 12:00:31 AM | INFO     | utils.py:get_chroma_vector_store:70 - Vector store 'agentic_rag_demo' initialized successfully.
+22/09/2026 12:00:31 AM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+22/09/2026 12:00:31 AM | INFO     | step_0.py:ingest_documents:38 - Collection already contains 51 chunks. Skipping ingestion.
+22/09/2026 12:00:32 AM | INFO     | step_1.py:<module>:125 - Graph saved to root directory
+22/09/2026 12:00:32 AM | INFO     | step_1.py:decide_retrieval_node:33 - Deciding whether to retrieve documents or not.
+22/09/2026 12:00:35 AM | INFO     | step_0.py:retrieve_node:69 - Retrieving documents.
+22/09/2026 12:00:35 AM | INFO     | step_1.py:generate_node:52 - Generating response.
+22/09/2026 12:00:37 AM | INFO     | step_1.py:<module>:134 - Response
+22/09/2026 12:00:37 AM | INFO     | step_1.py:<module>:135 - content=[{'type': 'text', 'text': 'The provided text does not contain information regarding the temperature of New Delhi.', 'extras': {'signature': 'EnEKbwFpFH0TBXdv1pR4NlhUkoVVELmd8Tb/H0/gIhzOU4cDHJuEorWsNUN1/OfDO5XNXHH8h55KwVkMbKKHo/ZJKyt30EEt8udqMFIJwYLZ+vkVdFICSXc45uNlwVk2NJ1CB3WnvFYJXw2lfmWW7eNICg=='}}] additional_kwargs={} response_metadata={'finish_reason': 'STOP', 'model_name': 'gemini-3.1-flash-lite', 'safety_ratings': [], 'model_provider': 'google_genai'} id='lc_run--01a0c53b-f2f7-74f0-b246-f2bd19145159-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 572, 'output_tokens': 14, 'total_tokens': 586, 'input_token_details': {'cache_read': 0}}
+22/09/2026 12:03:03 AM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+22/09/2026 12:03:04 AM | INFO     | utils.py:get_llm:19 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+22/09/2026 12:03:14 AM | INFO     | utils.py:load_hf_embedding_model:43 - Embedding model initiated successfully: google/embeddinggemma-300m
+22/09/2026 12:03:14 AM | INFO     | utils.py:get_chroma_vector_store:62 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+22/09/2026 12:03:14 AM | INFO     | utils.py:get_chroma_vector_store:70 - Vector store 'agentic_rag_demo' initialized successfully.
+22/09/2026 12:03:14 AM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+22/09/2026 12:03:14 AM | INFO     | step_0.py:ingest_documents:38 - Collection already contains 51 chunks. Skipping ingestion.
+22/09/2026 12:03:14 AM | INFO     | step_1.py:<module>:125 - Graph saved to root directory
+22/09/2026 12:03:15 AM | INFO     | step_1.py:decide_retrieval_node:33 - Deciding whether to retrieve documents or not.
+22/09/2026 12:03:17 AM | INFO     | step_1.py:generate_node:52 - Generating response.
+22/09/2026 12:03:21 AM | INFO     | step_1.py:<module>:134 - Response
+22/09/2026 12:03:21 AM | INFO     | step_1.py:<module>:135 - content=[{'type': 'text', 'text': 'The capital of India is **New Delhi**.', 'extras': {'signature': 'EnEKbwFpFH0TdtSHwHQmp19y1l5FySy1sJFGSDqAi4jGDJGevPB1GYj8v8Xz7gfH1Cs/vNRGALVicFgnXMgj7YWM3P6CheCjY0qFu9XW1BM9wh7MrBO5IfHP96Fnb7feuY7iB8SdYbP8rs2fdKtEKvptUg=='}}] additional_kwargs={} response_metadata={'finish_reason': 'STOP', 'model_name': 'gemini-3.1-flash-lite', 'safety_ratings': [], 'model_provider': 'google_genai'} id='lc_run--01a0c53e-6b7f-70d1-b8c2-19ae8eca8b82-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 16, 'output_tokens': 9, 'total_tokens': 25, 'input_token_details': {'cache_read': 0}}

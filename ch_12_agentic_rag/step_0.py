@@ -12,7 +12,7 @@ from utils.utils import get_chroma_vector_store, get_llm, load_hf_embedding_mode
 
 logger = get_logger()
 
-logger.info("Agentic RAG step_1 execution started.")
+logger.info("Agentic RAG step_0 execution started.")
 
 llm = get_llm()
 
@@ -66,6 +66,7 @@ class State(MessagesState):
 
 # retrieve node
 def retrieve_node(state: State) -> State:
+    logger.info("Retrieving documents.")
     docs = retriever.invoke(state.get("query"))
     context = "\n\n".join(doc.page_content for doc in docs)
     return {"retrieved_docs": docs, "context": context}
@@ -73,6 +74,7 @@ def retrieve_node(state: State) -> State:
 
 # generate node
 def generate_node(state: State) -> State:
+    logger.info("Generating response.")
     query = state.get("query")
     context = state.get("context", "")
     prompt_template = ChatPromptTemplate.from_messages(
