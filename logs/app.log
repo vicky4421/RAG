@@ -1171,3 +1171,27 @@ Maternity Leave: As per statutory norms
 20/09/2026 03:10:40 PM | INFO     | step_7.py:<module>:215 - Evidence: None
 20/09/2026 03:10:40 PM | INFO     | step_7.py:<module>:216 - Retries: None
 20/09/2026 03:10:40 PM | INFO     | step_7.py:<module>:217 - Useful reason: None
+21/09/2026 10:56:35 PM | INFO     | step_0.py:<module>:15 - Agentic RAG step_1 execution started.
+21/09/2026 10:56:37 PM | INFO     | utils.py:get_llm:19 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+21/09/2026 10:56:49 PM | INFO     | utils.py:load_hf_embedding_model:43 - Embedding model initiated successfully: google/embeddinggemma-300m
+21/09/2026 10:56:49 PM | INFO     | utils.py:get_chroma_vector_store:62 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+21/09/2026 10:56:50 PM | INFO     | utils.py:get_chroma_vector_store:70 - Vector store 'agentic_rag_demo' initialized successfully.
+21/09/2026 10:57:17 PM | INFO     | step_0.py:<module>:15 - Agentic RAG step_1 execution started.
+21/09/2026 10:57:19 PM | INFO     | utils.py:get_llm:19 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+21/09/2026 10:57:30 PM | INFO     | utils.py:load_hf_embedding_model:43 - Embedding model initiated successfully: google/embeddinggemma-300m
+21/09/2026 10:57:30 PM | INFO     | utils.py:get_chroma_vector_store:62 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+21/09/2026 10:57:30 PM | INFO     | utils.py:get_chroma_vector_store:70 - Vector store 'agentic_rag_demo' initialized successfully.
+21/09/2026 10:57:30 PM | INFO     | step_0.py:ingest_documents:42 - Loading docs.
+21/09/2026 10:57:31 PM | INFO     | step_0.py:ingest_documents:50 - Splitting docs
+21/09/2026 10:57:59 PM | INFO     | step_0.py:<module>:112 - Graph saved to root directory
+21/09/2026 10:58:06 PM | INFO     | step_0.py:<module>:118 - Response
+21/09/2026 10:58:06 PM | INFO     | step_0.py:<module>:119 - [{'type': 'text', 'text': 'Based on the provided text, during the transition period of roughly 2024 to 2035, EV fleets will be large enough to reduce oil demand growth, but not yet large enough to provide a substantial buffer against supply shocks.', 'extras': {'signature': 'EnEKbwFpFH0TjMhJ9sXh7n67Ur4mNCP5jiFVAtVb4WA0I212ey9usJyeA4oGb6ONYZlCQIBHI5Gv6vxzADK8OGi9ew+LzSk8JC9FrqDsuFd5tpM0l+RMX4xUYwpI8X6853aUoEmOsUCsEYofEwZuyNdoPg=='}}]
+21/09/2026 10:59:26 PM | INFO     | step_0.py:<module>:15 - Agentic RAG step_1 execution started.
+21/09/2026 10:59:27 PM | INFO     | utils.py:get_llm:19 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+21/09/2026 10:59:36 PM | INFO     | utils.py:load_hf_embedding_model:43 - Embedding model initiated successfully: google/embeddinggemma-300m
+21/09/2026 10:59:36 PM | INFO     | utils.py:get_chroma_vector_store:62 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+21/09/2026 10:59:36 PM | INFO     | utils.py:get_chroma_vector_store:70 - Vector store 'agentic_rag_demo' initialized successfully.
+21/09/2026 10:59:36 PM | INFO     | step_0.py:ingest_documents:38 - Collection already contains 51 chunks. Skipping ingestion.
+21/09/2026 10:59:37 PM | INFO     | step_0.py:<module>:112 - Graph saved to root directory
+21/09/2026 10:59:42 PM | INFO     | step_0.py:<module>:118 - Response
+21/09/2026 10:59:42 PM | INFO     | step_0.py:<module>:119 - Based on the provided text, during the transition period of roughly 2024 to 2035, EV fleets will be large enough to reduce oil demand growth, but not yet large enough to provide a substantial buffer against supply shocks.
