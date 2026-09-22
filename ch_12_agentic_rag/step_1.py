@@ -126,10 +126,15 @@ if __name__ == "__main__":
 
     result: State = app.invoke(
         {
-            "query": "What is the capital of india?",
+            "query": "What is the temperature of new delhi?",
             "messages": [],
         }
     )
 
-    logger.info("Response")
-    logger.info(result.get("response"))
+    logger.info(f"Retrieval needed: {result.get('needs_retrieval')}")
+    if result.get("retrieved_docs"):
+        logger.info(f"Length of retrieved docs: {len(result.get('retrieved_docs'))}")
+    else:
+        logger.info("No docs retrieved.")
+    logger.info(f"Query: {result.get('query')}")
+    logger.info(f"Response: {result.get('response').content[0]['text']}")
