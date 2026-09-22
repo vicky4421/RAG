@@ -23,5 +23,6 @@ dependencies = [
     "rapidocr>=3.9.2",
     "rapidocr-onnxruntime>=1.4.4",
     "sentence-transformers>=6.0.1",
+    "tavily>=1.1.0",
     "tiktoken>=0.14.0",
 ]
