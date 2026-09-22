@@ -23,6 +23,16 @@ def get_llm(model: str = "google_genai:gemini-3.1-flash-lite", temp: float = 0.0
         raise
 
 
+def get_agent_llm(model: str = "google_genai:gemini-3.1-flash-lite", temp: float = 0.0):
+    try:
+        llm = init_chat_model(model=model, temperature=temp)
+        logger.info(f"Agent LLM initiated successfully: {model}")
+        return llm
+    except Exception as e:
+        logger.critical(f"Unexpected error initializing llm: {e}")
+        raise
+
+
 def load_hf_embedding_model(
     *,
     model_kwargs: dict | None = None,
