@@ -8,6 +8,7 @@ class Node(StrEnum):
     AGENT = "agent"
     TOOL = "tool"
     TOOL_OUTPUT = "tool_output"
+    INCREMENT_TOOL_CALL = "increment_tool_call"
 
 
 class RouteVerdict(StrEnum):
@@ -15,3 +16,4 @@ class RouteVerdict(StrEnum):
     GENERATE_DIRECT = "direct_generate"
     TOOLS_REQUIRED = "tools_required"
     TOOLS_COMPLETE = "tools_complete"
+    TOOL_CALL_LIMIT_REACHED = "tool_call_limit_reached"
