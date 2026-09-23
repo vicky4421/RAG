@@ -113,13 +113,13 @@ def agent_node(state: State) -> State:
     messages = state.get("messages")
 
     # DEBUG: checking messages
-    for idx, msg in enumerate(messages):
-        tool_call_info = (
-            f" | Tool calls: {msg.tool_calls}" if hasattr(msg, "tool_calls") else ""
-        )
-        logger.debug(
-            f"[{idx}] {msg.__class__.__name__}: {str(msg.content)[:80]}...{tool_call_info}"
-        )
+    # for idx, msg in enumerate(messages):
+    #     tool_call_info = (
+    #         f" | Tool calls: {msg.tool_calls}" if hasattr(msg, "tool_calls") else ""
+    #     )
+    #     logger.debug(
+    #         f"[{idx}] {msg.__class__.__name__}: {str(msg.content)[:80]}...{tool_call_info}"
+    #     )
 
     if not messages:
         messages = [
