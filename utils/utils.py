@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 from langchain.chat_models import init_chat_model
 from langchain_chroma import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
+from tavily import TavilyClient
 
 from utils.logger import get_logger
 
@@ -79,3 +80,13 @@ def get_chroma_vector_store(
 
     logger.info(f"Vector store '{collection_name}' initialized successfully.")
     return vector_store
+
+
+def get_tavily_client() -> TavilyClient:
+    try:
+        client = TavilyClient(api_key=os.getenv("TAVILY_API_KEY"))
+        logger.info("Tavily Client initiated successfully.")
+        return client
+    except Exception as e:
+        logger.critical(f"Unexpected error initializing tavily client: {e}")
+        raise
