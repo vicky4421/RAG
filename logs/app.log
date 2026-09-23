@@ -1332,3 +1332,833 @@ Maternity Leave: As per statutory norms
 22/09/2026 10:32:13 AM | INFO     | step_1.py:<module>:136 - Length of retrieved docs: 4
 22/09/2026 10:32:13 AM | INFO     | step_1.py:<module>:139 - Query: What is the temperature of new delhi?
 22/09/2026 10:32:13 AM | INFO     | step_1.py:<module>:140 - Response: The provided text does not contain information regarding the temperature of New Delhi.
+22/09/2026 04:00:38 PM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+22/09/2026 04:00:39 PM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+22/09/2026 04:00:57 PM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+22/09/2026 04:00:57 PM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+22/09/2026 04:00:58 PM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+22/09/2026 04:00:58 PM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+22/09/2026 04:00:58 PM | INFO     | step_2.py:<module>:20 - Agentic RAG step_2 execution started.
+22/09/2026 04:00:58 PM | INFO     | utils.py:get_tavily_client:88 - Tavily Client initiated successfully.
+22/09/2026 04:00:59 PM | INFO     | utils.py:get_agent_llm:30 - Agent LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+22/09/2026 04:03:41 PM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+22/09/2026 04:03:42 PM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+22/09/2026 04:03:54 PM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+22/09/2026 04:03:54 PM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+22/09/2026 04:03:54 PM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+22/09/2026 04:03:54 PM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+22/09/2026 04:03:54 PM | INFO     | step_2.py:<module>:20 - Agentic RAG step_2 execution started.
+22/09/2026 04:03:54 PM | INFO     | utils.py:get_tavily_client:88 - Tavily Client initiated successfully.
+22/09/2026 04:03:54 PM | INFO     | utils.py:get_agent_llm:30 - Agent LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+22/09/2026 04:03:54 PM | INFO     | step_0.py:ingest_documents:38 - Collection already contains 51 chunks. Skipping ingestion.
+22/09/2026 04:03:59 PM | INFO     | step_2.py:<module>:186 - Graph saved to root directory
+22/09/2026 04:03:59 PM | INFO     | step_1.py:decide_retrieval_node:33 - Deciding whether to retrieve documents or not.
+22/09/2026 04:13:04 PM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+22/09/2026 04:13:06 PM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+22/09/2026 04:13:23 PM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+22/09/2026 04:13:23 PM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+22/09/2026 04:13:23 PM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+22/09/2026 04:13:23 PM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+22/09/2026 04:13:23 PM | INFO     | step_2.py:<module>:24 - Agentic RAG step_2 execution started.
+22/09/2026 04:13:23 PM | INFO     | utils.py:get_tavily_client:88 - Tavily Client initiated successfully.
+22/09/2026 04:13:24 PM | INFO     | utils.py:get_agent_llm:30 - Agent LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+22/09/2026 04:13:24 PM | INFO     | step_0.py:ingest_documents:38 - Collection already contains 51 chunks. Skipping ingestion.
+22/09/2026 04:13:26 PM | INFO     | step_2.py:<module>:181 - Graph saved to root directory
+22/09/2026 04:13:26 PM | INFO     | step_1.py:decide_retrieval_node:33 - Deciding whether to retrieve documents or not.
+22/09/2026 04:13:29 PM | INFO     | step_2.py:agent_node:106 - Agent deciding which tool to call.
+22/09/2026 04:13:41 PM | INFO     | step_2.py:vector_store_search_tool:43 - Tool called: vector_store_search
+22/09/2026 04:13:41 PM | INFO     | step_2.py:agent_node:106 - Agent deciding which tool to call.
+22/09/2026 04:22:50 PM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+22/09/2026 04:22:52 PM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+22/09/2026 04:23:05 PM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+22/09/2026 04:23:06 PM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+22/09/2026 04:23:06 PM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+22/09/2026 04:23:06 PM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+22/09/2026 04:23:06 PM | INFO     | step_2.py:<module>:24 - Agentic RAG step_2 execution started.
+22/09/2026 04:23:06 PM | INFO     | utils.py:get_tavily_client:88 - Tavily Client initiated successfully.
+22/09/2026 04:23:06 PM | INFO     | utils.py:get_agent_llm:30 - Agent LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+22/09/2026 04:23:06 PM | INFO     | step_0.py:ingest_documents:38 - Collection already contains 51 chunks. Skipping ingestion.
+22/09/2026 04:23:07 PM | INFO     | step_2.py:<module>:181 - Graph saved to root directory
+22/09/2026 04:23:07 PM | INFO     | step_1.py:decide_retrieval_node:33 - Deciding whether to retrieve documents or not.
+22/09/2026 04:25:43 PM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+22/09/2026 04:25:44 PM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+22/09/2026 04:25:57 PM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+22/09/2026 04:25:57 PM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+22/09/2026 04:25:57 PM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+22/09/2026 04:25:57 PM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+22/09/2026 04:25:57 PM | INFO     | step_2.py:<module>:24 - Agentic RAG step_2 execution started.
+22/09/2026 04:25:57 PM | INFO     | utils.py:get_tavily_client:88 - Tavily Client initiated successfully.
+22/09/2026 04:25:58 PM | INFO     | utils.py:get_agent_llm:30 - Agent LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+22/09/2026 04:25:58 PM | INFO     | step_0.py:ingest_documents:38 - Collection already contains 51 chunks. Skipping ingestion.
+22/09/2026 04:26:00 PM | INFO     | step_2.py:<module>:181 - Graph saved to root directory
+22/09/2026 04:26:00 PM | INFO     | step_1.py:decide_retrieval_node:33 - Deciding whether to retrieve documents or not.
+22/09/2026 04:26:04 PM | INFO     | step_2.py:agent_node:106 - Agent deciding which tool to call.
+22/09/2026 04:26:07 PM | INFO     | step_2.py:vector_store_search_tool:43 - Tool called: vector_store_search
+22/09/2026 04:26:07 PM | INFO     | step_2.py:agent_node:106 - Agent deciding which tool to call.
+22/09/2026 04:26:10 PM | INFO     | step_2.py:collect_tool_output_node:119 - Collecting tool output.
+22/09/2026 04:26:10 PM | INFO     | step_1.py:generate_node:52 - Generating response.
+22/09/2026 04:26:22 PM | INFO     | step_2.py:<module>:192 - Retrieval needed: True
+22/09/2026 04:26:22 PM | INFO     | step_2.py:<module>:194 - Length of retrieved docs: 1
+22/09/2026 04:26:22 PM | INFO     | step_2.py:<module>:197 - Query: According to the report, how will adoption of electic vehicles impact oil demand?
+22/09/2026 04:29:56 PM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+22/09/2026 04:29:57 PM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+22/09/2026 04:30:11 PM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+22/09/2026 04:30:11 PM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+22/09/2026 04:30:11 PM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+22/09/2026 04:30:11 PM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+22/09/2026 04:30:11 PM | INFO     | step_2.py:<module>:24 - Agentic RAG step_2 execution started.
+22/09/2026 04:30:11 PM | INFO     | utils.py:get_tavily_client:88 - Tavily Client initiated successfully.
+22/09/2026 04:30:12 PM | INFO     | utils.py:get_agent_llm:30 - Agent LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+22/09/2026 04:30:12 PM | INFO     | step_0.py:ingest_documents:38 - Collection already contains 51 chunks. Skipping ingestion.
+22/09/2026 04:30:14 PM | INFO     | step_2.py:<module>:191 - Graph saved to root directory
+22/09/2026 04:30:14 PM | INFO     | step_1.py:decide_retrieval_node:33 - Deciding whether to retrieve documents or not.
+22/09/2026 04:30:17 PM | INFO     | step_2.py:agent_node:106 - Agent deciding which tool to call.
+22/09/2026 04:30:20 PM | INFO     | step_2.py:vector_store_search_tool:43 - Tool called: vector_store_search
+22/09/2026 04:30:20 PM | INFO     | step_2.py:agent_node:106 - Agent deciding which tool to call.
+22/09/2026 04:30:20 PM | DEBUG    | step_2.py:agent_node:114 - [0] SystemMessage: You are a retrieval agent with access to two tools:
+
+1. vector_store_search — us...
+22/09/2026 04:30:20 PM | DEBUG    | step_2.py:agent_node:114 - [1] HumanMessage: According to the report, how will adoption of electic vehicles impact oil demand...
+22/09/2026 04:30:20 PM | DEBUG    | step_2.py:agent_node:114 - [2] AIMessage: []... | Tool calls: [{'name': 'vector_store_search_tool', 'args': {'query': 'impact of electric vehicle adoption on oil demand'}, 'id': 'call_194518', 'type': 'tool_call'}]
+22/09/2026 04:30:20 PM | DEBUG    | step_2.py:agent_node:114 - [3] ToolMessage: 
+
+**Vector Store Results**
+
+Will EVs Dampen the Oil Price Shock?
+Version 1.0
+Res...
+22/09/2026 04:30:26 PM | INFO     | step_2.py:collect_tool_output_node:129 - Collecting tool output.
+22/09/2026 04:30:26 PM | INFO     | step_1.py:generate_node:52 - Generating response.
+22/09/2026 04:30:29 PM | INFO     | step_2.py:<module>:202 - Retrieval needed: True
+22/09/2026 04:30:29 PM | INFO     | step_2.py:<module>:204 - Length of retrieved docs: 1
+22/09/2026 04:30:29 PM | INFO     | step_2.py:<module>:207 - Query: According to the report, how will adoption of electic vehicles impact oil demand?
+22/09/2026 04:30:29 PM | INFO     | step_2.py:<module>:208 - Response: None
+22/09/2026 04:36:25 PM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+22/09/2026 04:36:27 PM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+22/09/2026 04:36:43 PM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+22/09/2026 04:36:43 PM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+22/09/2026 04:36:44 PM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+22/09/2026 04:36:44 PM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+22/09/2026 04:36:44 PM | INFO     | step_2.py:<module>:24 - Agentic RAG step_2 execution started.
+22/09/2026 04:36:44 PM | INFO     | utils.py:get_tavily_client:88 - Tavily Client initiated successfully.
+22/09/2026 04:36:45 PM | INFO     | utils.py:get_agent_llm:30 - Agent LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+22/09/2026 04:36:45 PM | INFO     | step_0.py:ingest_documents:38 - Collection already contains 51 chunks. Skipping ingestion.
+22/09/2026 04:36:46 PM | INFO     | step_2.py:<module>:192 - Graph saved to root directory
+22/09/2026 04:36:46 PM | INFO     | step_1.py:decide_retrieval_node:33 - Deciding whether to retrieve documents or not.
+22/09/2026 04:36:53 PM | INFO     | step_2.py:agent_node:107 - Agent deciding which tool to call.
+22/09/2026 04:36:57 PM | INFO     | step_2.py:vector_store_search_tool:44 - Tool called: vector_store_search
+22/09/2026 04:36:57 PM | INFO     | step_2.py:agent_node:107 - Agent deciding which tool to call.
+22/09/2026 04:36:57 PM | DEBUG    | step_2.py:agent_node:115 - [0] SystemMessage: You are a retrieval agent with access to two tools:
+
+1. vector_store_search — us...
+22/09/2026 04:36:57 PM | DEBUG    | step_2.py:agent_node:115 - [1] HumanMessage: According to the report, how will adoption of electic vehicles impact oil demand...
+22/09/2026 04:36:57 PM | DEBUG    | step_2.py:agent_node:115 - [2] AIMessage: []... | Tool calls: [{'name': 'vector_store_search_tool', 'args': {'query': 'impact of electric vehicle adoption on oil demand'}, 'id': 'call_159196', 'type': 'tool_call'}]
+22/09/2026 04:36:57 PM | DEBUG    | step_2.py:agent_node:115 - [3] ToolMessage: 
+
+**Vector Store Results**
+
+Will EVs Dampen the Oil Price Shock?
+Version 1.0
+Res...
+22/09/2026 04:37:02 PM | INFO     | step_2.py:collect_tool_output_node:130 - Collecting tool output.
+22/09/2026 04:37:02 PM | INFO     | step_1.py:generate_node:52 - Generating response.
+22/09/2026 04:37:11 PM | INFO     | step_2.py:<module>:203 - Retrieval needed: True
+22/09/2026 04:37:11 PM | INFO     | step_2.py:<module>:205 - Length of retrieved docs: 1
+22/09/2026 04:37:11 PM | INFO     | step_2.py:<module>:208 - Query: According to the report, how will adoption of electic vehicles impact oil demand?
+22/09/2026 04:37:11 PM | INFO     | step_2.py:<module>:209 - Response: According to the report, the adoption of electric vehicles impacts oil demand through the following channels:
+
+*   **Demand Destruction:** As fewer internal combustion engine (ICE) vehicles are on the road, there is a reduction in the consumption of gasoline and diesel, which decreases the total quantity of oil demanded at any given price.
+*   **Displacement:** The mass displacement of ICE vehicles by EVs is expected to reduce oil demand, with the pace of this displacement potentially accelerating as adoption shifts from policy-driven to market-driven once a parity threshold is crossed.
+*   **Autonomous Shared Mobility:** The integration of autonomous shared mobility could further reduce the total number of vehicles needed to satisfy mobility demand, leading to faster and more complete oil demand displacement compared to the electrification of the private vehicle fleet alone.
+23/09/2026 10:34:33 AM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+23/09/2026 10:34:34 AM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+23/09/2026 10:34:44 AM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+23/09/2026 10:34:44 AM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+23/09/2026 10:34:44 AM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+23/09/2026 10:34:44 AM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+23/09/2026 10:34:44 AM | INFO     | step_2.py:<module>:24 - Agentic RAG step_2 execution started.
+23/09/2026 10:34:44 AM | INFO     | utils.py:get_tavily_client:88 - Tavily Client initiated successfully.
+23/09/2026 10:34:44 AM | INFO     | utils.py:get_agent_llm:30 - Agent LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+23/09/2026 10:34:44 AM | INFO     | step_0.py:ingest_documents:38 - Collection already contains 51 chunks. Skipping ingestion.
+23/09/2026 10:34:47 AM | INFO     | step_2.py:<module>:192 - Graph saved to root directory
+23/09/2026 10:34:47 AM | INFO     | step_1.py:decide_retrieval_node:33 - Deciding whether to retrieve documents or not.
+23/09/2026 10:34:50 AM | INFO     | step_2.py:agent_node:107 - Agent deciding which tool to call.
+23/09/2026 10:34:53 AM | INFO     | step_2.py:vector_store_search_tool:44 - Tool called: vector_store_search
+23/09/2026 10:34:53 AM | INFO     | step_2.py:agent_node:107 - Agent deciding which tool to call.
+23/09/2026 10:34:53 AM | DEBUG    | step_2.py:agent_node:115 - [0] SystemMessage: You are a retrieval agent with access to two tools:
+
+1. vector_store_search — us...
+23/09/2026 10:34:53 AM | DEBUG    | step_2.py:agent_node:115 - [1] HumanMessage: According to the report, how will adoption of electic vehicles impact oil demand...
+23/09/2026 10:34:53 AM | DEBUG    | step_2.py:agent_node:115 - [2] AIMessage: []... | Tool calls: [{'name': 'vector_store_search_tool', 'args': {'query': 'impact of electric vehicle adoption on oil demand'}, 'id': 'call_420363', 'type': 'tool_call'}]
+23/09/2026 10:34:53 AM | DEBUG    | step_2.py:agent_node:115 - [3] ToolMessage: 
+
+**Vector Store Results**
+
+Will EVs Dampen the Oil Price Shock?
+Version 1.0
+Res...
+23/09/2026 10:34:58 AM | INFO     | step_2.py:collect_tool_output_node:130 - Collecting tool output.
+23/09/2026 10:34:58 AM | INFO     | step_1.py:generate_node:52 - Generating response.
+23/09/2026 10:35:01 AM | INFO     | step_2.py:<module>:203 - Retrieval needed: True
+23/09/2026 10:35:01 AM | INFO     | step_2.py:<module>:205 - Length of retrieved docs: 3
+23/09/2026 10:35:01 AM | INFO     | step_2.py:<module>:208 - Query: According to the report, how will adoption of electic vehicles impact oil demand?
+23/09/2026 10:35:01 AM | INFO     | step_2.py:<module>:209 - Response: According to the report, the adoption of electric vehicles impacts oil demand through the following channels:
+
+*   **Demand Destruction:** As fewer internal combustion engine (ICE) vehicles are on the road, there is a reduction in the consumption of gasoline and diesel, which decreases the total quantity of oil demanded at any given price.
+*   **Displacement:** The mass displacement of ICE vehicles by EVs is expected to reduce oil demand, with the pace of this displacement potentially accelerating as adoption shifts from policy-driven to market-driven once a parity threshold is crossed.
+*   **Autonomous Shared Mobility:** The integration of autonomous shared mobility could further reduce the total number of vehicles needed to satisfy mobility demand, leading to faster and more complete oil demand displacement compared to the electrification of the private vehicle fleet alone.
+23/09/2026 10:45:52 AM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+23/09/2026 10:45:53 AM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+23/09/2026 10:46:02 AM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+23/09/2026 10:46:02 AM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+23/09/2026 10:46:02 AM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+23/09/2026 10:46:02 AM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+23/09/2026 10:46:02 AM | INFO     | step_2.py:<module>:24 - Agentic RAG step_2 execution started.
+23/09/2026 10:46:02 AM | INFO     | utils.py:get_tavily_client:88 - Tavily Client initiated successfully.
+23/09/2026 10:46:02 AM | INFO     | utils.py:get_agent_llm:30 - Agent LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+23/09/2026 10:46:02 AM | INFO     | step_0.py:ingest_documents:38 - Collection already contains 51 chunks. Skipping ingestion.
+23/09/2026 10:46:04 AM | INFO     | step_2.py:<module>:192 - Graph saved to root directory
+23/09/2026 10:46:04 AM | INFO     | step_1.py:decide_retrieval_node:33 - Deciding whether to retrieve documents or not.
+23/09/2026 10:46:07 AM | INFO     | step_2.py:agent_node:107 - Agent deciding which tool to call.
+23/09/2026 10:46:09 AM | INFO     | step_2.py:web_search_tool:63 - Tool called: web search
+23/09/2026 10:46:14 AM | INFO     | step_2.py:agent_node:107 - Agent deciding which tool to call.
+23/09/2026 10:46:14 AM | DEBUG    | step_2.py:agent_node:115 - [0] SystemMessage: You are a retrieval agent with access to two tools:
+
+1. vector_store_search — us...
+23/09/2026 10:46:14 AM | DEBUG    | step_2.py:agent_node:115 - [1] HumanMessage: What is the current temperature of new delhi?...
+23/09/2026 10:46:14 AM | DEBUG    | step_2.py:agent_node:115 - [2] AIMessage: []... | Tool calls: [{'name': 'web_search_tool', 'args': {'query': 'current temperature New Delhi'}, 'id': 'call_405760', 'type': 'tool_call'}]
+23/09/2026 10:46:14 AM | DEBUG    | step_2.py:agent_node:115 - [3] ToolMessage: 
+
+**Web Search Results**Today's weather will start with a cloudy morning as temp...
+23/09/2026 10:46:16 AM | INFO     | step_2.py:collect_tool_output_node:130 - Collecting tool output.
+23/09/2026 10:46:16 AM | INFO     | step_1.py:generate_node:52 - Generating response.
+23/09/2026 10:46:20 AM | INFO     | step_2.py:<module>:203 - Retrieval needed: True
+23/09/2026 10:46:20 AM | INFO     | step_2.py:<module>:205 - Length of retrieved docs: 3
+23/09/2026 10:46:20 AM | INFO     | step_2.py:<module>:208 - Query: What is the current temperature of new delhi?
+23/09/2026 10:46:20 AM | INFO     | step_2.py:<module>:209 - Response: The provided context does not contain information regarding the current temperature of New Delhi.
+23/09/2026 10:52:49 AM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+23/09/2026 10:52:50 AM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+23/09/2026 10:52:59 AM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+23/09/2026 10:53:00 AM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+23/09/2026 10:53:00 AM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+23/09/2026 10:53:00 AM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+23/09/2026 10:53:00 AM | INFO     | step_2.py:<module>:24 - Agentic RAG step_2 execution started.
+23/09/2026 10:53:00 AM | INFO     | utils.py:get_tavily_client:88 - Tavily Client initiated successfully.
+23/09/2026 10:53:00 AM | INFO     | utils.py:get_agent_llm:30 - Agent LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+23/09/2026 10:53:01 AM | INFO     | step_0.py:ingest_documents:38 - Collection already contains 51 chunks. Skipping ingestion.
+23/09/2026 10:53:03 AM | INFO     | step_2.py:<module>:194 - Graph saved to root directory
+23/09/2026 10:53:03 AM | INFO     | step_1.py:decide_retrieval_node:33 - Deciding whether to retrieve documents or not.
+23/09/2026 10:53:07 AM | INFO     | step_2.py:agent_node:109 - Agent deciding which tool to call.
+23/09/2026 10:53:09 AM | INFO     | step_2.py:web_search_tool:63 - Tool called: web search
+23/09/2026 10:53:10 AM | INFO     | step_2.py:web_search_tool:76 - Content returned from Tavily: 
+
+
+**Web Search Results**1. What is the current temperature in New Delhi today - 22 September 2026?
+
+The current temperature in New Delhi is 28°C, with a feels-like temperature of 28°C. Today's forecast shows a high of 36°C and a low of 27°C, giving a 9 degree swing through the day as of 07:00 AM 22 September 2026.
+
+2. What are the current weather parameters in New Delhi today? [...] Here is a complete overview of New Delhi's current weather conditions as of 07:00 AM 22 September 2026:
+Condition : Sunny
+Temperature : 28°C Pleasant (Feels like 28°C)
+Humidity : 48%
+Wind Speed : 4.7 km/h from ENE (67 degrees), Gust 5.3 m/s
+UV Index : 0.4 (Low
+Air Pressure : 1009 mb
+Cloud Cover : 0%
+Visibility : 10 km
+Precipitation : 0 mm (1% chance of rain)
+
+3. What is the 10-day weather forecast for New Delhi from 07:00 AM 22 September 2026? [...] From 07:00 AM 22 September 2026, New Delhi's 10-day forecast shows this trend:
+Today (Sep. 22) : Temp. 32°C, Hum. 36% and Sunny condition.
+Wednesday (Sep. 23) : Temp. 33°C, Hum. 34% and Smoky haze condition.
+Thursday (Sep. 24) : Temp. 32°C, Hum. 39% and Sunny condition.
+Friday (Sep. 25) : Temp. 31°C, Hum. 50% and Sunny condition.
+Saturday (Sep. 26) : Temp. 31°C, Hum. 48% and Sunny condition.
+Sunday (Sep. 27) : Temp. 31°C, Hum. 50% and Sunny condition.
+
+|
+
+# New Delhi, DL, IN Current Weather
+
+New Delhi, DL, IN
+
+Updated9 minutes ago
+
+°C
+
+H:36°   L:26°
+
+## Hourly
+
+Full 72 hours
+
+2pm
+
+Sunny
+
+36°
+
+Feels 40
+
+POP
+
+0%
+
+3pm
+
+Sunny
+
+36°
+
+Feels 39
+
+POP
+
+0%
+
+4pm
+
+Sunny
+
+35°
+
+Feels 38
+
+POP
+
+0%
+
+5pm
+
+Sunny
+
+34°
+
+Feels 37
+
+POP
+
+0%
+
+6pm
+
+Sunny
+
+33°
+
+Feels 35
+
+POP
+
+0%
+
+Clear throughout the next 12 hours.
+
+## Today’s Conditions
+
+ --
+
+  Sunrise
+
+  --
+
+  Sunset
+
+  --
+
+  No Data Available
+ Wind
+
+  --
+
+  Gust:
+
+  --
+
+  No Data Available
+ Pressure
+
+  -- [...] 35°
+
+What is the “feels like” temperature in New Delhi?
+
+What is the high and low temperature today in New Delhi?
+
+36°
+
+26°
+
+What is the probability of rain or snow today in New Delhi?
+
+0% P.O.P.
+
+How much will it rain or snow today in New Delhi?
+
+None expected
+
+What is the current wind speed and direction in New Delhi?
+
+7 km/h SW
+
+What is the current humidity level in New Delhi?
+
+Are there any active weather alerts in New Delhi?
+
+What is the UV index right now in New Delhi? [...] Seeing (or inhaling) a lot of aphids lately? Here’s why and what to do about it
+ 
+
+  2:15
+
+  Stink Bugs: Are these little invaders a concern?
+
+## Weather for more locations
+
+Vacation
+
+Schools
+
+Ski
+
+Airports
+
+Cottage
+
+Attractions
+
+Parks
+
+Golf
+
+Camping
+
+Beaches
+
+Marine
+
+Content continues below
+
+## Monthly
+
+Historical Averages
+
+T
+
+S
+
+Historical Avg.
+
+Historical comparison:
+
+## Weather FAQ for New Delhi, DL, IN
+
+What is the current temperature in New Delhi?
+
+35°
+
+EMBLEM
+
+#### Urban Meteorological Services for Delhi - NCR
+
+#### India Meteorological Department
+
+#### Ministry of Earth Sciences
+
+#### Government of India
+
+IMD_LOGO
+
+### Interactive Display of weather and Thunderstorm warnings
+
+ AmaranthWeather
+
+##### Current Weather Across Delhi - NCR
+
+### New Delhi
+
+ 30.6 °C
+ East-southeasterly  
+   7.4 km/h
+ 81 %
+
+Forecast
+
+### Palam
+
+ 30.0 °C
+ Southeasterly  
+   11.1 km/h
+ 84 %
+
+Forecast
+
+### Ayanagar
+
+ 34.2 °C
+ Calm  
+   0 km/h
+ 69 %
+
+Forecast [...] ### Jahangirpuri
+
+ 28.4 °C
+ 1.5 km/h
+ 41.5 %
+
+### Mandi Marg
+
+ NA °C
+ NA
+ 80.0 %
+
+### MDCN Stadium
+
+ 28.4 °C
+ 2 km/h
+ 39.8 %
+
+### Mundka
+
+ 29.9 °C
+ Calm  
+   NA
+ 42.5 %
+
+### Narela
+
+ 31.0 °C
+ 0.6 km/h
+ 38.8 %
+
+### Nehru Nagar
+
+ 31.2 °C
+ 3.3 km/h
+ 71.5 %
+
+### Okhla Phase2
+
+ 29.3 °C
+ 2 km/h
+ 41.0 %
+
+### Punjabi Bagh
+
+ 31.8 °C
+ 1.1 km/h
+ 40.5 %
+
+### R K Puram
+
+ 30.4 °C
+ 1.3 km/h
+ 39.0 %
+
+### Rohini
+
+ 32.1 °C
+ 11.1 km/h
+ 39.8 %
+
+### Shadipur
+
+ 24.6 °C
+ 0.9 km/h
+ 31.7 %
+
+### Sonia Vihar [...] ### Sector 125
+
+ NA °C
+ Calm  
+   NA
+ NA %
+
+### Sector 62
+
+ NA °C
+ Calm  
+   NA
+ NA %
+
+### K park-III
+
+ 23.4 °C
+ NA
+ NA %
+
+### K park-V
+
+ 27.8 °C
+ 5.7 km/h
+ 29.0 %
+
+### Vasundhara
+
+ 27.2 °C
+ 3.7 km/h
+ 51.5 %
+
+### Indirapuram
+
+ 26.0 °C
+ 3.3 km/h
+ 43.0 %
+
+### Loni
+
+ 20.6 °C
+ 4.3 km/h
+ 47.0 %
+
+© Copyright 2022, Develop by IT Team IMD, India Meteorological Department  
+Ministry of Earth Sciences, New Delhi, India
+23/09/2026 10:53:10 AM | INFO     | step_2.py:agent_node:109 - Agent deciding which tool to call.
+23/09/2026 10:53:10 AM | DEBUG    | step_2.py:agent_node:117 - [0] SystemMessage: You are a retrieval agent with access to two tools:
+
+1. vector_store_search — us...
+23/09/2026 10:53:10 AM | DEBUG    | step_2.py:agent_node:117 - [1] HumanMessage: What is the current temperature of new delhi?...
+23/09/2026 10:53:10 AM | DEBUG    | step_2.py:agent_node:117 - [2] AIMessage: []... | Tool calls: [{'name': 'web_search_tool', 'args': {'query': 'current temperature New Delhi'}, 'id': 'call_343979', 'type': 'tool_call'}]
+23/09/2026 10:53:10 AM | DEBUG    | step_2.py:agent_node:117 - [3] ToolMessage: 
+
+**Web Search Results**1. What is the current temperature in New Delhi today - ...
+23/09/2026 10:53:13 AM | INFO     | step_2.py:collect_tool_output_node:132 - Collecting tool output.
+23/09/2026 10:53:13 AM | INFO     | step_1.py:generate_node:52 - Generating response.
+23/09/2026 10:53:17 AM | INFO     | step_2.py:<module>:205 - Retrieval needed: True
+23/09/2026 10:53:17 AM | INFO     | step_2.py:<module>:207 - Length of retrieved docs: 3
+23/09/2026 10:53:17 AM | INFO     | step_2.py:<module>:210 - Query: What is the current temperature of new delhi?
+23/09/2026 10:53:17 AM | INFO     | step_2.py:<module>:211 - Response: Based on the provided context, there are multiple current temperature readings for New Delhi depending on the specific source and location:
+
+*   **General/Forecast data:** One source lists the current temperature as **28°C** (as of 07:00 AM, 22 September 2026), while another section of the document lists it as **35°C**.
+*   **Urban Meteorological Services (IMD) data:** Various locations across Delhi-NCR report different temperatures, such as **30.6°C** in New Delhi, **30.0°C** in Palam, **34.2°C** in Ayanagar, and others ranging from **20.6°C** to **32.1°C**.
+23/09/2026 11:05:06 AM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+23/09/2026 11:05:07 AM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+23/09/2026 11:05:15 AM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+23/09/2026 11:05:16 AM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+23/09/2026 11:05:16 AM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+23/09/2026 11:05:16 AM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+23/09/2026 11:05:16 AM | INFO     | step_2.py:<module>:24 - Agentic RAG step_2 execution started.
+23/09/2026 11:05:16 AM | INFO     | utils.py:get_tavily_client:88 - Tavily Client initiated successfully.
+23/09/2026 11:05:16 AM | INFO     | utils.py:get_agent_llm:30 - Agent LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+23/09/2026 11:05:16 AM | INFO     | step_0.py:ingest_documents:38 - Collection already contains 51 chunks. Skipping ingestion.
+23/09/2026 11:05:20 AM | INFO     | step_2.py:<module>:193 - Graph saved to root directory
+23/09/2026 11:05:20 AM | INFO     | step_1.py:decide_retrieval_node:33 - Deciding whether to retrieve documents or not.
+23/09/2026 11:05:23 AM | INFO     | step_2.py:agent_node:108 - Agent deciding which tool to call.
+23/09/2026 11:05:27 AM | INFO     | step_2.py:vector_store_search_tool:44 - Tool called: vector_store_search
+23/09/2026 11:05:27 AM | INFO     | step_2.py:web_search_tool:63 - Tool called: web search
+23/09/2026 11:05:29 AM | INFO     | step_2.py:agent_node:108 - Agent deciding which tool to call.
+23/09/2026 11:05:29 AM | DEBUG    | step_2.py:agent_node:116 - [0] SystemMessage: You are a retrieval agent with access to two tools:
+
+1. vector_store_search — us...
+23/09/2026 11:05:29 AM | DEBUG    | step_2.py:agent_node:116 - [1] HumanMessage: Compare what EV report projects for 2030 oil demand with current oil demand due ...
+23/09/2026 11:05:29 AM | DEBUG    | step_2.py:agent_node:116 - [2] AIMessage: []... | Tool calls: [{'name': 'vector_store_search_tool', 'args': {'query': 'projected oil demand 2030 EV report'}, 'id': 'call_406721', 'type': 'tool_call'}, {'name': 'web_search_tool', 'args': {'query': 'current impact of Iran-US tensions on global oil demand 2024 2025'}, 'id': 'call_406722', 'type': 'tool_call'}]
+23/09/2026 11:05:29 AM | DEBUG    | step_2.py:agent_node:116 - [3] ToolMessage: 
+
+**Vector Store Results**
+
+Energy Agency, and McKinsey collectively project tha...
+23/09/2026 11:05:29 AM | DEBUG    | step_2.py:agent_node:116 - [4] ToolMessage: 
+
+**Web Search Results**The current round of US–Iran tensions, following the twe...
+23/09/2026 11:05:35 AM | INFO     | step_2.py:collect_tool_output_node:131 - Collecting tool output.
+23/09/2026 11:05:35 AM | INFO     | step_1.py:generate_node:52 - Generating response.
+23/09/2026 11:05:42 AM | INFO     | step_2.py:<module>:204 - Retrieval needed: True
+23/09/2026 11:05:42 AM | INFO     | step_2.py:<module>:206 - Length of retrieved docs: 6
+23/09/2026 11:05:42 AM | INFO     | step_2.py:<module>:209 - Query: Compare what EV report projects for 2030 oil demand with current oil demand due to Iran-US war.
+23/09/2026 11:05:42 AM | INFO     | step_2.py:<module>:210 - Response: Based on the provided documents, here is the comparison between the EV report's projections for 2030 and the current oil market situation regarding Iran:
+
+**EV Report Projections for 2030**
+*   **Displacement Estimates:** There is a significant gap between projections regarding how much oil demand EVs will displace by 2030. The IEA and other projections suggest a higher impact, while OPEC’s central scenario estimates that EVs will displace only 2 to 3 million barrels per day by 2030.
+*   **Overall Impact:** The report concludes that through 2030, EV penetration will shave "meaningful but modest" volumes from global oil demand growth, likely delaying rather than preventing demand peaks.
+
+**Current Oil Demand/Market Impact (Iran-US Conflict)**
+*   **Production Levels:** In 2025, Iran produced approximately 3.5 million barrels per day (mb/d) of crude oil and 0.8 mb/d of condensate, totaling about 4% of global oil supply.
+*   **Market Disruption:** The conflict has created a risk premium, with traders demanding about $14 more per barrel of oil. 
+*   **Supply Risk:** A potential disruption in the region could remove "base supply" rather than just marginal barrels, creating a physical deficit. While core GCC producers have been ramping up production toward 16 mb/d, a conflict-driven halt in flows through the Strait of Hormuz would significantly impact global supply, with the risk premium currently reflecting the potential effect of a full four-week halt in those flows.
+
+**Comparison**
+While the EV report focuses on a long-term, structural reduction in oil demand (projecting a displacement of 2–3 million barrels per day by 2030 under OPEC's scenario), the current Iran-US conflict represents a short-term, supply-side volatility issue. The potential loss of Iranian supply or a disruption in the Strait of Hormuz poses an immediate threat to global supply levels that exceeds the daily volume of oil currently being displaced by the global EV fleet.
+23/09/2026 11:10:12 AM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+23/09/2026 11:10:13 AM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+23/09/2026 11:10:25 AM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+23/09/2026 11:10:25 AM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+23/09/2026 11:10:25 AM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+23/09/2026 11:10:25 AM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+23/09/2026 11:10:25 AM | INFO     | step_2.py:<module>:24 - Agentic RAG step_2 execution started.
+23/09/2026 11:10:25 AM | INFO     | utils.py:get_tavily_client:88 - Tavily Client initiated successfully.
+23/09/2026 11:10:26 AM | INFO     | utils.py:get_agent_llm:30 - Agent LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+23/09/2026 11:10:26 AM | INFO     | step_0.py:ingest_documents:38 - Collection already contains 51 chunks. Skipping ingestion.
+23/09/2026 11:10:30 AM | INFO     | step_2.py:<module>:193 - Graph saved to root directory
+23/09/2026 11:10:30 AM | INFO     | step_1.py:decide_retrieval_node:33 - Deciding whether to retrieve documents or not.
+23/09/2026 11:10:34 AM | INFO     | step_1.py:generate_node:52 - Generating response.
+23/09/2026 11:10:40 AM | INFO     | step_2.py:<module>:204 - Retrieval needed: False
+23/09/2026 11:10:40 AM | INFO     | step_2.py:<module>:208 - No docs retrieved.
+23/09/2026 11:10:40 AM | INFO     | step_2.py:<module>:209 - Query: Explain the difference between kinetic energy and potential energy.
+23/09/2026 11:10:40 AM | INFO     | step_2.py:<module>:210 - Response: The fundamental difference between kinetic energy and potential energy lies in whether the energy is currently being used for motion or is being stored for later use.
+
+Here is a breakdown of the two:
+
+### 1. Kinetic Energy (Energy of Motion)
+Kinetic energy is the energy an object possesses **because it is moving**. If an object is at rest, its kinetic energy is zero.
+
+*   **Key Factor:** It depends on the object's **mass** and its **velocity** (speed). The faster an object moves or the heavier it is, the more kinetic energy it has.
+*   **Examples:**
+    *   A ball rolling down a hill.
+    *   A person running.
+    *   Air molecules moving to create wind.
+    *   Electricity (the flow of electrons).
+
+### 2. Potential Energy (Stored Energy)
+Potential energy is the energy an object possesses **because of its position or state**. It is "stored" energy that has the *potential* to be converted into other forms of energy (like kinetic energy) later.
+
+*   **Key Factor:** It depends on the object's **position** relative to a force (like gravity) or its **internal structure** (like a compressed spring).
+*   **Examples:**
+    *   **Gravitational Potential Energy:** A rock sitting at the edge of a cliff. It isn't moving, but if it falls, gravity will pull it down, converting that stored energy into kinetic energy.
+    *   **Elastic Potential Energy:** A stretched rubber band or a compressed spring.
+    *   **Chemical Potential Energy:** Energy stored in the bonds of food, gasoline, or batteries.
+
+---
+
+### The Relationship: Energy Transformation
+In the physical world, these two forms of energy are constantly transforming into one another. The **Law of Conservation of Energy** states that energy cannot be created or destroyed, only changed from one form to another.
+
+**A classic example: The Roller Coaster**
+*   As the roller coaster car is pulled to the very top of the first hill, it gains a massive amount of **potential energy** because of its height.
+*   As it begins to drop, that potential energy is converted into **kinetic energy** (speed).
+*   At the bottom of the hill, the car has its maximum kinetic energy.
+*   As it climbs the next hill, the kinetic energy is converted back into potential energy as it slows down and gains height.
+
+**Summary Table:**
+
+| Feature | Kinetic Energy | Potential Energy |
+| :--- | :--- | :--- |
+| **Definition** | Energy of motion | Stored energy |
+| **State** | Active | Passive (stored) |
+| **Depends on** | Mass and velocity | Position, height, or structure |
+| **Example** | A moving car | A parked car on a hill |
+23/09/2026 11:14:31 AM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+23/09/2026 11:14:32 AM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+23/09/2026 11:14:41 AM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+23/09/2026 11:14:41 AM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+23/09/2026 11:14:41 AM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+23/09/2026 11:14:41 AM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+23/09/2026 11:16:29 AM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+23/09/2026 11:16:30 AM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+23/09/2026 11:16:39 AM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+23/09/2026 11:16:39 AM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+23/09/2026 11:16:40 AM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+23/09/2026 11:16:40 AM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+23/09/2026 11:16:40 AM | INFO     | step_2.py:<module>:30 - Agentic RAG step_2 execution started.
+23/09/2026 11:16:40 AM | INFO     | utils.py:get_tavily_client:88 - Tavily Client initiated successfully.
+23/09/2026 11:16:40 AM | INFO     | utils.py:get_agent_llm:30 - Agent LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+23/09/2026 11:16:40 AM | INFO     | step_0.py:ingest_documents:38 - Collection already contains 51 chunks. Skipping ingestion.
+23/09/2026 11:16:40 AM | INFO     | step_2.py:<module>:199 - Graph saved to root directory
+23/09/2026 11:16:40 AM | INFO     | step_1.py:decide_retrieval_node:33 - Deciding whether to retrieve documents or not.
+23/09/2026 11:16:43 AM | INFO     | step_1.py:generate_node:52 - Generating response.
+23/09/2026 11:16:51 AM | INFO     | step_2.py:<module>:210 - Retrieval needed: False
+23/09/2026 11:16:51 AM | INFO     | step_2.py:<module>:214 - No docs retrieved.
+23/09/2026 11:16:51 AM | INFO     | step_2.py:<module>:215 - Query: Explain the difference between kinetic energy and potential energy.
+23/09/2026 11:16:51 AM | INFO     | step_2.py:<module>:216 - Response: The fundamental difference between kinetic energy and potential energy lies in whether the energy is currently being used for motion or is being stored for later use.
+
+Here is a breakdown of the two:
+
+### 1. Kinetic Energy (Energy of Motion)
+Kinetic energy is the energy an object possesses **because it is moving**. If an object is at rest, its kinetic energy is zero.
+
+*   **Key Factor:** It depends on the object's **mass** and its **velocity** (speed). The faster an object moves or the heavier it is, the more kinetic energy it has.
+*   **Examples:**
+    *   A ball rolling down a hill.
+    *   A person running.
+    *   Air molecules moving to create wind.
+    *   Electricity (the flow of electrons).
+
+### 2. Potential Energy (Stored Energy)
+Potential energy is the energy an object possesses **because of its position or state**. It is "stored" energy that has the *potential* to be converted into other forms of energy (like kinetic energy) later.
+
+*   **Key Factor:** It depends on the object's **position** relative to a force (like gravity) or its **internal structure** (like a compressed spring).
+*   **Examples:**
+    *   **Gravitational Potential Energy:** A rock sitting at the edge of a cliff. It isn't moving, but if it falls, gravity will pull it down, converting that stored energy into kinetic energy.
+    *   **Elastic Potential Energy:** A stretched rubber band or a compressed spring.
+    *   **Chemical Potential Energy:** Energy stored in the bonds of food, gasoline, or batteries.
+
+---
+
+### The Relationship: Energy Transformation
+In the physical world, these two forms of energy are constantly transforming into one another. The **Law of Conservation of Energy** states that energy cannot be created or destroyed, only changed from one form to another.
+
+**A classic example: The Roller Coaster**
+*   As the roller coaster car is pulled to the very top of the first hill, it gains a massive amount of **potential energy** because of its height.
+*   As it begins to drop, that potential energy is converted into **kinetic energy** (speed).
+*   At the bottom of the hill, the car has its maximum kinetic energy.
+*   As it climbs the next hill, the kinetic energy is converted back into potential energy as it slows down and gains height.
+
+**Summary Table:**
+
+| Feature | Kinetic Energy | Potential Energy |
+| :--- | :--- | :--- |
+| **Definition** | Energy of motion | Stored energy |
+| **State** | Active | Passive (stored) |
+| **Depends on** | Mass and velocity | Position, height, or structure |
+| **Example** | A moving car | A parked car on a hill |
+23/09/2026 11:19:04 AM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+23/09/2026 11:19:04 AM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+23/09/2026 11:19:13 AM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+23/09/2026 11:19:13 AM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+23/09/2026 11:19:14 AM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+23/09/2026 11:19:14 AM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+23/09/2026 01:54:54 PM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+23/09/2026 01:54:55 PM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+23/09/2026 01:55:08 PM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+23/09/2026 01:55:08 PM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+23/09/2026 01:55:09 PM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+23/09/2026 01:55:09 PM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+23/09/2026 01:55:09 PM | INFO     | step_2.py:<module>:28 - Agentic RAG step_2 execution started.
+23/09/2026 01:55:09 PM | INFO     | utils.py:get_tavily_client:88 - Tavily Client initiated successfully.
+23/09/2026 01:55:09 PM | INFO     | utils.py:get_agent_llm:30 - Agent LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+23/09/2026 01:55:09 PM | INFO     | step_0.py:ingest_documents:38 - Collection already contains 51 chunks. Skipping ingestion.
+23/09/2026 01:55:09 PM | INFO     | step_2.py:<module>:197 - Graph saved to root directory
+23/09/2026 01:55:09 PM | INFO     | step_1.py:decide_retrieval_node:33 - Deciding whether to retrieve documents or not.
+23/09/2026 01:55:13 PM | INFO     | step_1.py:generate_node:52 - Generating response.
+23/09/2026 01:55:18 PM | INFO     | step_2.py:<module>:208 - Retrieval needed: False
+23/09/2026 01:55:18 PM | INFO     | step_2.py:<module>:212 - No docs retrieved.
+23/09/2026 01:55:18 PM | INFO     | step_2.py:<module>:213 - Query: Explain the difference between kinetic energy and potential energy.
+23/09/2026 01:55:18 PM | INFO     | step_2.py:<module>:214 - Response: The fundamental difference between kinetic energy and potential energy lies in whether the energy is currently being used for motion or is being stored for later use.
+
+Here is a breakdown of the two:
+
+### 1. Kinetic Energy (Energy of Motion)
+Kinetic energy is the energy an object possesses **because it is moving**. If an object is at rest, its kinetic energy is zero.
+
+*   **Key Factor:** It depends on the object's **mass** and its **velocity** (speed). The faster an object moves or the heavier it is, the more kinetic energy it has.
+*   **Examples:**
+    *   A ball rolling down a hill.
+    *   A person running.
+    *   Air molecules moving to create wind.
+    *   Electricity (the flow of electrons).
+
+### 2. Potential Energy (Stored Energy)
+Potential energy is the energy an object possesses **because of its position or state**. It is "stored" energy that has the *potential* to be converted into other forms of energy (like kinetic energy) later.
+
+*   **Key Factor:** It depends on the object's **position** relative to a force (like gravity) or its **internal structure** (like a compressed spring).
+*   **Examples:**
+    *   **Gravitational Potential Energy:** A rock sitting at the edge of a cliff. It isn't moving, but if it falls, gravity will pull it down, converting that stored energy into kinetic energy.
+    *   **Elastic Potential Energy:** A stretched rubber band or a compressed spring.
+    *   **Chemical Potential Energy:** Energy stored in the bonds of food, gasoline, or batteries.
+
+---
+
+### The Relationship: Energy Transformation
+In the physical world, these two forms of energy are constantly transforming into one another. The **Law of Conservation of Energy** states that energy cannot be created or destroyed, only changed from one form to another.
+
+**A classic example: The Roller Coaster**
+*   As the roller coaster car is pulled to the very top of the first hill, it gains a massive amount of **potential energy** because of its height.
+*   As it begins to drop, that potential energy is converted into **kinetic energy** (speed).
+*   At the bottom of the hill, the car has its maximum kinetic energy.
+*   As it climbs the next hill, the kinetic energy is converted back into potential energy as it slows down and gains height.
+
+**Summary Table:**
+
+| Feature | Kinetic Energy | Potential Energy |
+| :--- | :--- | :--- |
+| **Definition** | Energy of motion | Stored energy |
+| **State** | Active | Passive (stored) |
+| **Depends on** | Mass and velocity | Position, height, or structure |
+| **Example** | A moving car | A parked car on a hill |
