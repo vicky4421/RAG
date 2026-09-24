@@ -2627,3 +2627,211 @@ In the physical world, these two forms of energy are constantly transforming int
 24/09/2026 12:20:24 AM | INFO     | step_4.py:<module>:335 - Rewrite counts: 0
 24/09/2026 12:20:24 AM | INFO     | step_4.py:<module>:336 - Query: What is the chemical symbol for lithium and what group of periodic table it belongs to?
 24/09/2026 12:20:24 AM | INFO     | step_4.py:<module>:337 - Response: content=[{'type': 'text', 'text': 'The chemical symbol for lithium is **Li**, and it belongs to **Group 1** of the periodic table (the alkali metals).', 'extras': {'signature': 'EnEKbwFpFH0TJoD2rHxSIoqUAFMoImGqg+lSrMVT6AR8gVlOCrWKv4YKbyjrrP+RjdZSwGTU5QFdup17T2Zdf/f/QpPV049TS3LXDZCPgIN6DCwyl2umOu1ciItY10ynAdJYecyZCBmLakAfN8pQhlJjcg=='}}] additional_kwargs={} response_metadata={'finish_reason': 'STOP', 'model_name': 'gemini-3.1-flash-lite', 'safety_ratings': [], 'model_provider': 'google_genai'} id='lc_run--01a0cf9a-c94f-76e3-ab49-0d82847f3077-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 27, 'output_tokens': 27, 'total_tokens': 54, 'input_token_details': {'cache_read': 0}}
+24/09/2026 03:26:18 PM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+24/09/2026 03:26:19 PM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+24/09/2026 03:26:32 PM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+24/09/2026 03:26:32 PM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+24/09/2026 03:26:33 PM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+24/09/2026 03:26:33 PM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+24/09/2026 03:26:33 PM | INFO     | step_2.py:<module>:28 - Agentic RAG step_2 execution started.
+24/09/2026 03:26:33 PM | INFO     | utils.py:get_tavily_client:88 - Tavily Client initiated successfully.
+24/09/2026 03:26:34 PM | INFO     | utils.py:get_agent_llm:30 - Agent LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+24/09/2026 03:26:34 PM | INFO     | step_4.py:<module>:30 - Agentic RAG step_4 execution started.
+24/09/2026 03:26:34 PM | INFO     | step_5.py:<module>:38 - Agentic RAG step_5 execution started.
+24/09/2026 03:30:29 PM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+24/09/2026 03:30:30 PM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+24/09/2026 03:30:46 PM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+24/09/2026 03:30:46 PM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+24/09/2026 03:30:46 PM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+24/09/2026 03:30:46 PM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+24/09/2026 03:30:46 PM | INFO     | step_2.py:<module>:28 - Agentic RAG step_2 execution started.
+24/09/2026 03:30:46 PM | INFO     | utils.py:get_tavily_client:88 - Tavily Client initiated successfully.
+24/09/2026 03:30:47 PM | INFO     | utils.py:get_agent_llm:30 - Agent LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+24/09/2026 03:30:47 PM | INFO     | step_4.py:<module>:30 - Agentic RAG step_4 execution started.
+24/09/2026 03:30:47 PM | INFO     | step_5.py:<module>:37 - Agentic RAG step_5 execution started.
+24/09/2026 03:33:04 PM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+24/09/2026 03:33:04 PM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+24/09/2026 03:33:17 PM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+24/09/2026 03:33:17 PM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+24/09/2026 03:33:18 PM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+24/09/2026 03:33:18 PM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+24/09/2026 03:33:18 PM | INFO     | step_2.py:<module>:28 - Agentic RAG step_2 execution started.
+24/09/2026 03:33:18 PM | INFO     | utils.py:get_tavily_client:88 - Tavily Client initiated successfully.
+24/09/2026 03:33:18 PM | INFO     | utils.py:get_agent_llm:30 - Agent LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+24/09/2026 03:33:18 PM | INFO     | step_4.py:<module>:30 - Agentic RAG step_4 execution started.
+24/09/2026 03:33:18 PM | INFO     | step_5.py:<module>:36 - Agentic RAG step_5 execution started.
+24/09/2026 03:34:47 PM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+24/09/2026 03:34:48 PM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+24/09/2026 03:35:01 PM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+24/09/2026 03:35:01 PM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+24/09/2026 03:35:01 PM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+24/09/2026 03:35:01 PM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+24/09/2026 03:35:01 PM | INFO     | step_2.py:<module>:28 - Agentic RAG step_2 execution started.
+24/09/2026 03:35:01 PM | INFO     | utils.py:get_tavily_client:88 - Tavily Client initiated successfully.
+24/09/2026 03:35:02 PM | INFO     | utils.py:get_agent_llm:30 - Agent LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+24/09/2026 03:35:02 PM | INFO     | step_4.py:<module>:30 - Agentic RAG step_4 execution started.
+24/09/2026 03:35:02 PM | INFO     | step_5.py:<module>:36 - Agentic RAG step_5 execution started.
+24/09/2026 03:36:22 PM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+24/09/2026 03:36:23 PM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+24/09/2026 03:36:34 PM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+24/09/2026 03:36:34 PM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+24/09/2026 03:36:34 PM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+24/09/2026 03:36:34 PM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+24/09/2026 03:36:34 PM | INFO     | step_2.py:<module>:28 - Agentic RAG step_2 execution started.
+24/09/2026 03:36:34 PM | INFO     | utils.py:get_tavily_client:88 - Tavily Client initiated successfully.
+24/09/2026 03:36:35 PM | INFO     | utils.py:get_agent_llm:30 - Agent LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+24/09/2026 03:36:35 PM | INFO     | step_4.py:<module>:30 - Agentic RAG step_4 execution started.
+24/09/2026 03:36:35 PM | INFO     | step_5.py:<module>:35 - Agentic RAG step_5 execution started.
+24/09/2026 03:37:33 PM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+24/09/2026 03:37:33 PM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+24/09/2026 03:37:45 PM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+24/09/2026 03:37:45 PM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+24/09/2026 03:37:45 PM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+24/09/2026 03:37:45 PM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+24/09/2026 03:37:45 PM | INFO     | step_2.py:<module>:28 - Agentic RAG step_2 execution started.
+24/09/2026 03:37:45 PM | INFO     | utils.py:get_tavily_client:88 - Tavily Client initiated successfully.
+24/09/2026 03:37:46 PM | INFO     | utils.py:get_agent_llm:30 - Agent LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+24/09/2026 03:37:46 PM | INFO     | step_4.py:<module>:30 - Agentic RAG step_4 execution started.
+24/09/2026 03:37:46 PM | INFO     | step_5.py:<module>:34 - Agentic RAG step_5 execution started.
+24/09/2026 03:42:46 PM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+24/09/2026 03:42:47 PM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+24/09/2026 03:43:09 PM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+24/09/2026 03:43:09 PM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+24/09/2026 03:43:09 PM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+24/09/2026 03:43:09 PM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+24/09/2026 03:43:09 PM | INFO     | step_2.py:<module>:28 - Agentic RAG step_2 execution started.
+24/09/2026 03:43:09 PM | INFO     | utils.py:get_tavily_client:88 - Tavily Client initiated successfully.
+24/09/2026 03:43:11 PM | INFO     | utils.py:get_agent_llm:30 - Agent LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+24/09/2026 03:43:11 PM | INFO     | step_4.py:<module>:30 - Agentic RAG step_4 execution started.
+24/09/2026 03:43:11 PM | INFO     | step_5.py:<module>:33 - Agentic RAG step_5 execution started.
+24/09/2026 03:46:08 PM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+24/09/2026 03:46:08 PM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+24/09/2026 03:46:20 PM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+24/09/2026 03:46:20 PM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+24/09/2026 03:46:20 PM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+24/09/2026 03:46:20 PM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+24/09/2026 03:46:20 PM | INFO     | step_2.py:<module>:28 - Agentic RAG step_2 execution started.
+24/09/2026 03:46:20 PM | INFO     | utils.py:get_tavily_client:88 - Tavily Client initiated successfully.
+24/09/2026 03:46:21 PM | INFO     | utils.py:get_agent_llm:30 - Agent LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+24/09/2026 03:46:21 PM | INFO     | step_4.py:<module>:30 - Agentic RAG step_4 execution started.
+24/09/2026 03:46:21 PM | INFO     | step_5.py:<module>:32 - Agentic RAG step_5 execution started.
+24/09/2026 03:49:16 PM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+24/09/2026 03:49:16 PM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+24/09/2026 03:49:33 PM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+24/09/2026 03:49:33 PM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+24/09/2026 03:49:33 PM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+24/09/2026 03:49:33 PM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+24/09/2026 03:49:33 PM | INFO     | step_2.py:<module>:28 - Agentic RAG step_2 execution started.
+24/09/2026 03:49:33 PM | INFO     | utils.py:get_tavily_client:88 - Tavily Client initiated successfully.
+24/09/2026 03:49:34 PM | INFO     | utils.py:get_agent_llm:30 - Agent LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+24/09/2026 03:49:34 PM | INFO     | step_4.py:<module>:30 - Agentic RAG step_4 execution started.
+24/09/2026 03:49:34 PM | INFO     | step_5.py:<module>:30 - Agentic RAG step_5 execution started.
+24/09/2026 03:49:34 PM | INFO     | step_0.py:ingest_documents:38 - Collection already contains 51 chunks. Skipping ingestion.
+24/09/2026 03:49:39 PM | INFO     | step_5.py:<module>:408 - Graph saved to root directory
+24/09/2026 03:50:15 PM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+24/09/2026 03:50:16 PM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+24/09/2026 03:50:32 PM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+24/09/2026 03:50:32 PM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+24/09/2026 03:50:32 PM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+24/09/2026 03:50:32 PM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+24/09/2026 03:50:32 PM | INFO     | step_2.py:<module>:28 - Agentic RAG step_2 execution started.
+24/09/2026 03:50:32 PM | INFO     | utils.py:get_tavily_client:88 - Tavily Client initiated successfully.
+24/09/2026 03:50:33 PM | INFO     | utils.py:get_agent_llm:30 - Agent LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+24/09/2026 03:50:33 PM | INFO     | step_4.py:<module>:30 - Agentic RAG step_4 execution started.
+24/09/2026 03:50:33 PM | INFO     | step_0.py:ingest_documents:38 - Collection already contains 51 chunks. Skipping ingestion.
+24/09/2026 03:51:27 PM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+24/09/2026 03:51:28 PM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+24/09/2026 03:51:39 PM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+24/09/2026 03:51:39 PM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+24/09/2026 03:51:39 PM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+24/09/2026 03:51:39 PM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+24/09/2026 03:51:39 PM | INFO     | step_2.py:<module>:28 - Agentic RAG step_2 execution started.
+24/09/2026 03:51:39 PM | INFO     | utils.py:get_tavily_client:88 - Tavily Client initiated successfully.
+24/09/2026 03:51:39 PM | INFO     | utils.py:get_agent_llm:30 - Agent LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+24/09/2026 03:51:39 PM | INFO     | step_4.py:<module>:30 - Agentic RAG step_4 execution started.
+24/09/2026 03:51:40 PM | INFO     | step_0.py:ingest_documents:38 - Collection already contains 51 chunks. Skipping ingestion.
+24/09/2026 03:51:41 PM | INFO     | step_4.py:<module>:316 - Graph saved to root directory
+24/09/2026 03:51:41 PM | INFO     | step_1.py:decide_retrieval_node:33 - Deciding whether to retrieve documents or not.
+24/09/2026 03:51:45 PM | INFO     | step_4.py:generate_node:174 - Generating response
+24/09/2026 03:51:47 PM | INFO     | step_4.py:<module>:329 - Retrieval needed: False
+24/09/2026 03:51:47 PM | INFO     | step_4.py:<module>:333 - No docs retrieved.
+24/09/2026 03:51:47 PM | INFO     | step_4.py:<module>:334 - No. of tool calls: None
+24/09/2026 03:51:47 PM | INFO     | step_4.py:<module>:335 - Rewrite counts: 0
+24/09/2026 03:51:47 PM | INFO     | step_4.py:<module>:336 - Query: What is the chemical symbol for lithium and what group of periodic table it belongs to?
+24/09/2026 03:51:47 PM | INFO     | step_4.py:<module>:337 - Response: content=[{'type': 'text', 'text': 'The chemical symbol for lithium is **Li**, and it belongs to **Group 1** of the periodic table (the alkali metals).', 'extras': {'signature': 'EnEKbwFpFH0T/M352CEUTVwsNUIdZKIZ1hQv7TV4bVdl4xMNfYfZcHp/E+CvtodGyQxMDHucMuQpzbkwbma+D2P5ESjrtCbr52Zn87LyK04G36SFrzorEPkjpHVJScEQJDbZ7Vbdb46R+FkWYqQQjJW1CQ=='}}] additional_kwargs={} response_metadata={'finish_reason': 'STOP', 'model_name': 'gemini-3.1-flash-lite', 'safety_ratings': [], 'model_provider': 'google_genai'} id='lc_run--01a0d2ef-7bdf-7000-a08f-cf85fb2b29df-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 27, 'output_tokens': 27, 'total_tokens': 54, 'input_token_details': {'cache_read': 0}}
+24/09/2026 03:52:07 PM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+24/09/2026 03:52:09 PM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+24/09/2026 03:52:23 PM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+24/09/2026 03:52:23 PM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+24/09/2026 03:52:24 PM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+24/09/2026 03:52:24 PM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+24/09/2026 03:52:24 PM | INFO     | step_2.py:<module>:28 - Agentic RAG step_2 execution started.
+24/09/2026 03:52:24 PM | INFO     | utils.py:get_tavily_client:88 - Tavily Client initiated successfully.
+24/09/2026 03:52:25 PM | INFO     | utils.py:get_agent_llm:30 - Agent LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+24/09/2026 03:52:25 PM | INFO     | step_4.py:<module>:30 - Agentic RAG step_4 execution started.
+24/09/2026 03:52:25 PM | INFO     | step_5.py:<module>:30 - Agentic RAG step_5 execution started.
+24/09/2026 03:52:25 PM | INFO     | step_0.py:ingest_documents:38 - Collection already contains 51 chunks. Skipping ingestion.
+24/09/2026 03:52:27 PM | INFO     | step_5.py:<module>:408 - Graph saved to root directory
+24/09/2026 03:56:48 PM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+24/09/2026 03:56:49 PM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+24/09/2026 03:57:01 PM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+24/09/2026 03:57:02 PM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+24/09/2026 03:57:02 PM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+24/09/2026 03:57:02 PM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+24/09/2026 03:57:02 PM | INFO     | step_2.py:<module>:28 - Agentic RAG step_2 execution started.
+24/09/2026 03:57:02 PM | INFO     | utils.py:get_tavily_client:88 - Tavily Client initiated successfully.
+24/09/2026 03:57:02 PM | INFO     | utils.py:get_agent_llm:30 - Agent LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+24/09/2026 03:57:02 PM | INFO     | step_4.py:<module>:30 - Agentic RAG step_4 execution started.
+24/09/2026 03:57:02 PM | INFO     | step_5.py:<module>:30 - Agentic RAG step_5 execution started.
+24/09/2026 03:57:02 PM | INFO     | step_0.py:ingest_documents:38 - Collection already contains 51 chunks. Skipping ingestion.
+24/09/2026 03:57:04 PM | INFO     | step_5.py:<module>:408 - Graph saved to root directory
+24/09/2026 03:57:04 PM | INFO     | step_1.py:decide_retrieval_node:33 - Deciding whether to retrieve documents or not.
+24/09/2026 03:57:07 PM | INFO     | step_5.py:decide_decomposition_node:56 - Checking if query needed decomposition
+24/09/2026 03:57:12 PM | INFO     | step_5.py:agent_node:122 - Agent deciding which tool to call.
+24/09/2026 03:57:14 PM | INFO     | step_2.py:vector_store_search_tool:48 - Tool called: vector_store_search
+24/09/2026 03:57:14 PM | INFO     | step_5.py:increment_tool_call_count_node:146 - Incrementing tool call count.
+24/09/2026 03:57:14 PM | INFO     | step_5.py:agent_node:122 - Agent deciding which tool to call.
+24/09/2026 03:57:24 PM | INFO     | step_5.py:collect_tool_output_node:154 - Collecting tool output.
+24/09/2026 03:57:24 PM | INFO     | step_5.py:evaluate_docs_node:169 - Evaluating docs.
+24/09/2026 03:57:36 PM | INFO     | step_5.py:generate_node:245 - Generating response
+24/09/2026 03:57:53 PM | INFO     | step_5.py:<module>:421 - Retrieval needed: True
+24/09/2026 03:57:53 PM | INFO     | step_5.py:<module>:423 - Length of retrieved docs: 3
+24/09/2026 03:57:53 PM | INFO     | step_5.py:<module>:426 - No. of tool calls: 1
+24/09/2026 03:57:53 PM | INFO     | step_5.py:<module>:427 - Rewrite counts: 0
+24/09/2026 03:57:53 PM | INFO     | step_5.py:<module>:428 - Query: According to report, how many million barrels per day could a 300 million EV fleet displace oil demand by 2030?
+24/09/2026 03:57:53 PM | INFO     | step_5.py:<module>:429 - Response: content=[{'type': 'text', 'text': 'According to the report, a fleet of 300 million EVs would displace approximately 4.6 million barrels of oil per day by 2030.', 'extras': {'signature': 'EnEKbwFpFH0TZK0iL0aYbvYeCsROiRtBDdhEAIuvzit+dlKWVawXBYN9tFi+UHkX7GxeNBOKBLmcsZ7rWMzWE2i68weACk0yXUwL1HYClS/+SqyNcUrS2Cbi2Q9N6XVfphptEijgZG/9NYRs9WNzE3vReQ=='}}] additional_kwargs={} response_metadata={'finish_reason': 'STOP', 'model_name': 'gemini-3.1-flash-lite', 'safety_ratings': [], 'model_provider': 'google_genai'} id='lc_run--01a0d2f4-d90f-72f1-b347-72fdb99208b6-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 262, 'output_tokens': 34, 'total_tokens': 296, 'input_token_details': {'cache_read': 0}}
+24/09/2026 03:59:42 PM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+24/09/2026 03:59:43 PM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+24/09/2026 03:59:56 PM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+24/09/2026 03:59:57 PM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+24/09/2026 03:59:57 PM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+24/09/2026 03:59:57 PM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+24/09/2026 03:59:57 PM | INFO     | step_2.py:<module>:28 - Agentic RAG step_2 execution started.
+24/09/2026 03:59:57 PM | INFO     | utils.py:get_tavily_client:88 - Tavily Client initiated successfully.
+24/09/2026 03:59:57 PM | INFO     | utils.py:get_agent_llm:30 - Agent LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+24/09/2026 03:59:57 PM | INFO     | step_4.py:<module>:30 - Agentic RAG step_4 execution started.
+24/09/2026 03:59:57 PM | INFO     | step_5.py:<module>:30 - Agentic RAG step_5 execution started.
+24/09/2026 03:59:57 PM | INFO     | step_0.py:ingest_documents:38 - Collection already contains 51 chunks. Skipping ingestion.
+24/09/2026 03:59:58 PM | INFO     | step_5.py:<module>:408 - Graph saved to root directory
+24/09/2026 03:59:58 PM | INFO     | step_1.py:decide_retrieval_node:33 - Deciding whether to retrieve documents or not.
+24/09/2026 04:00:02 PM | INFO     | step_5.py:decide_decomposition_node:56 - Checking if query needed decomposition
+24/09/2026 04:00:07 PM | INFO     | step_5.py:decompose_query_node:77 - Decomposing user query.
+24/09/2026 04:00:14 PM | INFO     | step_5.py:decompose_query_node:95 - Subqueries: Step 1: What is the impact of electric vehicles on the oil industry?
+Step 2: What is the current price of Brent crude oil in USD?
+24/09/2026 04:00:14 PM | INFO     | step_5.py:agent_node:122 - Agent deciding which tool to call.
+24/09/2026 04:00:16 PM | INFO     | step_2.py:vector_store_search_tool:48 - Tool called: vector_store_search
+24/09/2026 04:00:16 PM | INFO     | step_2.py:web_search_tool:67 - Tool called: web search
+24/09/2026 04:00:19 PM | INFO     | step_5.py:increment_tool_call_count_node:146 - Incrementing tool call count.
+24/09/2026 04:00:19 PM | INFO     | step_5.py:agent_node:122 - Agent deciding which tool to call.
+24/09/2026 04:00:24 PM | INFO     | step_5.py:collect_tool_output_node:154 - Collecting tool output.
+24/09/2026 04:00:24 PM | INFO     | step_5.py:evaluate_docs_node:169 - Evaluating docs.
+24/09/2026 04:00:41 PM | INFO     | step_5.py:generate_node:245 - Generating response
+24/09/2026 04:00:43 PM | INFO     | step_5.py:<module>:421 - Retrieval needed: True
+24/09/2026 04:00:43 PM | INFO     | step_5.py:<module>:423 - Length of retrieved docs: 6
+24/09/2026 04:00:43 PM | INFO     | step_5.py:<module>:426 - No. of tool calls: 1
+24/09/2026 04:00:43 PM | INFO     | step_5.py:<module>:427 - Rewrite counts: 0
+24/09/2026 04:00:43 PM | INFO     | step_5.py:<module>:428 - Query: Step 1: What is the impact of electric vehicles on the oil industry?
+Step 2: What is the current price of Brent crude oil in USD?
+24/09/2026 04:00:43 PM | INFO     | step_5.py:<module>:429 - Response: Step 1: The provided context does not contain information regarding the impact of electric vehicles on the oil industry.
+
+Step 2: The current price of Brent crude oil is 99.00 USD per barrel.
