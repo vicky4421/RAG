@@ -237,7 +237,7 @@ def route_after_evaluation(state: State) -> RouteVerdict:
 
 
 # route after rewriting query
-def route_after_rewrite(state: State) -> RouteVerdict:
+def route_after_rewrite_decision(state: State) -> RouteVerdict:
     return (
         RouteVerdict.DO_NOT_REWRITE
         if state.get("rewrite_count", 0) >= 3
@@ -297,7 +297,7 @@ graph.add_conditional_edges(
 )
 graph.add_conditional_edges(
     source=Node.REWRITE_QUERY,
-    path=route_after_rewrite,
+    path=route_after_rewrite_decision,
     path_map={
         RouteVerdict.NEED_TO_REWRITE: Node.AGENT,
         RouteVerdict.DO_NOT_REWRITE: Node.GENERATE_RESPONSE,
