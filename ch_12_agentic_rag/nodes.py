@@ -11,6 +11,8 @@ class Node(StrEnum):
     INCREMENT_TOOL_CALL = "increment_tool_call"
     EVALUATE_DOCS = "evaluate_docs"
     REWRITE_QUERY = "rewrite_query"
+    DECIDE_DECOMPOSITION = "decide_decomposition"
+    DECOMPOSE = "decompose"
 
 
 class RouteVerdict(StrEnum):
@@ -23,3 +25,5 @@ class RouteVerdict(StrEnum):
     DOCS_ARE_NOT_RELEVANT = "docs_are_not_relevant"
     DO_NOT_REWRITE = "don't_rewrite"
     NEED_TO_REWRITE = "need_to_rewrite"
+    NEED_DECOMPOSITION = "need_decomposition"
+    DO_NOT_NEED_DECOMPOSITION = "do_not_need_decomposition"
