@@ -2835,3 +2835,620 @@ Step 2: What is the current price of Brent crude oil in USD?
 24/09/2026 04:00:43 PM | INFO     | step_5.py:<module>:429 - Response: Step 1: The provided context does not contain information regarding the impact of electric vehicles on the oil industry.
 
 Step 2: The current price of Brent crude oil is 99.00 USD per barrel.
+25/09/2026 11:17:22 AM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+25/09/2026 11:17:23 AM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+25/09/2026 11:17:32 AM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+25/09/2026 11:17:33 AM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+25/09/2026 11:17:33 AM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+25/09/2026 11:17:33 AM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+25/09/2026 11:17:33 AM | INFO     | step_2.py:<module>:28 - Agentic RAG step_2 execution started.
+25/09/2026 11:17:33 AM | INFO     | utils.py:get_tavily_client:88 - Tavily Client initiated successfully.
+25/09/2026 11:17:33 AM | INFO     | utils.py:get_agent_llm:30 - Agent LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+25/09/2026 11:17:33 AM | INFO     | step_4.py:<module>:30 - Agentic RAG step_4 execution started.
+25/09/2026 11:17:33 AM | INFO     | step_5.py:<module>:30 - Agentic RAG step_5 execution started.
+25/09/2026 11:17:33 AM | INFO     | step_6.py:<module>:35 - Agentic RAG step_6 execution started.
+25/09/2026 11:17:34 AM | INFO     | step_0.py:ingest_documents:38 - Collection already contains 51 chunks. Skipping ingestion.
+25/09/2026 11:17:36 AM | INFO     | step_6.py:<module>:231 - Graph saved to root directory
+25/09/2026 11:20:22 AM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+25/09/2026 11:20:23 AM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+25/09/2026 11:20:32 AM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+25/09/2026 11:20:32 AM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+25/09/2026 11:20:32 AM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+25/09/2026 11:20:32 AM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+25/09/2026 11:20:32 AM | INFO     | step_2.py:<module>:28 - Agentic RAG step_2 execution started.
+25/09/2026 11:20:32 AM | INFO     | utils.py:get_tavily_client:88 - Tavily Client initiated successfully.
+25/09/2026 11:20:32 AM | INFO     | utils.py:get_agent_llm:30 - Agent LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+25/09/2026 11:20:32 AM | INFO     | step_4.py:<module>:30 - Agentic RAG step_4 execution started.
+25/09/2026 11:20:32 AM | INFO     | step_5.py:<module>:30 - Agentic RAG step_5 execution started.
+25/09/2026 11:20:32 AM | INFO     | step_6.py:<module>:35 - Agentic RAG step_6 execution started.
+25/09/2026 11:20:32 AM | INFO     | step_0.py:ingest_documents:38 - Collection already contains 51 chunks. Skipping ingestion.
+25/09/2026 11:20:37 AM | INFO     | step_6.py:<module>:231 - Graph saved to root directory
+25/09/2026 11:21:13 AM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+25/09/2026 11:21:14 AM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+25/09/2026 11:21:22 AM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+25/09/2026 11:21:22 AM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+25/09/2026 11:21:22 AM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+25/09/2026 11:21:22 AM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+25/09/2026 11:21:22 AM | INFO     | step_2.py:<module>:28 - Agentic RAG step_2 execution started.
+25/09/2026 11:21:22 AM | INFO     | utils.py:get_tavily_client:88 - Tavily Client initiated successfully.
+25/09/2026 11:21:23 AM | INFO     | utils.py:get_agent_llm:30 - Agent LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+25/09/2026 11:21:23 AM | INFO     | step_4.py:<module>:30 - Agentic RAG step_4 execution started.
+25/09/2026 11:21:23 AM | INFO     | step_5.py:<module>:30 - Agentic RAG step_5 execution started.
+25/09/2026 11:21:23 AM | INFO     | step_6.py:<module>:35 - Agentic RAG step_6 execution started.
+25/09/2026 11:21:23 AM | INFO     | step_0.py:ingest_documents:38 - Collection already contains 51 chunks. Skipping ingestion.
+25/09/2026 11:21:23 AM | INFO     | step_6.py:<module>:231 - Graph saved to root directory
+25/09/2026 11:22:21 AM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+25/09/2026 11:22:22 AM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+25/09/2026 11:22:31 AM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+25/09/2026 11:22:31 AM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+25/09/2026 11:22:31 AM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+25/09/2026 11:22:31 AM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+25/09/2026 11:22:31 AM | INFO     | step_2.py:<module>:28 - Agentic RAG step_2 execution started.
+25/09/2026 11:22:31 AM | INFO     | utils.py:get_tavily_client:88 - Tavily Client initiated successfully.
+25/09/2026 11:22:31 AM | INFO     | utils.py:get_agent_llm:30 - Agent LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+25/09/2026 11:22:31 AM | INFO     | step_4.py:<module>:30 - Agentic RAG step_4 execution started.
+25/09/2026 11:22:31 AM | INFO     | step_5.py:<module>:30 - Agentic RAG step_5 execution started.
+25/09/2026 11:22:31 AM | INFO     | step_6.py:<module>:35 - Agentic RAG step_6 execution started.
+25/09/2026 11:22:31 AM | INFO     | step_0.py:ingest_documents:38 - Collection already contains 51 chunks. Skipping ingestion.
+25/09/2026 11:22:35 AM | INFO     | step_6.py:<module>:231 - Graph saved to root directory
+25/09/2026 01:30:42 PM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+25/09/2026 01:30:44 PM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+25/09/2026 01:30:59 PM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+25/09/2026 01:30:59 PM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+25/09/2026 01:31:01 PM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+25/09/2026 01:31:01 PM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+25/09/2026 01:31:01 PM | INFO     | step_2.py:<module>:28 - Agentic RAG step_2 execution started.
+25/09/2026 01:31:01 PM | INFO     | utils.py:get_tavily_client:88 - Tavily Client initiated successfully.
+25/09/2026 01:31:02 PM | INFO     | utils.py:get_agent_llm:30 - Agent LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+25/09/2026 01:31:02 PM | INFO     | step_4.py:<module>:30 - Agentic RAG step_4 execution started.
+25/09/2026 01:31:02 PM | INFO     | step_5.py:<module>:30 - Agentic RAG step_5 execution started.
+25/09/2026 01:31:02 PM | INFO     | step_6.py:<module>:35 - Agentic RAG step_6 execution started.
+25/09/2026 01:31:02 PM | INFO     | step_0.py:ingest_documents:38 - Collection already contains 51 chunks. Skipping ingestion.
+25/09/2026 01:31:07 PM | INFO     | step_6.py:<module>:231 - Graph saved to root directory
+25/09/2026 01:39:01 PM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+25/09/2026 01:39:02 PM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+25/09/2026 01:39:12 PM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+25/09/2026 01:39:12 PM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+25/09/2026 01:39:12 PM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+25/09/2026 01:39:12 PM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+25/09/2026 01:39:12 PM | INFO     | step_2.py:<module>:28 - Agentic RAG step_2 execution started.
+25/09/2026 01:39:12 PM | INFO     | utils.py:get_tavily_client:88 - Tavily Client initiated successfully.
+25/09/2026 01:39:13 PM | INFO     | utils.py:get_agent_llm:30 - Agent LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+25/09/2026 01:39:13 PM | INFO     | step_4.py:<module>:30 - Agentic RAG step_4 execution started.
+25/09/2026 01:39:13 PM | INFO     | step_5.py:<module>:30 - Agentic RAG step_5 execution started.
+25/09/2026 01:39:13 PM | INFO     | step_6.py:<module>:35 - Agentic RAG step_6 execution started.
+25/09/2026 01:39:13 PM | INFO     | step_0.py:ingest_documents:38 - Collection already contains 51 chunks. Skipping ingestion.
+25/09/2026 01:39:19 PM | INFO     | step_6.py:<module>:231 - Graph saved to root directory
+25/09/2026 01:39:19 PM | INFO     | step_1.py:decide_retrieval_node:33 - Deciding whether to retrieve documents or not.
+25/09/2026 01:39:23 PM | INFO     | step_5.py:decide_decomposition_node:56 - Checking if query needed decomposition
+25/09/2026 01:39:25 PM | INFO     | step_5.py:decompose_query_node:77 - Decomposing user query.
+25/09/2026 01:39:28 PM | INFO     | step_5.py:decompose_query_node:95 - Subqueries: Step 1: What is the impact of electric vehicles on the oil industry?
+Step 2: What is the current price of Brent crude oil in USD?
+25/09/2026 01:39:28 PM | INFO     | step_5.py:agent_node:122 - Agent deciding which tool to call.
+25/09/2026 01:39:29 PM | INFO     | step_2.py:vector_store_search_tool:48 - Tool called: vector_store_search
+25/09/2026 01:39:29 PM | INFO     | step_2.py:web_search_tool:67 - Tool called: web search
+25/09/2026 01:39:31 PM | INFO     | step_5.py:increment_tool_call_count_node:146 - Incrementing tool call count.
+25/09/2026 01:41:12 PM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+25/09/2026 01:41:14 PM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+25/09/2026 01:41:29 PM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+25/09/2026 01:41:29 PM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+25/09/2026 01:41:30 PM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+25/09/2026 01:41:30 PM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+25/09/2026 01:41:30 PM | INFO     | step_2.py:<module>:28 - Agentic RAG step_2 execution started.
+25/09/2026 01:41:30 PM | INFO     | utils.py:get_tavily_client:88 - Tavily Client initiated successfully.
+25/09/2026 01:41:31 PM | INFO     | utils.py:get_agent_llm:30 - Agent LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+25/09/2026 01:41:31 PM | INFO     | step_4.py:<module>:30 - Agentic RAG step_4 execution started.
+25/09/2026 01:41:31 PM | INFO     | step_5.py:<module>:30 - Agentic RAG step_5 execution started.
+25/09/2026 01:41:31 PM | INFO     | step_0.py:ingest_documents:38 - Collection already contains 51 chunks. Skipping ingestion.
+25/09/2026 01:41:35 PM | INFO     | step_5.py:<module>:408 - Graph saved to root directory
+25/09/2026 01:41:35 PM | INFO     | step_1.py:decide_retrieval_node:33 - Deciding whether to retrieve documents or not.
+25/09/2026 01:41:38 PM | INFO     | step_5.py:decide_decomposition_node:56 - Checking if query needed decomposition
+25/09/2026 01:41:41 PM | INFO     | step_5.py:decompose_query_node:77 - Decomposing user query.
+25/09/2026 01:41:43 PM | INFO     | step_5.py:decompose_query_node:95 - Subqueries: Step 1: What is the impact of electric vehicles on the oil industry?
+Step 2: What is the current price of Brent crude oil in USD?
+25/09/2026 01:41:43 PM | INFO     | step_5.py:agent_node:122 - Agent deciding which tool to call.
+25/09/2026 01:41:46 PM | INFO     | step_2.py:vector_store_search_tool:48 - Tool called: vector_store_search
+25/09/2026 01:41:46 PM | INFO     | step_2.py:web_search_tool:67 - Tool called: web search
+25/09/2026 01:41:49 PM | INFO     | step_5.py:increment_tool_call_count_node:146 - Incrementing tool call count.
+25/09/2026 01:41:49 PM | INFO     | step_5.py:agent_node:122 - Agent deciding which tool to call.
+25/09/2026 01:41:53 PM | INFO     | step_5.py:collect_tool_output_node:154 - Collecting tool output.
+25/09/2026 01:41:53 PM | INFO     | step_5.py:evaluate_docs_node:169 - Evaluating docs.
+25/09/2026 01:42:07 PM | INFO     | step_5.py:generate_node:245 - Generating response
+25/09/2026 01:42:09 PM | INFO     | step_5.py:<module>:421 - Retrieval needed: True
+25/09/2026 01:42:09 PM | INFO     | step_5.py:<module>:423 - Length of retrieved docs: 6
+25/09/2026 01:42:09 PM | INFO     | step_5.py:<module>:426 - No. of tool calls: 1
+25/09/2026 01:42:09 PM | INFO     | step_5.py:<module>:427 - Rewrite counts: 0
+25/09/2026 01:42:09 PM | INFO     | step_5.py:<module>:428 - Query: Step 1: What is the impact of electric vehicles on the oil industry?
+Step 2: What is the current price of Brent crude oil in USD?
+25/09/2026 01:42:09 PM | INFO     | step_5.py:<module>:429 - Response:
+ Step 1: The provided context does not contain information regarding the impact of electric vehicles on the oil industry.
+
+Step 2: The current price of Brent crude oil is 99.00 USD per barrel.
+25/09/2026 01:42:35 PM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+25/09/2026 01:42:35 PM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+25/09/2026 01:42:49 PM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+25/09/2026 01:42:49 PM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+25/09/2026 01:42:49 PM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+25/09/2026 01:42:49 PM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+25/09/2026 01:42:49 PM | INFO     | step_2.py:<module>:28 - Agentic RAG step_2 execution started.
+25/09/2026 01:42:49 PM | INFO     | utils.py:get_tavily_client:88 - Tavily Client initiated successfully.
+25/09/2026 01:42:50 PM | INFO     | utils.py:get_agent_llm:30 - Agent LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+25/09/2026 01:42:50 PM | INFO     | step_4.py:<module>:30 - Agentic RAG step_4 execution started.
+25/09/2026 01:42:50 PM | INFO     | step_0.py:ingest_documents:38 - Collection already contains 51 chunks. Skipping ingestion.
+25/09/2026 01:42:53 PM | INFO     | step_4.py:<module>:316 - Graph saved to root directory
+25/09/2026 01:42:53 PM | INFO     | step_1.py:decide_retrieval_node:33 - Deciding whether to retrieve documents or not.
+25/09/2026 01:42:57 PM | INFO     | step_4.py:generate_node:174 - Generating response
+25/09/2026 01:43:00 PM | INFO     | step_4.py:<module>:329 - Retrieval needed: False
+25/09/2026 01:43:00 PM | INFO     | step_4.py:<module>:333 - No docs retrieved.
+25/09/2026 01:43:00 PM | INFO     | step_4.py:<module>:334 - No. of tool calls: None
+25/09/2026 01:43:00 PM | INFO     | step_4.py:<module>:335 - Rewrite counts: 0
+25/09/2026 01:43:00 PM | INFO     | step_4.py:<module>:336 - Query: What is the chemical symbol for lithium and what group of periodic table it belongs to?
+25/09/2026 01:43:00 PM | INFO     | step_4.py:<module>:337 - Response: content=[{'type': 'text', 'text': 'The chemical symbol for lithium is **Li**, and it belongs to **Group 1** of the periodic table (the alkali metals).', 'extras': {'signature': 'EnEKbwFpFH0Tz6FvpUoyk2OAaGU7/YlV6aowNVnj9l5Plqp6QwyiO8KB/IXOU36eOSOHx8HljPyAuQLolLm/Dx9KHVcurb+79JpPmT1lGAz55w0hg62Icc0MP8IuacWrkAzWo/6wRgfA41J2Cjd/v65Kmw=='}}] additional_kwargs={} response_metadata={'finish_reason': 'STOP', 'model_name': 'gemini-3.1-flash-lite', 'safety_ratings': [], 'model_provider': 'google_genai'} id='lc_run--01a0d79f-ed50-7fa0-b5d3-89c2289797b8-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 27, 'output_tokens': 27, 'total_tokens': 54, 'input_token_details': {'cache_read': 0}}
+25/09/2026 01:43:12 PM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+25/09/2026 01:43:13 PM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+25/09/2026 01:43:25 PM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+25/09/2026 01:43:25 PM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+25/09/2026 01:43:25 PM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+25/09/2026 01:43:25 PM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+25/09/2026 01:43:26 PM | INFO     | step_2.py:<module>:28 - Agentic RAG step_2 execution started.
+25/09/2026 01:43:26 PM | INFO     | utils.py:get_tavily_client:88 - Tavily Client initiated successfully.
+25/09/2026 01:43:26 PM | INFO     | utils.py:get_agent_llm:30 - Agent LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+25/09/2026 01:43:26 PM | INFO     | step_3.py:<module>:29 - Agentic RAG step_3 execution started.
+25/09/2026 01:43:26 PM | INFO     | step_0.py:ingest_documents:38 - Collection already contains 51 chunks. Skipping ingestion.
+25/09/2026 01:43:29 PM | INFO     | step_3.py:<module>:108 - Graph saved to root directory
+25/09/2026 01:43:29 PM | INFO     | step_1.py:decide_retrieval_node:33 - Deciding whether to retrieve documents or not.
+25/09/2026 01:43:31 PM | INFO     | step_2.py:agent_node:112 - Agent deciding which tool to call.
+25/09/2026 01:43:33 PM | INFO     | step_2.py:vector_store_search_tool:48 - Tool called: vector_store_search
+25/09/2026 01:43:33 PM | INFO     | step_2.py:web_search_tool:67 - Tool called: web search
+25/09/2026 01:43:37 PM | INFO     | step_3.py:increment_tool_call_count_node:44 - Incrementing tool call count.
+25/09/2026 01:43:37 PM | INFO     | step_2.py:agent_node:112 - Agent deciding which tool to call.
+25/09/2026 01:43:41 PM | INFO     | step_2.py:collect_tool_output_node:135 - Collecting tool output.
+25/09/2026 01:43:41 PM | INFO     | step_1.py:generate_node:52 - Generating response.
+25/09/2026 01:43:44 PM | INFO     | step_3.py:<module>:120 - Retrieval needed: True
+25/09/2026 01:43:44 PM | INFO     | step_3.py:<module>:122 - Length of retrieved docs: 6
+25/09/2026 01:43:44 PM | INFO     | step_3.py:<module>:125 - No. of tool calls: 1
+25/09/2026 01:43:44 PM | INFO     | step_3.py:<module>:126 - Query: Compare what the EV report projects for 2030 oil demand with current oil demand due to US-Iran war.
+25/09/2026 01:43:44 PM | INFO     | step_3.py:<module>:127 - Response: Based on the provided documents, the projections and current status of oil demand are as follows:
+
+*   **2030 EV Report Projections:** The report states that through 2030, EV penetration will "shave meaningful but modest volumes from global oil demand growth," likely delaying rather than preventing demand peaks. It notes that this will offer only "partial insulation against supply-driven price shocks" during this period.
+*   **Current Oil Demand/Supply Status (due to the US-Iran war):** The context indicates a significant disruption in supply rather than a change in demand. Vitol CEO Russell Hardy reported on April 21, 2026, that between 600 and 700 million barrels of oil production had been lost, with a total loss of one billion barrels expected due to the war. This supply crisis has caused oil prices to hit $4.50 per barrel (heading toward $5.00) and a 30% surge in gas prices.
+
+In summary, while the EV report projects that electric vehicles will only modestly reduce oil demand growth by 2030, the current US-Iran war is causing a massive, immediate loss in oil production (hundreds of millions of barrels) and significant price volatility.
+25/09/2026 01:43:58 PM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+25/09/2026 01:43:59 PM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+25/09/2026 01:44:10 PM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+25/09/2026 01:44:11 PM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+25/09/2026 01:44:11 PM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+25/09/2026 01:44:11 PM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+25/09/2026 01:44:11 PM | INFO     | step_2.py:<module>:28 - Agentic RAG step_2 execution started.
+25/09/2026 01:44:11 PM | INFO     | utils.py:get_tavily_client:88 - Tavily Client initiated successfully.
+25/09/2026 01:44:12 PM | INFO     | utils.py:get_agent_llm:30 - Agent LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+25/09/2026 01:44:12 PM | INFO     | step_0.py:ingest_documents:38 - Collection already contains 51 chunks. Skipping ingestion.
+25/09/2026 01:44:15 PM | INFO     | step_2.py:<module>:197 - Graph saved to root directory
+25/09/2026 01:44:15 PM | INFO     | step_1.py:decide_retrieval_node:33 - Deciding whether to retrieve documents or not.
+25/09/2026 01:44:18 PM | INFO     | step_1.py:generate_node:52 - Generating response.
+25/09/2026 01:44:21 PM | INFO     | step_2.py:<module>:208 - Retrieval needed: False
+25/09/2026 01:44:21 PM | INFO     | step_2.py:<module>:212 - No docs retrieved.
+25/09/2026 01:44:21 PM | INFO     | step_2.py:<module>:213 - Query: Explain the difference between kinetic energy and potential energy.
+25/09/2026 01:44:21 PM | INFO     | step_2.py:<module>:214 - Response: The fundamental difference between kinetic energy and potential energy lies in whether the energy is currently being used for motion or is being stored for later use.
+
+Here is a breakdown of the two:
+
+### 1. Kinetic Energy (Energy of Motion)
+Kinetic energy is the energy an object possesses **because it is moving**. If an object is at rest, its kinetic energy is zero.
+
+*   **Key Factor:** It depends on the object's **mass** and its **velocity** (speed). The faster an object moves or the heavier it is, the more kinetic energy it has.
+*   **Examples:**
+    *   A ball rolling down a hill.
+    *   A person running.
+    *   Air molecules moving to create wind.
+    *   Electricity (the flow of electrons).
+
+### 2. Potential Energy (Stored Energy)
+Potential energy is the energy an object possesses **because of its position or state**. It is "stored" energy that has the *potential* to be converted into other forms of energy (like kinetic energy) later.
+
+*   **Key Factor:** It depends on the object's **position** relative to a force (like gravity) or its **internal structure** (like a compressed spring).
+*   **Examples:**
+    *   **Gravitational Potential Energy:** A rock sitting at the edge of a cliff. It isn't moving, but if it falls, gravity will pull it down, converting that stored energy into kinetic energy.
+    *   **Elastic Potential Energy:** A stretched rubber band or a compressed spring.
+    *   **Chemical Potential Energy:** Energy stored in the bonds of food, gasoline, or batteries.
+
+---
+
+### The Relationship: Energy Transformation
+In the physical world, these two forms of energy are constantly transforming into one another. The **Law of Conservation of Energy** states that energy cannot be created or destroyed, only changed from one form to another.
+
+**A classic example: The Roller Coaster**
+*   As the roller coaster car is pulled to the very top of the first hill, it gains a massive amount of **potential energy** because of its height.
+*   As it begins to drop, that potential energy is converted into **kinetic energy** (speed).
+*   At the bottom of the hill, the car has its maximum kinetic energy.
+*   As it climbs the next hill, the kinetic energy is converted back into potential energy as it slows down and gains height.
+
+**Summary Table:**
+
+| Feature | Kinetic Energy | Potential Energy |
+| :--- | :--- | :--- |
+| **Definition** | Energy of motion | Stored energy |
+| **State** | Active | Passive (stored) |
+| **Depends on** | Mass and velocity | Position, height, or structure |
+| **Example** | A moving car | A parked car on a hill |
+25/09/2026 01:44:33 PM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+25/09/2026 01:44:34 PM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+25/09/2026 01:44:47 PM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+25/09/2026 01:44:48 PM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+25/09/2026 01:44:48 PM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+25/09/2026 01:44:48 PM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+25/09/2026 01:44:48 PM | INFO     | step_0.py:ingest_documents:38 - Collection already contains 51 chunks. Skipping ingestion.
+25/09/2026 01:44:51 PM | INFO     | step_1.py:<module>:125 - Graph saved to root directory
+25/09/2026 01:44:51 PM | INFO     | step_1.py:decide_retrieval_node:33 - Deciding whether to retrieve documents or not.
+25/09/2026 01:44:53 PM | INFO     | step_0.py:retrieve_node:69 - Retrieving documents.
+25/09/2026 01:44:53 PM | INFO     | step_1.py:generate_node:52 - Generating response.
+25/09/2026 01:44:56 PM | INFO     | step_1.py:<module>:134 - Retrieval needed: True
+25/09/2026 01:44:56 PM | INFO     | step_1.py:<module>:136 - Length of retrieved docs: 4
+25/09/2026 01:44:56 PM | INFO     | step_1.py:<module>:139 - Query: What is the temperature of new delhi?
+25/09/2026 01:44:56 PM | INFO     | step_1.py:<module>:140 - Response: The provided text does not contain information regarding the temperature of New Delhi.
+25/09/2026 01:45:27 PM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+25/09/2026 01:45:27 PM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+25/09/2026 01:45:38 PM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+25/09/2026 01:45:38 PM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+25/09/2026 01:45:38 PM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+25/09/2026 01:45:39 PM | INFO     | step_0.py:ingest_documents:38 - Collection already contains 51 chunks. Skipping ingestion.
+25/09/2026 01:45:40 PM | INFO     | step_0.py:<module>:114 - Graph saved to root directory
+25/09/2026 01:45:40 PM | INFO     | step_0.py:retrieve_node:69 - Retrieving documents.
+25/09/2026 01:45:40 PM | INFO     | step_0.py:generate_node:77 - Generating response.
+25/09/2026 01:45:43 PM | INFO     | step_0.py:<module>:120 - Response
+25/09/2026 01:45:43 PM | INFO     | step_0.py:<module>:121 - Based on the provided text, during the transition period of roughly 2024 to 2035, EV fleets will be large enough to reduce oil demand growth, but not yet large enough to provide a substantial buffer against supply shocks.
+25/09/2026 01:46:05 PM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+25/09/2026 01:46:07 PM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+25/09/2026 01:46:22 PM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+25/09/2026 01:46:22 PM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+25/09/2026 01:46:22 PM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+25/09/2026 01:46:22 PM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+25/09/2026 01:46:22 PM | INFO     | step_2.py:<module>:28 - Agentic RAG step_2 execution started.
+25/09/2026 01:46:22 PM | INFO     | utils.py:get_tavily_client:88 - Tavily Client initiated successfully.
+25/09/2026 01:46:24 PM | INFO     | utils.py:get_agent_llm:30 - Agent LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+25/09/2026 01:46:24 PM | INFO     | step_4.py:<module>:30 - Agentic RAG step_4 execution started.
+25/09/2026 01:46:24 PM | INFO     | step_5.py:<module>:30 - Agentic RAG step_5 execution started.
+25/09/2026 01:46:24 PM | INFO     | step_6.py:<module>:35 - Agentic RAG step_6 execution started.
+25/09/2026 01:46:24 PM | INFO     | step_0.py:ingest_documents:38 - Collection already contains 51 chunks. Skipping ingestion.
+25/09/2026 01:46:27 PM | INFO     | step_6.py:<module>:231 - Graph saved to root directory
+25/09/2026 01:46:27 PM | INFO     | step_1.py:decide_retrieval_node:33 - Deciding whether to retrieve documents or not.
+25/09/2026 01:46:31 PM | INFO     | step_5.py:decide_decomposition_node:56 - Checking if query needed decomposition
+25/09/2026 01:46:34 PM | INFO     | step_5.py:decompose_query_node:77 - Decomposing user query.
+25/09/2026 01:46:36 PM | INFO     | step_5.py:decompose_query_node:95 - Subqueries: Step 1: What is the impact of electric vehicles on the oil industry?
+Step 2: What is the current price of Brent crude oil in USD?
+25/09/2026 01:46:36 PM | INFO     | step_5.py:agent_node:122 - Agent deciding which tool to call.
+25/09/2026 01:46:40 PM | INFO     | step_2.py:vector_store_search_tool:48 - Tool called: vector_store_search
+25/09/2026 01:46:40 PM | INFO     | step_2.py:web_search_tool:67 - Tool called: web search
+25/09/2026 01:46:42 PM | INFO     | step_5.py:increment_tool_call_count_node:146 - Incrementing tool call count.
+25/09/2026 01:48:41 PM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+25/09/2026 01:48:41 PM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+25/09/2026 01:48:54 PM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+25/09/2026 01:48:54 PM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+25/09/2026 01:48:54 PM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+25/09/2026 01:48:54 PM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+25/09/2026 01:48:54 PM | INFO     | step_2.py:<module>:28 - Agentic RAG step_2 execution started.
+25/09/2026 01:48:54 PM | INFO     | utils.py:get_tavily_client:88 - Tavily Client initiated successfully.
+25/09/2026 01:48:56 PM | INFO     | utils.py:get_agent_llm:30 - Agent LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+25/09/2026 01:48:56 PM | INFO     | step_4.py:<module>:30 - Agentic RAG step_4 execution started.
+25/09/2026 01:48:56 PM | INFO     | step_5.py:<module>:30 - Agentic RAG step_5 execution started.
+25/09/2026 01:48:56 PM | INFO     | step_6.py:<module>:34 - Agentic RAG step_6 execution started.
+25/09/2026 01:48:56 PM | INFO     | step_0.py:ingest_documents:38 - Collection already contains 51 chunks. Skipping ingestion.
+25/09/2026 01:48:58 PM | INFO     | step_6.py:<module>:241 - Graph saved to root directory
+25/09/2026 01:48:58 PM | INFO     | step_1.py:decide_retrieval_node:33 - Deciding whether to retrieve documents or not.
+25/09/2026 01:49:02 PM | INFO     | step_5.py:decide_decomposition_node:56 - Checking if query needed decomposition
+25/09/2026 01:49:03 PM | INFO     | step_5.py:decompose_query_node:77 - Decomposing user query.
+25/09/2026 01:49:05 PM | INFO     | step_5.py:decompose_query_node:95 - Subqueries: Step 1: What is the impact of electric vehicles on the oil industry?
+Step 2: What is the current price of Brent crude oil in USD?
+25/09/2026 01:49:05 PM | INFO     | step_5.py:agent_node:122 - Agent deciding which tool to call.
+25/09/2026 01:49:09 PM | INFO     | step_2.py:vector_store_search_tool:48 - Tool called: vector_store_search
+25/09/2026 01:49:09 PM | INFO     | step_2.py:web_search_tool:67 - Tool called: web search
+25/09/2026 01:49:10 PM | INFO     | step_5.py:increment_tool_call_count_node:146 - Incrementing tool call count.
+25/09/2026 01:51:26 PM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+25/09/2026 01:51:27 PM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+25/09/2026 01:51:40 PM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+25/09/2026 01:51:41 PM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+25/09/2026 01:51:41 PM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+25/09/2026 01:51:41 PM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+25/09/2026 01:51:41 PM | INFO     | step_2.py:<module>:28 - Agentic RAG step_2 execution started.
+25/09/2026 01:51:41 PM | INFO     | utils.py:get_tavily_client:88 - Tavily Client initiated successfully.
+25/09/2026 01:51:42 PM | INFO     | utils.py:get_agent_llm:30 - Agent LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+25/09/2026 01:51:42 PM | INFO     | step_4.py:<module>:30 - Agentic RAG step_4 execution started.
+25/09/2026 01:51:42 PM | INFO     | step_5.py:<module>:30 - Agentic RAG step_5 execution started.
+25/09/2026 01:51:42 PM | INFO     | step_6.py:<module>:35 - Agentic RAG step_6 execution started.
+25/09/2026 01:51:43 PM | INFO     | step_0.py:ingest_documents:38 - Collection already contains 51 chunks. Skipping ingestion.
+25/09/2026 01:51:43 PM | INFO     | step_6.py:<module>:242 - Graph saved to root directory
+25/09/2026 01:51:43 PM | INFO     | step_1.py:decide_retrieval_node:33 - Deciding whether to retrieve documents or not.
+25/09/2026 01:51:45 PM | INFO     | step_5.py:decide_decomposition_node:56 - Checking if query needed decomposition
+25/09/2026 01:54:51 PM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+25/09/2026 01:54:52 PM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+25/09/2026 01:55:06 PM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+25/09/2026 01:55:06 PM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+25/09/2026 01:55:07 PM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+25/09/2026 01:55:07 PM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+25/09/2026 01:55:07 PM | INFO     | step_2.py:<module>:28 - Agentic RAG step_2 execution started.
+25/09/2026 01:55:07 PM | INFO     | utils.py:get_tavily_client:88 - Tavily Client initiated successfully.
+25/09/2026 01:55:08 PM | INFO     | utils.py:get_agent_llm:30 - Agent LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+25/09/2026 01:55:08 PM | INFO     | step_4.py:<module>:30 - Agentic RAG step_4 execution started.
+25/09/2026 01:55:08 PM | INFO     | step_5.py:<module>:30 - Agentic RAG step_5 execution started.
+25/09/2026 01:55:08 PM | INFO     | step_6.py:<module>:35 - Agentic RAG step_6 execution started.
+25/09/2026 01:55:08 PM | INFO     | step_0.py:ingest_documents:38 - Collection already contains 51 chunks. Skipping ingestion.
+25/09/2026 01:55:10 PM | INFO     | step_6.py:<module>:242 - Graph saved to root directory
+25/09/2026 01:55:10 PM | INFO     | step_1.py:decide_retrieval_node:33 - Deciding whether to retrieve documents or not.
+25/09/2026 01:55:18 PM | INFO     | step_5.py:decide_decomposition_node:56 - Checking if query needed decomposition
+25/09/2026 01:55:20 PM | INFO     | step_5.py:decompose_query_node:77 - Decomposing user query.
+25/09/2026 01:55:23 PM | INFO     | step_5.py:decompose_query_node:95 - Subqueries: Step 1: What is the impact of electric vehicles on the oil industry?
+Step 2: What is the current price of Brent crude oil in USD?
+25/09/2026 01:55:23 PM | INFO     | step_5.py:agent_node:122 - Agent deciding which tool to call.
+25/09/2026 01:55:27 PM | INFO     | step_2.py:vector_store_search_tool:48 - Tool called: vector_store_search
+25/09/2026 01:55:27 PM | INFO     | step_2.py:web_search_tool:67 - Tool called: web search
+25/09/2026 01:55:30 PM | INFO     | step_5.py:increment_tool_call_count_node:146 - Incrementing tool call count.
+25/09/2026 01:55:30 PM | INFO     | step_5.py:agent_node:122 - Agent deciding which tool to call.
+25/09/2026 01:55:34 PM | INFO     | step_5.py:collect_tool_output_node:154 - Collecting tool output.
+25/09/2026 01:55:34 PM | INFO     | step_5.py:evaluate_docs_node:169 - Evaluating docs.
+25/09/2026 01:55:54 PM | INFO     | step_5.py:rewrite_query_node:217 - Rewriting query.
+25/09/2026 01:55:56 PM | INFO     | step_5.py:rewrite_query_node:238 - New query: [{'type': 'text', 'text': 'How does the adoption of electric vehicles affect long-term global oil demand forecasts, and what is the current market price of Brent crude oil per barrel?', 'extras': {'signature': 'EnEKbwFpFH0T2G7+MoSN1Ac7h7rf5ojLHYM5WL8aTR786ATMK+I4jQ44emmPP00XE+y6sByJZVz7WJd25fifQwqkCQWj9sqNdk8UjYQpACwRKT6gQuKSVOKOgrKNObTMT7ldYOjhDHUBHdpKEBinv4nPMA=='}}]
+25/09/2026 01:55:56 PM | INFO     | step_5.py:agent_node:122 - Agent deciding which tool to call.
+25/09/2026 01:55:59 PM | INFO     | step_2.py:vector_store_search_tool:48 - Tool called: vector_store_search
+25/09/2026 01:55:59 PM | INFO     | step_2.py:web_search_tool:67 - Tool called: web search
+25/09/2026 01:56:02 PM | INFO     | step_5.py:increment_tool_call_count_node:146 - Incrementing tool call count.
+25/09/2026 01:56:02 PM | INFO     | step_5.py:agent_node:122 - Agent deciding which tool to call.
+25/09/2026 01:56:04 PM | INFO     | step_2.py:vector_store_search_tool:48 - Tool called: vector_store_search
+25/09/2026 01:56:04 PM | INFO     | step_2.py:web_search_tool:67 - Tool called: web search
+25/09/2026 01:56:07 PM | INFO     | step_5.py:increment_tool_call_count_node:146 - Incrementing tool call count.
+25/09/2026 01:56:07 PM | INFO     | step_5.py:collect_tool_output_node:154 - Collecting tool output.
+25/09/2026 01:56:07 PM | INFO     | step_5.py:evaluate_docs_node:169 - Evaluating docs.
+25/09/2026 01:56:45 PM | INFO     | step_6.py:build_prompt_node:57 - Rebuilding prompt.
+25/09/2026 02:02:44 PM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+25/09/2026 02:02:45 PM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+25/09/2026 02:02:56 PM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+25/09/2026 02:02:56 PM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+25/09/2026 02:02:56 PM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+25/09/2026 02:02:56 PM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+25/09/2026 02:02:56 PM | INFO     | step_2.py:<module>:28 - Agentic RAG step_2 execution started.
+25/09/2026 02:02:56 PM | INFO     | utils.py:get_tavily_client:88 - Tavily Client initiated successfully.
+25/09/2026 02:02:57 PM | INFO     | utils.py:get_agent_llm:30 - Agent LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+25/09/2026 02:02:57 PM | INFO     | step_4.py:<module>:30 - Agentic RAG step_4 execution started.
+25/09/2026 02:02:57 PM | INFO     | step_5.py:<module>:30 - Agentic RAG step_5 execution started.
+25/09/2026 02:02:57 PM | INFO     | step_6.py:<module>:35 - Agentic RAG step_6 execution started.
+25/09/2026 02:02:57 PM | INFO     | step_0.py:ingest_documents:38 - Collection already contains 51 chunks. Skipping ingestion.
+25/09/2026 02:02:57 PM | INFO     | step_6.py:<module>:231 - Graph saved to root directory
+25/09/2026 02:02:57 PM | INFO     | step_1.py:decide_retrieval_node:33 - Deciding whether to retrieve documents or not.
+25/09/2026 02:03:02 PM | INFO     | step_5.py:decide_decomposition_node:56 - Checking if query needed decomposition
+25/09/2026 02:03:05 PM | INFO     | step_5.py:agent_node:122 - Agent deciding which tool to call.
+25/09/2026 02:03:07 PM | INFO     | step_2.py:vector_store_search_tool:48 - Tool called: vector_store_search
+25/09/2026 02:03:07 PM | INFO     | step_5.py:increment_tool_call_count_node:146 - Incrementing tool call count.
+25/09/2026 02:03:07 PM | INFO     | step_5.py:agent_node:122 - Agent deciding which tool to call.
+25/09/2026 02:03:13 PM | INFO     | step_5.py:collect_tool_output_node:154 - Collecting tool output.
+25/09/2026 02:03:13 PM | INFO     | step_5.py:evaluate_docs_node:169 - Evaluating docs.
+25/09/2026 02:03:22 PM | INFO     | step_6.py:build_prompt_node:57 - Rebuilding prompt.
+25/09/2026 02:03:22 PM | INFO     | step_6.py:build_prompt_node:109 - You're a knowledgeble assistant.Constructed prompt: 
+Answer using the following context from the internal documents.Constructed prompt: 
+Context:
+longer in developing markets — complete fleet electrification cannot occur in less than two to
+three decades even under the most aggressive adoption scenarios. This fleet inertia is the
+primary reason why even optimistic EV projections show only modest oil demand
+displacement through 2030, with the major effects occurring in the 2030–2050 window.
+ Under a high-adoption scenario broadly consistent with the IEA's Net Zero by 2050
+pathway, the global EV stock reaches approximately 300 million vehicles by 2030 and 900
+million by 2035. Each EV on the road displaces roughly 560 liters of gasoline per year on
+average, equivalent to approximately 1 barrel of oil per month per vehicle. A fleet of 300
+million EVs would therefore displace approximately 4.6 million barrels of oil per day by 2030
+— a meaningful but not transformative reduction against a global demand base of 100 to 105
+25/09/2026 02:03:22 PM | INFO     | step_6.py:generate_node:116 - Generating response
+25/09/2026 02:03:25 PM | INFO     | step_6.py:<module>:244 - Is relevant: True
+25/09/2026 02:03:25 PM | INFO     | step_6.py:<module>:245 - Retrieval needed: True
+25/09/2026 02:03:25 PM | INFO     | step_6.py:<module>:247 - Length of retrieved docs: 3
+25/09/2026 02:03:25 PM | INFO     | step_6.py:<module>:250 - No. of tool calls: 1
+25/09/2026 02:03:25 PM | INFO     | step_6.py:<module>:251 - Rewrite counts: 0
+25/09/2026 02:03:25 PM | INFO     | step_6.py:<module>:252 - Query: According to report, by how many million barrels per day could a 300 million EV fleet displace oil demand by 2030?
+25/09/2026 02:03:25 PM | INFO     | step_6.py:<module>:253 - Constructed prompt: You're a knowledgeble assistant.
+
+Answer using the following context from the internal documents.
+
+Context:
+longer in developing markets — complete fleet electrification cannot occur in less than two to
+three decades even under the most aggressive adoption scenarios. This fleet inertia is the
+primary reason why even optimistic EV projections show only modest oil demand
+displacement through 2030, with the major effects occurring in the 2030–2050 window.
+ Under a high-adoption scenario broadly consistent with the IEA's Net Zero by 2050
+pathway, the global EV stock reaches approximately 300 million vehicles by 2030 and 900
+million by 2035. Each EV on the road displaces roughly 560 liters of gasoline per year on
+average, equivalent to approximately 1 barrel of oil per month per vehicle. A fleet of 300
+million EVs would therefore displace approximately 4.6 million barrels of oil per day by 2030
+— a meaningful but not transformative reduction against a global demand base of 100 to 105
+25/09/2026 02:06:59 PM | INFO     | step_0.py:<module>:15 - Agentic RAG step_0 execution started.
+25/09/2026 02:07:01 PM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+25/09/2026 02:07:14 PM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+25/09/2026 02:07:15 PM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_12_agentic_rag\chroma_db
+25/09/2026 02:07:15 PM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'agentic_rag_demo' initialized successfully.
+25/09/2026 02:07:15 PM | INFO     | step_1.py:<module>:14 - Agentic RAG step_1 execution started.
+25/09/2026 02:07:15 PM | INFO     | step_2.py:<module>:28 - Agentic RAG step_2 execution started.
+25/09/2026 02:07:15 PM | INFO     | utils.py:get_tavily_client:88 - Tavily Client initiated successfully.
+25/09/2026 02:07:17 PM | INFO     | utils.py:get_agent_llm:30 - Agent LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+25/09/2026 02:07:17 PM | INFO     | step_4.py:<module>:30 - Agentic RAG step_4 execution started.
+25/09/2026 02:07:17 PM | INFO     | step_5.py:<module>:30 - Agentic RAG step_5 execution started.
+25/09/2026 02:07:17 PM | INFO     | step_6.py:<module>:35 - Agentic RAG step_6 execution started.
+25/09/2026 02:07:17 PM | INFO     | step_0.py:ingest_documents:38 - Collection already contains 51 chunks. Skipping ingestion.
+25/09/2026 02:07:18 PM | INFO     | step_6.py:<module>:231 - Graph saved to root directory
+25/09/2026 02:07:18 PM | INFO     | step_1.py:decide_retrieval_node:33 - Deciding whether to retrieve documents or not.
+25/09/2026 02:07:21 PM | INFO     | step_5.py:decide_decomposition_node:56 - Checking if query needed decomposition
+25/09/2026 02:07:24 PM | INFO     | step_5.py:decompose_query_node:77 - Decomposing user query.
+25/09/2026 02:07:27 PM | INFO     | step_5.py:decompose_query_node:95 - Subqueries: Step 1: How much have battery pack costs fallen over the past decade according to the report?
+Step 2: What is the current price of Brent crude oil in USD?
+25/09/2026 02:07:27 PM | INFO     | step_5.py:agent_node:122 - Agent deciding which tool to call.
+25/09/2026 02:07:29 PM | INFO     | step_2.py:vector_store_search_tool:48 - Tool called: vector_store_search
+25/09/2026 02:07:29 PM | INFO     | step_2.py:web_search_tool:67 - Tool called: web search
+25/09/2026 02:07:32 PM | INFO     | step_5.py:increment_tool_call_count_node:146 - Incrementing tool call count.
+25/09/2026 02:07:32 PM | INFO     | step_5.py:agent_node:122 - Agent deciding which tool to call.
+25/09/2026 02:07:35 PM | INFO     | step_5.py:collect_tool_output_node:154 - Collecting tool output.
+25/09/2026 02:07:35 PM | INFO     | step_5.py:evaluate_docs_node:169 - Evaluating docs.
+25/09/2026 02:07:54 PM | INFO     | step_6.py:build_prompt_node:57 - Rebuilding prompt.
+25/09/2026 02:07:54 PM | INFO     | step_6.py:build_prompt_node:109 - You're a knowledgeble assistant.Constructed prompt: 
+The query was complex and split into subqueries for retrieval.Synthesize a single coherent answer covering all parts.Constructed prompt: 
+Answer using the following context from the web search.Constructed prompt: 
+Context:
+Date
+Open
+Close
+Daily High
+Daily Low
+
+Conversion
+Oil (Brent) Price
+Price
+
+1 Barrel ≈ 0,136 Tonnes of Crude Oil
+Oil (Brent) Price Per 1 Ton
+729.78 USD
+
+1 Barrel = 336 Pint
+Oil (Brent) Price Per 1 Pint
+0.30 USD
+
+1 Barrel = 42 Gallons
+Oil (Brent) Price Per 1 Gallon
+2.36 USD
+
+1 Barrel ≈ 158,98 Liters
+Oil (Brent) Price Per 1 Liter
+0.62 USD
+
+Name
+Price
+%
+Unit
+Date
+
+Natural Gas (Henry Hub)
+3.04
+2.60
+USD per MMBtu
+9/23/26 06:49 AM
+
+Ethanol
+2.16
+0.05
+USD per Gallon
+4/3/25 06:01 AM [...] Heating Oil
+129.44
+-0.81
+USD per 100 Liter
+9/23/26 06:49 AM
+
+Coal
+137.10
+-0.11
+USD per Ton
+9/23/26 05:35 AM
+
+RBOB Gasoline
+3.53
+1.19
+USD per Gallone
+9/23/26 06:48 AM
+
+Oil (Brent)
+99.00
+-0.25
+USD per Barrel
+9/23/26 06:39 AM
+
+Oil (WTI)
+89.97
+-0.61
+USD per Barrel
+9/23/26 06:49 AMConstructed prompt: 
+Sources:
+ - https://markets.businessinsider.com/commodities/oil-price
+25/09/2026 02:07:54 PM | INFO     | step_6.py:generate_node:116 - Generating response
+25/09/2026 02:07:57 PM | INFO     | step_6.py:<module>:244 - Is relevant: True
+25/09/2026 02:07:57 PM | INFO     | step_6.py:<module>:245 - Retrieval needed: True
+25/09/2026 02:07:57 PM | INFO     | step_6.py:<module>:247 - Length of retrieved docs: 6
+25/09/2026 02:07:57 PM | INFO     | step_6.py:<module>:250 - No. of tool calls: 1
+25/09/2026 02:07:57 PM | INFO     | step_6.py:<module>:251 - Rewrite counts: 0
+25/09/2026 02:07:57 PM | INFO     | step_6.py:<module>:252 - Query: Step 1: How much have battery pack costs fallen over the past decade according to the report?
+Step 2: What is the current price of Brent crude oil in USD?
+25/09/2026 02:07:57 PM | INFO     | step_6.py:<module>:253 - Constructed prompt: You're a knowledgeble assistant.
+
+The query was complex and split into subqueries for retrieval.Synthesize a single coherent answer covering all parts.
+
+Answer using the following context from the web search.
+
+Context:
+Date
+Open
+Close
+Daily High
+Daily Low
+
+Conversion
+Oil (Brent) Price
+Price
+
+1 Barrel ≈ 0,136 Tonnes of Crude Oil
+Oil (Brent) Price Per 1 Ton
+729.78 USD
+
+1 Barrel = 336 Pint
+Oil (Brent) Price Per 1 Pint
+0.30 USD
+
+1 Barrel = 42 Gallons
+Oil (Brent) Price Per 1 Gallon
+2.36 USD
+
+1 Barrel ≈ 158,98 Liters
+Oil (Brent) Price Per 1 Liter
+0.62 USD
+
+Name
+Price
+%
+Unit
+Date
+
+Natural Gas (Henry Hub)
+3.04
+2.60
+USD per MMBtu
+9/23/26 06:49 AM
+
+Ethanol
+2.16
+0.05
+USD per Gallon
+4/3/25 06:01 AM [...] Heating Oil
+129.44
+-0.81
+USD per 100 Liter
+9/23/26 06:49 AM
+
+Coal
+137.10
+-0.11
+USD per Ton
+9/23/26 05:35 AM
+
+RBOB Gasoline
+3.53
+1.19
+USD per Gallone
+9/23/26 06:48 AM
+
+Oil (Brent)
+99.00
+-0.25
+USD per Barrel
+9/23/26 06:39 AM
+
+Oil (WTI)
+89.97
+-0.61
+USD per Barrel
+9/23/26 06:49 AM
+
+Sources:
+ - https://markets.businessinsider.com/commodities/oil-price
+25/09/2026 02:07:57 PM | INFO     | step_6.py:<module>:254 - Response:
+ [{'type': 'text', 'text': 'Based on the provided context, here is the information regarding your request:\n\n**Step 1: Battery pack costs**\nThe provided documents do not contain information regarding the historical trend or cost reduction of battery packs over the past decade.\n\n**Step 2: Current price of Brent crude oil**\nAs of September 23, 2026, the price of Brent crude oil is **99.00 USD per barrel**. \n\nAdditionally, based on the conversion data provided, the price of Brent crude oil can be broken down into the following units:\n*   **Per Ton:** 729.78 USD\n*   **Per Gallon:** 2.36 USD\n*   **Per Liter:** 0.62 USD\n*   **Per Pint:** 0.30 USD', 'extras': {'signature': 'EnEKbwFpFH0TrjL1b1CmF4LOMsjsO0PcmRVzR71j3LMsXeNTWG74uwEppL7iffZW1ZzmciQFpuOlZ4TEDyoA720GctLm0QaxvrojX2KcWeSR7QHbPLmdYlbBeyD+D++D2jKnI2LNbrd5VcWexPoM+o32YQ=='}}]
