@@ -86,7 +86,7 @@ def generate_node(state: State) -> State:
 # route after retrieval decide
 def route_after_retrieval_decision(state: State) -> RouteVerdict:
     return (
-        RouteVerdict.NEED_RETRIEVAL
+        RouteVerdict.RETRIEVAL_NEEDED
         if state.get("needs_retrieval")
         else RouteVerdict.GENERATE_DIRECT
     )
@@ -106,7 +106,7 @@ graph.add_conditional_edges(
     source=Node.DECIDE_RETRIEVAL,
     path=route_after_retrieval_decision,
     path_map={
-        RouteVerdict.NEED_RETRIEVAL: Node.RETRIEVE,
+        RouteVerdict.RETRIEVAL_NEEDED: Node.RETRIEVE,
         RouteVerdict.GENERATE_DIRECT: Node.GENERATE_RESPONSE,
     },
 )

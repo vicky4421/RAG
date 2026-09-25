@@ -230,18 +230,18 @@ def route_after_tool_call_limit_check(state: State) -> RouteVerdict:
 # route after evaluation
 def route_after_evaluation(state: State) -> RouteVerdict:
     return (
-        RouteVerdict.DOCS_ARE_RELEVANT
+        RouteVerdict.DOCS_RELEVANT
         if state.get("is_relevant")
-        else RouteVerdict.DOCS_ARE_NOT_RELEVANT
+        else RouteVerdict.DOCS_NOT_RELEVANT
     )
 
 
 # route after rewriting query
 def route_after_rewrite_decision(state: State) -> RouteVerdict:
     return (
-        RouteVerdict.DO_NOT_REWRITE
+        RouteVerdict.REWRITE_EXHAUSTED
         if state.get("rewrite_count", 0) >= 3
-        else RouteVerdict.NEED_TO_REWRITE
+        else RouteVerdict.REWRITE_NEEDED
     )
 
 
@@ -264,7 +264,7 @@ graph.add_conditional_edges(
     source=Node.DECIDE_RETRIEVAL,
     path=route_after_retrieval_decision,
     path_map={
-        RouteVerdict.NEED_RETRIEVAL: Node.AGENT,
+        RouteVerdict.RETRIEVAL_NEEDED: Node.AGENT,
         RouteVerdict.GENERATE_DIRECT: Node.GENERATE_RESPONSE,
     },
 )
@@ -291,16 +291,16 @@ graph.add_conditional_edges(
     source=Node.EVALUATE_DOCS,
     path=route_after_evaluation,
     path_map={
-        RouteVerdict.DOCS_ARE_RELEVANT: Node.GENERATE_RESPONSE,
-        RouteVerdict.DOCS_ARE_NOT_RELEVANT: Node.REWRITE_QUERY,
+        RouteVerdict.DOCS_RELEVANT: Node.GENERATE_RESPONSE,
+        RouteVerdict.DOCS_NOT_RELEVANT: Node.REWRITE_QUERY,
     },
 )
 graph.add_conditional_edges(
     source=Node.REWRITE_QUERY,
     path=route_after_rewrite_decision,
     path_map={
-        RouteVerdict.NEED_TO_REWRITE: Node.AGENT,
-        RouteVerdict.DO_NOT_REWRITE: Node.GENERATE_RESPONSE,
+        RouteVerdict.REWRITE_NEEDED: Node.AGENT,
+        RouteVerdict.REWRITE_EXHAUSTED: Node.GENERATE_RESPONSE,
     },
 )
 

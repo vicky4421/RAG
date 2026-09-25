@@ -72,7 +72,7 @@ graph.add_conditional_edges(
     source=Node.DECIDE_RETRIEVAL,
     path=route_after_retrieval_decision,
     path_map={
-        RouteVerdict.NEED_RETRIEVAL: Node.AGENT,
+        RouteVerdict.RETRIEVAL_NEEDED: Node.AGENT,
         RouteVerdict.GENERATE_DIRECT: Node.GENERATE_RESPONSE,
     },
 )
