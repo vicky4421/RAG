@@ -1,0 +1,24 @@
+28/09/2026 02:14:02 PM | INFO     | sub_1_context_recall.py:main:32 - # Example 1: Contexts cover symptoms but miss the cause (insulin resistance / obesity)
+28/09/2026 02:20:05 PM | INFO     | sub_1_context_recall.py:main:39 - # Example 1: Contexts cover symptoms but miss the cause (insulin resistance / obesity)
+28/09/2026 02:21:57 PM | INFO     | sub_1_context_recall.py:main:37 - # Example 1: Contexts cover symptoms but miss the cause (insulin resistance / obesity)
+28/09/2026 02:22:01 PM | INFO     | sub_1_context_recall.py:main:50 - Context Recall score: 0.0
+28/09/2026 02:27:45 PM | INFO     | sub_1_context_recall.py:main:34 - # Example 1: Contexts cover symptoms but miss the cause (insulin resistance / obesity)
+28/09/2026 02:28:05 PM | INFO     | sub_1_context_recall.py:main:47 - Context Recall score: 0.0
+28/09/2026 02:32:30 PM | INFO     | sub_1_context_recall.py:main:34 - # Example 1: Contexts cover symptoms but miss the cause (insulin resistance / obesity)
+28/09/2026 02:33:51 PM | INFO     | sub_1_context_recall.py:main:34 - # Example 1: Contexts cover symptoms but miss the cause (insulin resistance / obesity)
+28/09/2026 02:34:43 PM | INFO     | sub_1_context_recall.py:main:34 - # Example 1: Contexts cover symptoms but miss the cause (insulin resistance / obesity)
+28/09/2026 02:35:16 PM | INFO     | sub_1_context_recall.py:main:34 - # Example 1: Contexts cover symptoms but miss the cause (insulin resistance / obesity)
+                                                                        WITH GEMINI 3.6 FLASH
+28/09/2026 02:35:58 PM | INFO     | sub_1_context_recall.py:main:34 - # Example 1: Contexts cover symptoms but miss the cause (insulin resistance / obesity)
+28/09/2026 02:36:13 PM | INFO     | sub_1_context_recall.py:main:49 - Context Recall score: 0.3333333333333333
+                                                                        WITH GEMINI 3.1 FLASH LITE
+28/09/2026 02:37:48 PM | INFO     | sub_1_context_recall.py:main:34 - # Example 1: Contexts cover symptoms but miss the cause (insulin resistance / obesity)
+28/09/2026 02:37:51 PM | INFO     | sub_1_context_recall.py:main:49 - Context Recall score: 0.0
+28/09/2026 02:46:35 PM | INFO     | sub_1_context_recall.py:main:50 - # Example 2 : The retrieved context fully covers every claim in the ground truth
+28/09/2026 02:46:50 PM | INFO     | sub_1_context_recall.py:main:64 - Context Recall score with model gemini-3.6-flash: 1.0
+28/09/2026 02:48:44 PM | INFO     | sub_1_context_recall.py:main:52 - # Example 2 : The retrieved context fully covers every claim in the ground truth
+28/09/2026 02:48:46 PM | INFO     | sub_1_context_recall.py:main:64 - Context Recall score with model gemini-3.1-flash-lite: 1.0
+28/09/2026 02:54:01 PM | INFO     | sub_1_context_recall.py:main:66 - # Example 3: Context only addresses treatment; ground truth covers causes and symptoms
+28/09/2026 02:54:06 PM | INFO     | sub_1_context_recall.py:main:78 - Context Recall score with model gemini-3.6-flash: 0.0
+28/09/2026 02:54:23 PM | INFO     | sub_1_context_recall.py:main:66 - # Example 3: Context only addresses treatment; ground truth covers causes and symptoms
+28/09/2026 02:54:27 PM | INFO     | sub_1_context_recall.py:main:78 - Context Recall score with model gemini-3.1-flash-lite: 0.0
