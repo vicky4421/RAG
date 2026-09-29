@@ -22,3 +22,20 @@
 28/09/2026 02:54:06 PM | INFO     | sub_1_context_recall.py:main:78 - Context Recall score with model gemini-3.6-flash: 0.0
 28/09/2026 02:54:23 PM | INFO     | sub_1_context_recall.py:main:66 - # Example 3: Context only addresses treatment; ground truth covers causes and symptoms
 28/09/2026 02:54:27 PM | INFO     | sub_1_context_recall.py:main:78 - Context Recall score with model gemini-3.1-flash-lite: 0.0
+28/09/2026 09:50:55 PM | INFO     | sub_2_noise_sensativity.py:main:37 - # Example 1: Response is mostly correct but 'contributes to financial stability' is a claim drawn from the noisy context rather than the core reference.
+28/09/2026 09:51:44 PM | INFO     | sub_2_noise_sensativity.py:main:37 - # Example 1: Response is mostly correct but 'contributes to financial stability' is a claim drawn from the noisy context rather than the core reference.
+28/09/2026 09:52:19 PM | INFO     | sub_2_noise_sensativity.py:main:37 - # Example 1: Response is mostly correct but 'contributes to financial stability' is a claim drawn from the noisy context rather than the core reference.
+28/09/2026 09:52:52 PM | INFO     | sub_2_noise_sensativity.py:main:37 - # Example 1: Response is mostly correct but 'contributes to financial stability' is a claim drawn from the noisy context rather than the core reference.
+28/09/2026 09:54:35 PM | INFO     | sub_2_noise_sensativity.py:main:37 - # Example 1: Response is mostly correct but 'contributes to financial stability' is a claim drawn from the noisy context rather than the core reference.
+28/09/2026 09:58:27 PM | INFO     | sub_2_noise_sensativity.py:main:37 - # Example 1: Response is mostly correct but 'contributes to financial stability' is a claim drawn from the noisy context rather than the core reference.
+28/09/2026 10:07:23 PM | INFO     | sub_2_noise_sensativity.py:main:37 - # Example 1: Response is mostly correct but 'contributes to financial stability' is a claim drawn from the noisy context rather than the core reference.
+28/09/2026 10:07:48 PM | INFO     | sub_2_noise_sensativity.py:main:37 - # Example 1: Response is mostly correct but 'contributes to financial stability' is a claim drawn from the noisy context rather than the core reference.
+29/09/2026 10:50:01 AM | INFO     | sub_2_noise_sensativity.py:main:37 - # Example 1: Response is mostly correct but 'contributes to financial stability' is a claim drawn from the noisy context rather than the core reference.
+29/09/2026 10:56:54 AM | INFO     | sub_2_noise_sensativity.py:main:39 - # Example 1: Response is mostly correct but 'contributes to financial stability' is a claim drawn from the noisy context rather than the core reference.
+29/09/2026 10:58:18 AM | INFO     | sub_2_noise_sensativity.py:main:39 - # Example 1: Response is mostly correct but 'contributes to financial stability' is a claim drawn from the noisy context rather than the core reference.
+29/09/2026 10:58:55 AM | INFO     | sub_2_noise_sensativity.py:main:54 - Noise sensativity score with model gemini-3.1-flash-lite: 0.3333333333333333
+29/09/2026 10:59:16 AM | INFO     | sub_2_noise_sensativity.py:main:39 - # Example 1: Response is mostly correct but 'contributes to financial stability' is a claim drawn from the noisy context rather than the core reference.
+29/09/2026 11:06:43 AM | INFO     | sub_2_noise_sensativity.py:main:53 - # Example 2 : Response stays grounded in the reference despite noisy contexts. The Louvre and French culture contexts are completely ignored by the response
+29/09/2026 11:07:07 AM | INFO     | sub_2_noise_sensativity.py:main:68 - Noise sensativity score with model gemini-3.1-flash-lite: 0.0
+29/09/2026 11:08:54 AM | INFO     | sub_2_noise_sensitivity.py:main:53 - # Example 2 : Response stays grounded in the reference despite noisy contexts. The Louvre and French culture contexts are completely ignored by the response
+29/09/2026 11:09:21 AM | INFO     | sub_2_noise_sensitivity.py:main:68 - Noise sensativity score with model gemini-3.1-flash-lite: 0.0
