@@ -85,7 +85,7 @@ async def main():
     )
 
     logger.info(
-        f"Noise sensativity score with model {genai_model} and {embedding}: {result.value}"
+        f"Response relevancy score with model {genai_model} and {embedding}: {result.value}"
     )
 
 

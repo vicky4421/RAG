@@ -41,31 +41,37 @@
 29/09/2026 11:09:21 AM | INFO     | sub_2_noise_sensitivity.py:main:68 - Noise sensitivity score with model gemini-3.1-flash-lite: 0.0
 29/09/2026 02:41:24 PM | INFO     | sub_3_response_relevancy.py:<module>:27 - Embedding model ready.
 29/09/2026 02:41:25 PM | INFO     | sub_3_response_relevancy.py:main:46 - # Example 1 : Response answers the question but drifts into tangential information
-29/09/2026 02:41:37 PM | INFO     | sub_3_response_relevancy.py:main:55 - Noise sensativity score with model gemini-3.1-flash-lite: 0.7788709321772148
+29/09/2026 02:41:37 PM | INFO     | sub_3_response_relevancy.py:main:55 - Response relevancy score with model gemini-3.1-flash-lite: 0.7788709321772148
 29/09/2026 02:44:14 PM | INFO     | sub_3_response_relevancy.py:<module>:27 - Embedding model ready.
 29/09/2026 02:44:14 PM | INFO     | sub_3_response_relevancy.py:main:46 - # Example 1 : Response answers the question but drifts into tangential information
 29/09/2026 02:46:54 PM | INFO     | sub_3_response_relevancy.py:<module>:27 - Embedding model ready.
 29/09/2026 02:46:55 PM | INFO     | sub_3_response_relevancy.py:main:46 - # Example 1 : Response answers the question but drifts into tangential information
-29/09/2026 02:47:10 PM | INFO     | sub_3_response_relevancy.py:main:55 - Noise sensativity score with model gemini-3.1-flash-lite and embeddinggemma: 0.7788709321772148
+29/09/2026 02:47:10 PM | INFO     | sub_3_response_relevancy.py:main:55 - Response relevancy score with model gemini-3.1-flash-lite and embeddinggemma: 0.7788709321772148
 29/09/2026 02:51:09 PM | INFO     | sub_3_response_relevancy.py:<module>:44 - Embedding model ready.
 29/09/2026 02:51:09 PM | INFO     | sub_3_response_relevancy.py:main:52 - # Example 1 : Response answers the question but drifts into tangential information
-29/09/2026 02:51:17 PM | INFO     | sub_3_response_relevancy.py:main:61 - Noise sensativity score with model gemini-3.1-flash-lite and HuggingFaceEmbeddings(provider='huggingface', model='C:\ai_models_cache\huggingface\models--google--embeddinggemma-300m\snapshots\57c266a740f537b4dc058e1b0cda161fd15afa75', client=<SentenceTransformer>, use_api=False, device='cpu'): 0.7788709321772148
+29/09/2026 02:51:17 PM | INFO     | sub_3_response_relevancy.py:main:61 - Response relevancy score with model gemini-3.1-flash-lite and HuggingFaceEmbeddings(provider='huggingface', model='C:\ai_models_cache\huggingface\models--google--embeddinggemma-300m\snapshots\57c266a740f537b4dc058e1b0cda161fd15afa75', client=<SentenceTransformer>, use_api=False, device='cpu'): 0.7788709321772148
 29/09/2026 02:52:01 PM | INFO     | sub_3_response_relevancy.py:<module>:44 - Embedding model ready.
 29/09/2026 02:52:01 PM | INFO     | sub_3_response_relevancy.py:main:52 - # Example 1 : Response answers the question but drifts into tangential information
 29/09/2026 02:53:11 PM | INFO     | sub_3_response_relevancy.py:<module>:44 - Embedding model ready.
 29/09/2026 02:53:11 PM | INFO     | sub_3_response_relevancy.py:main:52 - # Example 1 : Response answers the question but drifts into tangential information
 29/09/2026 02:59:18 PM | INFO     | sub_3_response_relevancy.py:<module>:44 - Embedding model ready.
 29/09/2026 02:59:18 PM | INFO     | sub_3_response_relevancy.py:main:52 - # Example 1 : Response answers the question but drifts into tangential information
-29/09/2026 02:59:29 PM | INFO     | sub_3_response_relevancy.py:main:61 - Noise sensativity score with model gemini-3.1-flash-lite and OpenAIEmbeddings(provider='openai', model='gemini-embedding-2-preview', client=<AsyncOpenAI:async>): 0.8245548765662859
+29/09/2026 02:59:29 PM | INFO     | sub_3_response_relevancy.py:main:61 - Response relevancy score with model gemini-3.1-flash-lite and OpenAIEmbeddings(provider='openai', model='gemini-embedding-2-preview', client=<AsyncOpenAI:async>): 0.8245548765662859
 29/09/2026 03:06:13 PM | INFO     | sub_3_response_relevancy.py:<module>:44 - Embedding model ready.
 29/09/2026 03:06:13 PM | INFO     | sub_3_response_relevancy.py:main:65 - # Example 2: Response is direct and precisely answers the question with no filler
-29/09/2026 03:06:24 PM | INFO     | sub_3_response_relevancy.py:main:74 - Noise sensativity score with model gemini-3.1-flash-lite and OpenAIEmbeddings(provider='openai', model='gemini-embedding-2-preview', client=<AsyncOpenAI:async>): 1.0000000000000002
+29/09/2026 03:06:24 PM | INFO     | sub_3_response_relevancy.py:main:74 - Response relevancy score with model gemini-3.1-flash-lite and OpenAIEmbeddings(provider='openai', model='gemini-embedding-2-preview', client=<AsyncOpenAI:async>): 1.0000000000000002
 29/09/2026 03:06:50 PM | INFO     | sub_3_response_relevancy.py:<module>:44 - Embedding model ready.
 29/09/2026 03:06:50 PM | INFO     | sub_3_response_relevancy.py:main:65 - # Example 2: Response is direct and precisely answers the question with no filler
-29/09/2026 03:06:59 PM | INFO     | sub_3_response_relevancy.py:main:74 - Noise sensativity score with model gemini-3.1-flash-lite and HuggingFaceEmbeddings(provider='huggingface', model='C:\ai_models_cache\huggingface\models--google--embeddinggemma-300m\snapshots\57c266a740f537b4dc058e1b0cda161fd15afa75', client=<SentenceTransformer>, use_api=False, device='cpu'): 0.9999999999996679
+29/09/2026 03:06:59 PM | INFO     | sub_3_response_relevancy.py:main:74 - Response relevancy score with model gemini-3.1-flash-lite and HuggingFaceEmbeddings(provider='huggingface', model='C:\ai_models_cache\huggingface\models--google--embeddinggemma-300m\snapshots\57c266a740f537b4dc058e1b0cda161fd15afa75', client=<SentenceTransformer>, use_api=False, device='cpu'): 0.9999999999996679
 29/09/2026 03:08:34 PM | INFO     | sub_3_response_relevancy.py:<module>:44 - Embedding model ready.
 29/09/2026 03:08:34 PM | INFO     | sub_3_response_relevancy.py:main:78 - # Example 3 : Response talks about water as a topic but never states its boiling point
-29/09/2026 03:08:44 PM | INFO     | sub_3_response_relevancy.py:main:87 - Noise sensativity score with model gemini-3.1-flash-lite and OpenAIEmbeddings(provider='openai', model='gemini-embedding-2-preview', client=<AsyncOpenAI:async>): 0.7175726009325419
+29/09/2026 03:08:44 PM | INFO     | sub_3_response_relevancy.py:main:87 - Response relevancy score with model gemini-3.1-flash-lite and OpenAIEmbeddings(provider='openai', model='gemini-embedding-2-preview', client=<AsyncOpenAI:async>): 0.7175726009325419
 29/09/2026 03:09:15 PM | INFO     | sub_3_response_relevancy.py:<module>:44 - Embedding model ready.
 29/09/2026 03:09:15 PM | INFO     | sub_3_response_relevancy.py:main:78 - # Example 3 : Response talks about water as a topic but never states its boiling point
-29/09/2026 03:09:25 PM | INFO     | sub_3_response_relevancy.py:main:87 - Noise sensativity score with model gemini-3.1-flash-lite and HuggingFaceEmbeddings(provider='huggingface', model='C:\ai_models_cache\huggingface\models--google--embeddinggemma-300m\snapshots\57c266a740f537b4dc058e1b0cda161fd15afa75', client=<SentenceTransformer>, use_api=False, device='cpu'): 0.5017233111407956
+29/09/2026 03:09:25 PM | INFO     | sub_3_response_relevancy.py:main:87 - Response relevancy score with model gemini-3.1-flash-lite and HuggingFaceEmbeddings(provider='huggingface', model='C:\ai_models_cache\huggingface\models--google--embeddinggemma-300m\snapshots\57c266a740f537b4dc058e1b0cda161fd15afa75', client=<SentenceTransformer>, use_api=False, device='cpu'): 0.5017233111407956
+29/09/2026 03:40:09 PM | INFO     | sub_4_faithfulness.py:main:37 - # Example 1: Response is mostly grounded but adds one unsupported claim has been proven to prevent all forms of cancer' is not in the context
+29/09/2026 03:40:17 PM | INFO     | sub_4_faithfulness.py:main:50 - Faithfulness score with model gemini-3.1-flash-lite: 0.75
+29/09/2026 03:42:35 PM | INFO     | sub_4_faithfulness.py:main:52 - # Example 2 : Every claim in the response is directly supported by the context
+29/09/2026 03:42:47 PM | INFO     | sub_4_faithfulness.py:main:64 - Faithfulness score with model gemini-3.1-flash-lite: 1.0
+29/09/2026 03:45:13 PM | INFO     | sub_4_faithfulness.py:main:66 - # Example 3: Response introduces multiple facts not found in the context. Context only states the speed; travel time to Earth and Earth-circling claim are hallucinated.
+29/09/2026 03:45:19 PM | INFO     | sub_4_faithfulness.py:main:78 - Faithfulness score with model gemini-3.1-flash-lite: 0.3333333333333333
