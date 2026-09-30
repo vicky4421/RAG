@@ -3452,3 +3452,39 @@ Sources:
  - https://markets.businessinsider.com/commodities/oil-price
 25/09/2026 02:07:57 PM | INFO     | step_6.py:<module>:254 - Response:
  [{'type': 'text', 'text': 'Based on the provided context, here is the information regarding your request:\n\n**Step 1: Battery pack costs**\nThe provided documents do not contain information regarding the historical trend or cost reduction of battery packs over the past decade.\n\n**Step 2: Current price of Brent crude oil**\nAs of September 23, 2026, the price of Brent crude oil is **99.00 USD per barrel**. \n\nAdditionally, based on the conversion data provided, the price of Brent crude oil can be broken down into the following units:\n*   **Per Ton:** 729.78 USD\n*   **Per Gallon:** 2.36 USD\n*   **Per Liter:** 0.62 USD\n*   **Per Pint:** 0.30 USD', 'extras': {'signature': 'EnEKbwFpFH0TrjL1b1CmF4LOMsjsO0PcmRVzR71j3LMsXeNTWG74uwEppL7iffZW1ZzmciQFpuOlZ4TEDyoA720GctLm0QaxvrojX2KcWeSR7QHbPLmdYlbBeyD+D++D2jKnI2LNbrd5VcWexPoM+o32YQ=='}}]
+30/09/2026 03:50:20 PM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+30/09/2026 03:50:33 PM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+30/09/2026 03:50:33 PM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_13_ragas\chroma_db
+30/09/2026 03:50:34 PM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'rag_eval' initialized successfully.
+30/09/2026 03:57:15 PM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+30/09/2026 03:57:26 PM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+30/09/2026 03:57:27 PM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_13_ragas\chroma_db
+30/09/2026 03:57:27 PM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'rag_eval' initialized successfully.
+30/09/2026 04:02:30 PM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+30/09/2026 04:02:45 PM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+30/09/2026 04:02:45 PM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_13_ragas\chroma_db
+30/09/2026 04:02:45 PM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'rag_eval' initialized successfully.
+30/09/2026 04:17:19 PM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+30/09/2026 04:17:30 PM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+30/09/2026 04:17:30 PM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_13_ragas\chroma_db
+30/09/2026 04:17:30 PM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'rag_eval' initialized successfully.
+30/09/2026 04:20:25 PM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+30/09/2026 04:20:39 PM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+30/09/2026 04:20:39 PM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_13_ragas\chroma_db
+30/09/2026 04:20:40 PM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'rag_eval' initialized successfully.
+30/09/2026 04:20:40 PM | INFO     | rag_pipeline.py:ingest_documents:41 - Loading docs.
+30/09/2026 04:21:51 PM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+30/09/2026 04:22:03 PM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+30/09/2026 04:22:03 PM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_13_ragas\chroma_db
+30/09/2026 04:22:03 PM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'rag_eval' initialized successfully.
+30/09/2026 04:22:03 PM | INFO     | rag_pipeline.py:ingest_documents:41 - Loading docs.
+30/09/2026 04:22:03 PM | INFO     | rag_pipeline.py:ingest_documents:49 - Splitting docs
+30/09/2026 04:22:25 PM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+30/09/2026 04:22:36 PM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+30/09/2026 04:22:37 PM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_13_ragas\chroma_db
+30/09/2026 04:22:37 PM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'rag_eval' initialized successfully.
+30/09/2026 04:22:37 PM | INFO     | rag_pipeline.py:ingest_documents:37 - Collection already contains 10 chunks. Skipping ingestion.
+30/09/2026 04:26:27 PM | INFO     | utils.py:get_llm:20 - LLM initiated successfully: google_genai:gemini-3.1-flash-lite
+30/09/2026 04:26:39 PM | INFO     | utils.py:load_hf_embedding_model:54 - Embedding model initiated successfully: google/embeddinggemma-300m
+30/09/2026 04:26:39 PM | INFO     | utils.py:get_chroma_vector_store:73 - Resolved caller directory Chroma path: D:\AI\RAG\ch_13_ragas\chroma_db
+30/09/2026 04:26:39 PM | INFO     | utils.py:get_chroma_vector_store:81 - Vector store 'rag_eval' initialized successfully.

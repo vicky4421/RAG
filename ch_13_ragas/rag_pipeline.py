@@ -1,3 +1,4 @@
+import logging
 from pathlib import Path
 
 from langchain_community.document_loaders import PyPDFLoader
@@ -6,6 +7,9 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 from utils.logger import get_logger
 from utils.utils import get_chroma_vector_store, get_llm, load_hf_embedding_model
+
+# silent gemini warnings
+logging.getLogger(name="google_genai.models").setLevel(level=logging.ERROR)
 
 logger = get_logger()
 
@@ -39,7 +43,7 @@ def ingest_documents():
     # Points directly to D:\AI\RAG\11_self_rag\documents
     DOCS_DIR = Path(__file__).resolve().parent / "documents"
 
-    docs = PyPDFLoader(str(DOCS_DIR / "sustainable_developement.pdf")).load()
+    docs = PyPDFLoader(str(DOCS_DIR / "sustainable_development.pdf")).load()
 
     # split docs
     logger.info("Splitting docs")
@@ -59,3 +63,6 @@ prompt = ChatPromptTemplate.from_template(
 )
 
 chain = prompt | llm
+
+if __name__ == "__main__":
+    ingest_documents()
