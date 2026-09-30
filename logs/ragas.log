@@ -75,3 +75,9 @@
 29/09/2026 03:42:47 PM | INFO     | sub_4_faithfulness.py:main:64 - Faithfulness score with model gemini-3.1-flash-lite: 1.0
 29/09/2026 03:45:13 PM | INFO     | sub_4_faithfulness.py:main:66 - # Example 3: Response introduces multiple facts not found in the context. Context only states the speed; travel time to Earth and Earth-circling claim are hallucinated.
 29/09/2026 03:45:19 PM | INFO     | sub_4_faithfulness.py:main:78 - Faithfulness score with model gemini-3.1-flash-lite: 0.3333333333333333
+30/09/2026 02:58:25 PM | INFO     | sub_5_context_precision.py:main:36 - # Example 1 : Relevant context is first but two irrelevant chunks follow
+30/09/2026 02:58:45 PM | INFO     | sub_5_context_precision.py:main:50 - Context Precision score with model gemini-3.1-flash-lite: 0.9999999999
+30/09/2026 03:00:52 PM | INFO     | sub_5_context_precision.py:main:53 - # Example 2 : All retrieved contexts are relevant and support the reference answer.
+30/09/2026 03:01:04 PM | INFO     | sub_5_context_precision.py:main:66 - Context Precision score with model gemini-3.1-flash-lite: 0.99999999995
+30/09/2026 03:03:34 PM | INFO     | sub_5_context_precision.py:main:68 - # Example 3 : Two completely irrelevant chunks are ranked before the one relevant chunk.
+30/09/2026 03:03:52 PM | INFO     | sub_5_context_precision.py:main:82 - Context Precision score with model gemini-3.1-flash-lite: 0.3333333333
